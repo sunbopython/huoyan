@@ -1,0 +1,73 @@
+2018/02/07 14:06:06 [*139980659394304 *spider_main.py *137] INFO: waiting tasks ...
+2018/02/07 14:06:06 [*139980547278592 *spider_main.py *92] INFO: 获取到任务,f85feeed-dad0-46fc-9c36-9997af75c9dd
+2018/02/07 14:06:06 [*139980547278592 *spider_main.py *116] INFO: 不需要抓取图片验证码,token:f85feeed-dad0-46fc-9c36-9997af75c9dd
+2018/02/07 14:06:06 [*139980128106240 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E5%A4%A7%E5%85%B4%E5%AE%89%E5%B2%AD&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/02/07 14:06:06 [*139980547278592 *crawl_main.py *52] INFO: 共耗时：0:00:00.105191s
+2018/02/07 14:06:06 [*139980128106240 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:06:06 [*139980128106240 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 14:06:07 [*139980128106240 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E5%A4%A7%E5%85%B4%E5%AE%89%E5%B2%AD&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/02/07 14:06:07 [*139980128106240 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 14:06:07 [*139980128106240 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/02/07 14:06:07 [*139980128106240 *crawl_main.py *308] INFO: 暂无您查询的信息：暂无您查询的信息
+2018/02/07 14:06:07 [*139980128106240 *crawl_main.py *52] INFO: 共耗时：0:00:00.645815s
+2018/02/07 14:06:52 [*139980148037376 *spider_main.py *92] INFO: 获取到任务,a9817ab3-0691-45b2-a88c-dd67b50324c7
+2018/02/07 14:06:52 [*139980148037376 *spider_main.py *116] INFO: 不需要抓取图片验证码,token:a9817ab3-0691-45b2-a88c-dd67b50324c7
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/02/07 14:06:52 [*139980148037376 *crawl_main.py *52] INFO: 共耗时：0:00:00.072379s
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:06:52 [*139980128106240 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 14:06:53 [*139980128106240 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/02/07 14:06:53 [*139980128106240 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 14:06:53 [*139980128106240 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/02/07 14:06:53 [*139980128106240 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/02/07 14:06:53 [*139980128106240 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
+2018/02/07 14:06:53 [*139980128106240 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 14:06:54 [*139980128106240 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/02/07 14:06:54 [*139980128106240 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 14:06:54 [*139980128106240 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/02/07 14:06:54 [*139980128106240 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/02/07 14:06:54 [*139980128106240 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
+2018/02/07 14:06:54 [*139980128106240 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 14:06:55 [*139980128106240 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/02/07 14:06:55 [*139980128106240 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 14:06:55 [*139980128106240 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/02/07 14:06:55 [*139980128106240 *crawl_main.py *304] INFO: 解析完成
+2018/02/07 14:06:55 [*139980128106240 *crawl_main.py *52] INFO: 共耗时：0:00:02.946826s
+2018/02/07 15:05:27 [*140164001363712 *spider_main.py *137] INFO: waiting tasks ...
+2018/02/07 15:05:27 [*140163897640704 *spider_main.py *92] INFO: 获取到任务,a76b238a-aa66-4060-99b3-29a069488c79
+2018/02/07 15:05:27 [*140163897640704 *spider_main.py *116] INFO: 不需要抓取图片验证码,token:a76b238a-aa66-4060-99b3-29a069488c79
+2018/02/07 15:05:27 [*140163470046976 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/02/07 15:05:27 [*140163897640704 *crawl_main.py *52] INFO: 共耗时：0:00:00.104292s
+2018/02/07 15:05:27 [*140163470046976 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 15:05:27 [*140163470046976 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/spider_translate/sample/
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/spider_translate/sample/
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'}
+2018/02/07 15:05:28 [*140163470046976 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 15:05:29 [*140163470046976 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/02/07 15:05:29 [*140163470046976 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 15:05:29 [*140163470046976 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/spider_translate/sample/
+2018/02/07 15:05:29 [*140163470046976 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/02/07 15:05:29 [*140163470046976 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'}
+2018/02/07 15:05:29 [*140163470046976 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/02/07 15:05:30 [*140163470046976 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/02/07 15:05:30 [*140163470046976 *crawl_main.py *132] INFO: 保存网页内容
+2018/02/07 15:05:30 [*140163470046976 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/spider_translate/sample/
+2018/02/07 15:05:30 [*140163470046976 *crawl_main.py *304] INFO: 解析完成
+2018/02/07 15:05:30 [*140163470046976 *crawl_main.py *52] INFO: 共耗时：0:00:02.656566s

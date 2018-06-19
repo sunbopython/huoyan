@@ -1,0 +1,35 @@
+[INFO  - 2017-12-18T02:29:01.387Z] GhostDriver - Main - running on port 55495
+[INFO  - 2017-12-18T02:29:02.318Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-12-18T02:29:02.318Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.customHeaders:  - {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"}
+[INFO  - 2017-12-18T02:29:02.318Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.customHeaders.User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"}
+[INFO  - 2017-12-18T02:29:02.318Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 35fa1f70-e39b-11e7-abd0-9580cf568b58
+[ERROR - 2017-12-18T02:29:02.328Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Length\":\"72\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:55495\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 10000, \\\"sessionId\\\": \\\"35fa1f70-e39b-11e7-abd0-9580cf568b58\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/35fa1f70-e39b-11e7-abd0-9580cf568b58/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-18T02:29:37.114Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Length\":\"72\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:55495\",\"User-Agent\":\"Python http auth\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 10000, \\\"sessionId\\\": \\\"35fa1f70-e39b-11e7-abd0-9580cf568b58\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/35fa1f70-e39b-11e7-abd0-9580cf568b58/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-18T02:29:40.293Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.onError - msg: TypeError: undefined is not a function (evaluating '(0,k0Z[o5h.X7Z(786)])(o5h.X7Z(23))')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-18T02:29:40.294Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.onError - stack:
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+  call (:0)
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-18T02:29:40.295Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.onError - msg: TypeError: undefined is not a function (evaluating '(0,k0Z[o5h.X7Z(786)])(o5h.X7Z(23))')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-18T02:29:40.295Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.onError - stack:
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+  call (:0)
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+  (anonymous function) (http://static.geetest.com/static/js/geetest.6.0.6.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-12-18T02:30:01.276Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-12-18T02:30:01.276Z] Session [35fa1f70-e39b-11e7-abd0-9580cf568b58] - page.customHeaders:  - {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"}

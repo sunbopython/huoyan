@@ -1,0 +1,1 @@
+{'status': '', 'nocache': '1', 'idcard': '330823197912266319', 'userid': 'testuserid_12345', 'token': '986e2d0b-9c67-48bc-9dc2-90054a5f6a99', 'result': [], 'password': u'******', 'desc': '\xe6\xad\xa3\xe5\x9c\xa8\xe7\x88\xac\xe5\x8f\x96...'}

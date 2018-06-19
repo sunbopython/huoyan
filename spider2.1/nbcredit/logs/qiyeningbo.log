@@ -1,0 +1,838 @@
+2017/09/28 13:39:47 [*140244221966080 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 314, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 304, in login
+    content = content.json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:39:47 [*140244221966080 *crawl_main.py *446] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 443, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+AttributeError: SpiderMain instance has no attribute 'redisUtils'
+
+2017/09/28 13:40:29 [*140702764889856 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 314, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 304, in login
+    content = content.json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:40:29 [*140702764889856 *crawl_main.py *446] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 443, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+AttributeError: SpiderMain instance has no attribute 'redisUtils'
+
+2017/09/28 13:41:51 [*140219329623808 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 314, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 304, in login
+    content = content.json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:43:07 [*139907837126400 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    content = self._fetchUrl(url=self.LoginUrl, header=PERHEADERS, data=PerData, fileName="person.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:45:57 [*140198508975872 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    content = self._fetchUrl(url=self.LoginUrl, header=PERHEADERS, data=PerData, fileName="person.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:48:49 [*139697432057600 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    content = self._fetchUrl(url=self.LoginUrl, header=PERHEADERS, data=PerData, fileName="person.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:53:34 [*140447347062528 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    content = self._fetchUrl(url=self.LoginUrl, header=PERHEADERS, data=PerData, fileName="person.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:55:32 [*140029886445312 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    content = self._fetchUrl(url=self.LoginUrl, header=PERHEADERS, data=PerData, fileName="person.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:55:59 [*140392677029632 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    content = self._fetchUrl(url=self.LoginUrl, header=PERHEADERS, data=PerData, fileName="person.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 13:57:11 [*140000992376576 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    content = self._fetchUrl(url=self.LoginUrl, header=PERHEADERS, data=PerData, fileName="person.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 14:05:16 [*139842265310976 *crawl_main.py *376] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 314, in crawl
+    for i in range(10):
+  File "crawl_main.py", line 286, in login
+    def login(self,flag):
+  File "crawl_main.py", line 251, in _ChioceIdent
+    self.logger.info("验证码路径：{0}".format(pngPath))
+KeyboardInterrupt
+
+2017/09/28 14:13:22 [*140516718466816 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 315, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 287, in login
+    self._ChioceIdent(flag)
+  File "crawl_main.py", line 252, in _ChioceIdent
+    self.imageCode = raw_input("请输入验证码:")
+KeyboardInterrupt
+
+2017/09/28 14:15:17 [*140668580992768 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 315, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 287, in login
+    self._ChioceIdent(flag)
+  File "crawl_main.py", line 252, in _ChioceIdent
+    self.imageCode = raw_input("请输入验证码:")
+KeyboardInterrupt
+
+2017/09/28 14:20:25 [*140580014085888 *crawl_main.py *383] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 357, in crawl
+    fileName="payfee.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 14:43:30 [*140491660609280 *crawl_main.py *384] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 358, in crawl
+    fileName="payfee.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 14:48:06 [*139756312073984 *crawl_main.py *157] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 144, in _fetchUrl
+    content = self.session.get(url, params=data, headers=headers, timeout=timeout)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/09/28 14:48:26 [*139756312073984 *crawl_main.py *384] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 358, in crawl
+    fileName="payfee.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 14:49:14 [*140117061568256 *crawl_main.py *384] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 358, in crawl
+    fileName="payfee.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 14:51:51 [*139932371543808 *crawl_main.py *385] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 359, in crawl
+    fileName="payfee.html").json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/09/28 15:17:46 [*139709364922112 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 319, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 291, in login
+    self._ChioceIdent(flag)
+  File "crawl_main.py", line 254, in _ChioceIdent
+    self.imageCode = raw_input("请输入验证码:")
+KeyboardInterrupt
+
+2017/09/28 15:48:21 [*139938458015488 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 318, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 290, in login
+    self._ChioceIdent(flag)
+  File "crawl_main.py", line 253, in _ChioceIdent
+    self.imageCode = raw_input("请输入验证码:")
+KeyboardInterrupt
+
+2017/09/28 15:54:22 [*140635021178624 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 152, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/09/28 15:54:44 [*140635021178624 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 152, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/09/28 15:54:45 [*140635021178624 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 152, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/09/28 15:54:45 [*140635021178624 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 152, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/09/28 15:54:45 [*140635021178624 *crawl_main.py *159] ERROR: request url http://www.nbcredit.net/zx/gjcx/gjcxinit.shtml?dispatch=getNewQydjList failed ,check pls
+2017/09/28 15:54:45 [*140635021178624 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=self.infoUrl, header=PERHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 161, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://www.nbcredit.net/zx/gjcx/gjcxinit.shtml?dispatch=getNewQydjList)
+
+2017/09/28 16:02:22 [*139736712406784 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=self.detail_url, header=DETAILHEADERS, fileName="detail.html")
+AttributeError: SpiderMain instance has no attribute 'detail_url'
+
+2017/09/28 16:02:59 [*140124104967936 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 130, in _fetchUrl
+    self.logger.info("开始抓取 {0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:04:43 [*140571438483200 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 334, in crawl
+    content = self._fetchUrl_2(url=self.infoUrl, header=PERHEADERS, data=PerData, fileName="person.html")
+  File "crawl_main.py", line 167, in _fetchUrl_2
+    self.logger.info("开始抓取 {0}".format(url).encode('utf8'))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 0: ordinal not in range(128)
+
+2017/09/28 16:05:16 [*140094437361408 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 130, in _fetchUrl
+    self.logger.info("开始抓取 {0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:06:00 [*140592886044416 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 130, in _fetchUrl
+    self.logger.info("开始抓取 {0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:06:57 [*140620826859264 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 318, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 301, in login
+    content = self._fetchUrl(url=self.LoginUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "crawl_main.py", line 130, in _fetchUrl
+    self.logger.info("开始抓取 {0}".format(url).encode('utf8'))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 0: ordinal not in range(128)
+
+2017/09/28 16:07:18 [*140040404248320 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 130, in _fetchUrl
+    self.logger.info("开始抓取 {0}".format(url).decode('utf8'))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:07:39 [*140161005618944 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 153, in _fetchUrl
+    self.logger.debug("Get url：{0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:07:39 [*140161005618944 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 153, in _fetchUrl
+    self.logger.debug("Get url：{0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:07:39 [*140161005618944 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 153, in _fetchUrl
+    self.logger.debug("Get url：{0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:07:39 [*140161005618944 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 159, in _fetchUrl
+    self.logger.error("request url {0} failed ,check pls".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:08:53 [*140698458945280 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 153, in _fetchUrl
+    self.logger.debug("Get url：{0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:08:53 [*140698458945280 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 153, in _fetchUrl
+    self.logger.debug("Get url：{0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:08:54 [*140698458945280 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 153, in _fetchUrl
+    self.logger.debug("Get url：{0}".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:08:54 [*140698458945280 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 159, in _fetchUrl
+    self.logger.error("request url {0} failed ,check pls".format(url))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:09:20 [*140705097168640 *crawl_main.py *379] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 130, in _fetchUrl
+    self.logger.info("开始抓取 {0}".format(url.decode('utf8')))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 121-134: ordinal not in range(128)
+
+2017/09/28 16:14:35 [*139727418570496 *crawl_main.py *380] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 340, in crawl
+    content = self._fetchUrl(url=detail_url, header=DETAILHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 131, in _fetchUrl
+    self.logger.info("开始抓取 {0}".format(urllib.quote(url)))
+  File "/usr/lib/python2.7/urllib.py", line 1299, in quote
+    return ''.join(map(quoter, s))
+KeyError: u'\u5b81'
+
+2017/09/28 16:16:06 [*140575234287360 *crawl_main.py *160] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 147, in _fetchUrl
+    content = self.session.get(url = url, params=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 379, in prepare_url
+    raise MissingSchema(error)
+MissingSchema: Invalid URL 'http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml': No schema supplied. Perhaps you meant http://http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml?
+
+2017/09/28 16:16:06 [*140575234287360 *crawl_main.py *160] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 147, in _fetchUrl
+    content = self.session.get(url = url, params=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 379, in prepare_url
+    raise MissingSchema(error)
+MissingSchema: Invalid URL 'http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml': No schema supplied. Perhaps you meant http://http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml?
+
+2017/09/28 16:16:06 [*140575234287360 *crawl_main.py *160] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 147, in _fetchUrl
+    content = self.session.get(url = url, params=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 379, in prepare_url
+    raise MissingSchema(error)
+MissingSchema: Invalid URL 'http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml': No schema supplied. Perhaps you meant http://http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml?
+
+2017/09/28 16:16:06 [*140575234287360 *crawl_main.py *161] ERROR: request url http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml failed ,check pls
+2017/09/28 16:16:06 [*140575234287360 *crawl_main.py *381] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 303, in login
+    content = self._fetchUrl(url=self.LoginUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "crawl_main.py", line 163, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http%3A//www.nbcredit.net/zx/gjcx/gjcxinit.shtml)
+
+2017/09/28 16:17:55 [*139901510375168 *crawl_main.py *381] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 340, in crawl
+    detail_url = urllib.quote('http://www.nbcredit.net'+i)
+  File "/usr/lib/python2.7/urllib.py", line 1299, in quote
+    return ''.join(map(quoter, s))
+KeyError: u'\u5b81'
+
+2017/09/28 16:29:13 [*140123723859712 *crawl_main.py *383] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    dic_json = param_crypto.ParamCrypto.getKwargs(detail_url)
+TypeError: unbound method getKwargs() must be called with ParamCrypto instance as first argument (got unicode instance instead)
+
+2017/09/28 16:30:28 [*140165266499328 *crawl_main.py *383] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    dic_json = ParamCrypto().getKwargs(detail_url)
+  File "../__Utils/param_crypto.py", line 63, in getKwargs
+    [key, value] = parameter.split('=')
+ValueError: too many values to unpack
+
+2017/09/28 16:32:07 [*139728328849152 *crawl_main.py *383] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 341, in crawl
+    detail_url = 'http://www.nbcredit.net'+str(i)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 98-111: ordinal not in range(128)
+
+2017/09/28 16:34:15 [*140194743899904 *crawl_main.py *384] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 342, in crawl
+    detail_url = 'http://www.nbcredit.net'+str(i)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 98-111: ordinal not in range(128)
+
+2017/09/28 16:36:21 [*140506226476800 *crawl_main.py *384] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 339, in crawl
+    url_list = url_html.xpath("//div[@class='main content']/div[4]/div[2]/div/dt/a/@href").extract()
+AttributeError: 'list' object has no attribute 'extract'
+
+2017/09/28 17:48:00 [*139833376118528 *crawl_main.py *373] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 322, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "crawl_main.py", line 257, in _ChioceIdent
+    self.imageCode = raw_input("请输入验证码:")
+KeyboardInterrupt
+
+2017/09/28 18:26:57 [*140039064254208 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 156, in _fetchUrl
+    content = self.session.get(url = url, params=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+2017/09/28 19:17:25 [*139854604138240 *crawl_main.py *463] ERROR: 抓取错误：Traceback (most recent call last):
+  File "qiyeningbo/crawl_main.py", line 329, in crawl
+    content = self.login(flag)
+  File "qiyeningbo/crawl_main.py", line 301, in login
+    self._ChioceIdent(flag)
+  File "qiyeningbo/crawl_main.py", line 277, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+AttributeError: SpiderMain instance has no attribute 'token'
+
+2017/09/28 19:17:25 [*139854604138240 *crawl_main.py *503] ERROR: Traceback (most recent call last):
+  File "qiyeningbo/crawl_main.py", line 500, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+AttributeError: SpiderMain instance has no attribute 'token'
+
+2017/09/28 19:20:01 [*140013920581376 *crawl_main.py *463] ERROR: 抓取错误：Traceback (most recent call last):
+  File "qiyeningbo/crawl_main.py", line 329, in crawl
+    content = self.login(flag)
+  File "qiyeningbo/crawl_main.py", line 301, in login
+    self._ChioceIdent(flag)
+  File "qiyeningbo/crawl_main.py", line 277, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+AttributeError: SpiderMain instance has no attribute 'token'
+
+2017/09/28 19:20:01 [*140013920581376 *crawl_main.py *503] ERROR: Traceback (most recent call last):
+  File "qiyeningbo/crawl_main.py", line 500, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+AttributeError: SpiderMain instance has no attribute 'token'
+
+2017/09/28 19:24:23 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:24 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:25 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:26 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:27 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:28 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:29 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:30 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:31 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:32 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:33 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:34 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:24:35 [*140335825016576 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:0d04747d-e4b5-4189-b53f-fa6434a09c2e
+2017/09/28 19:25:46 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:47 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:48 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:49 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:50 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:51 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:52 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:53 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:54 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:55 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:25:56 [*139699358516992 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:ce5a17b6-9583-4364-b16a-39fe7e0444bb
+2017/09/28 19:28:14 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:15 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:16 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:17 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:18 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:19 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:20 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:21 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:22 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:23 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:24 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:28:25 [*139769912751872 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:07fb2aa3-4d5d-46fe-94c9-068e86a0b54d
+2017/09/28 19:30:03 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:04 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:05 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:06 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:07 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:08 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:09 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:10 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:11 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:12 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:13 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:14 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:15 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:30:16 [*140380586628864 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:6b550b58-083a-43bf-a912-9f737129bac6
+2017/09/28 19:36:10 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:11 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:12 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:13 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:14 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:15 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:16 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:17 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:18 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:36:19 [*140614410696448 *crawl_main.py *291] WARNING: 爬虫等待用户输入图片验证码超时:03db41f9-5711-4f38-a89b-9c6eae404e67
+2017/09/28 19:38:13 [*139663531948416 *crawl_main.py *377] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/qiye_ningbo/qiyeningbo/crawl_main.py", line 315, in crawl
+    self.gjjaccnum = content.cookies.get_dict()["gjjaccnum"] if self.gjjaccnum=="" else self.gjjaccnum
+  File "/home/sunbo/Desktop/qiye_ningbo/qiyeningbo/crawl_main.py", line 286, in login
+    else:
+  File "/home/sunbo/Desktop/qiye_ningbo/qiyeningbo/crawl_main.py", line 251, in _ChioceIdent
+    :return:
+EOFError: EOF when reading a line
+
+2017/09/28 19:38:13 [*140594757671296 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/qiye_ningbo/qiyeningbo/crawl_main.py", line 314, in crawl
+    self.username = content.cookies.get_dict()["gjjcertinum"] if self.gjjaccnum!="" else self.username
+  File "/home/sunbo/Desktop/qiye_ningbo/qiyeningbo/crawl_main.py", line 286, in login
+    else:
+  File "/home/sunbo/Desktop/qiye_ningbo/qiyeningbo/crawl_main.py", line 251, in _ChioceIdent
+    :return:
+EOFError: EOF when reading a line
+
+2017/09/28 19:38:13 [*140594757671296 *crawl_main.py *446] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/qiye_ningbo/qiyeningbo/crawl_main.py", line 443, in crawl
+    '1':per_id1,
+AttributeError: SpiderMain instance has no attribute 'redisUtils'
+
+2017/09/29 11:54:04 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:05 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:06 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:07 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:08 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:09 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:10 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:11 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:12 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:13 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 11:54:14 [*139837932816128 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4cff8582-6cbb-48c9-882f-e7c39685a934
+2017/09/29 12:00:41 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:42 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:43 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:44 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:45 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:46 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:47 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:48 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:49 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 12:00:50 [*140131956680448 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:50ce124d-f2b6-43b2-9313-9e8ff8a6e0b4
+2017/09/29 13:43:06 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:07 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:08 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:09 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:10 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:11 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:12 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:13 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:14 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:15 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 13:43:16 [*140685053773568 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:4a9d52d6-e1f9-4752-98cd-5a151a757d24
+2017/09/29 14:04:31 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:32 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:33 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:34 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:35 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:36 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:37 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:38 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:39 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:40 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:04:41 [*139759823603456 *crawl_main.py *285] WARNING: 爬虫等待用户输入图片验证码超时:f69f5f73-a53f-4973-bfc6-e40ce016dd92
+2017/09/29 14:13:57 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:13:58 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:13:59 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:00 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:01 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:02 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:03 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:04 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:05 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:06 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:07 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:08 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 14:14:09 [*140055997839104 *crawl_main.py *283] WARNING: 爬虫等待用户输入图片验证码超时:8b14d64c-7741-4ed4-9a64-4374e975c3b6
+2017/09/29 15:18:31 [*140066114492160 *crawl_main.py *466] ERROR: 抓取错误：Traceback (most recent call last):
+  File "nbcredit/crawl_main.py", line 325, in crawl
+    content = self.login(flag)
+  File "nbcredit/crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "nbcredit/crawl_main.py", line 263, in _ChioceIdent
+    self.imageCode = self._captcha_recognize(pngPath)
+  File "nbcredit/crawl_main.py", line 232, in _captcha_recognize
+    code = image_to_string(image=img, lang="len").encode('utf-8')
+  File "__Utils/pyact.py", line 125, in image_to_string
+    raise TesseractError(status, errors)
+TesseractError: (1, u'Error opening data file /usr/share/tesseract-ocr/tessdata/len.traineddata')
+
+2017/09/29 15:19:12 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:13 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:14 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:15 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:16 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:17 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:18 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:19 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:20 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:21 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:19:22 [*139761775793920 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:b0f22995-230c-4f23-a681-5146ad0ec37f
+2017/09/29 15:49:34 [*140366946744064 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/qiye_ningbo/nbcredit/spider_main.py", line 76, in threadWork
+    name = dict_json['idCard']
+KeyError: 'idCard'
+
+2017/09/29 16:07:05 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:06 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:07 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:08 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:09 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:10 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:11 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:12 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:13 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 16:07:14 [*139899615565568 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e4fc375e-2bad-47c7-a1e8-ad8caa10a400
+2017/09/29 17:06:53 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:06:54 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:06:55 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:06:56 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:06:57 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:06:58 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:06:59 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:07:00 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:07:01 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:07:02 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:07:03 [*140457426278144 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:e1d52f12-6f6c-4b51-8fd5-5c8376cc2a5f
+2017/09/29 17:09:11 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:12 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:13 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:14 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:15 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:16 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:17 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:18 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:19 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853
+2017/09/29 17:09:20 [*140414820542208 *crawl_main.py *284] WARNING: 爬虫等待用户输入图片验证码超时:be403eed-3ba6-4e84-b8b8-ac3f16243853

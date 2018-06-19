@@ -1,0 +1,22 @@
+2018/02/07 12:00:40 [*140002933286656 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/07 12:00:40 [*140002293962496 *spider_main.py *91] INFO: 获取到任务,孙博
+2018/02/07 12:00:40 [*140002293962496 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:217f7694-cb76-46d7-ba5c-caef970adc50
+2018/02/07 12:00:40 [*140002278225664 *crawl_main.py *133] INFO: 开始抓取 https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=6899&query=%E5%A4%B1%E4%BF%A1%E8%A2%AB%E6%89%A7%E8%A1%8C%E4%BA%BA%E5%90%8D%E5%8D%95&cardNum=&iname=%E5%AD%99%E5%8D%9A&areaName=%E5%8C%97%E4%BA%AC&ie=utf-8&oe=utf-8&format=json&t=1517976040369&cb=jQuery110207690611877233657_1517976040369&_=1517976040369
+2018/02/07 12:00:40 [*140002293962496 *crawl_main.py *47] INFO: 共耗时：0:00:00.104311s
+2018/02/07 12:00:40 [*140002278225664 *crawl_main.py *136] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'sp0.baidu.com', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive'}
+2018/02/07 12:00:40 [*140002278225664 *crawl_main.py *142] DEBUG: 第0次 抓取
+2018/02/07 12:00:40 [*140002278225664 *crawl_main.py *156] DEBUG: Get url：https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=6899&query=%E5%A4%B1%E4%BF%A1%E8%A2%AB%E6%89%A7%E8%A1%8C%E4%BA%BA%E5%90%8D%E5%8D%95&cardNum=&iname=%E5%AD%99%E5%8D%9A&areaName=%E5%8C%97%E4%BA%AC&ie=utf-8&oe=utf-8&format=json&t=1517976040369&cb=jQuery110207690611877233657_1517976040369&_=1517976040369
+2018/02/07 12:00:40 [*140002278225664 *crawl_main.py *116] INFO: 保存网页内容
+2018/02/07 12:00:40 [*140002278225664 *crawl_main.py *122] DEBUG: 已保存网页内容到./executor/sample/
+2018/02/07 12:00:40 [*140002278225664 *crawl_main.py *47] INFO: 共耗时：0:00:00.108357s
+2018/02/07 12:06:55 [*140208055047936 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/07 12:06:55 [*140207961700096 *spider_main.py *91] INFO: 获取到任务,孙博
+2018/02/07 12:06:55 [*140207961700096 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:48489e89-3e62-48eb-911e-fd9bb4781f74
+2018/02/07 12:06:55 [*140207194109696 *crawl_main.py *133] INFO: 开始抓取 https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=6899&query=%E5%A4%B1%E4%BF%A1%E8%A2%AB%E6%89%A7%E8%A1%8C%E4%BA%BA%E5%90%8D%E5%8D%95&cardNum=&iname=%E5%AD%99%E5%8D%9A&areaName=%E5%8C%97%E4%BA%AC&ie=utf-8&oe=utf-8&format=json&t=1517976415967&cb=jQuery110207690611877233657_1517976415967&_=1517976415967
+2018/02/07 12:06:55 [*140207961700096 *crawl_main.py *47] INFO: 共耗时：0:00:00.103605s
+2018/02/07 12:06:55 [*140207194109696 *crawl_main.py *136] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'sp0.baidu.com', 'Accept': '*/*', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive'}
+2018/02/07 12:06:55 [*140207194109696 *crawl_main.py *142] DEBUG: 第0次 抓取
+2018/02/07 12:06:56 [*140207194109696 *crawl_main.py *156] DEBUG: Get url：https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=6899&query=%E5%A4%B1%E4%BF%A1%E8%A2%AB%E6%89%A7%E8%A1%8C%E4%BA%BA%E5%90%8D%E5%8D%95&cardNum=&iname=%E5%AD%99%E5%8D%9A&areaName=%E5%8C%97%E4%BA%AC&ie=utf-8&oe=utf-8&format=json&t=1517976415967&cb=jQuery110207690611877233657_1517976415967&_=1517976415967
+2018/02/07 12:06:56 [*140207194109696 *crawl_main.py *116] INFO: 保存网页内容
+2018/02/07 12:06:56 [*140207194109696 *crawl_main.py *122] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/executor/sample/
+2018/02/07 12:06:56 [*140207194109696 *crawl_main.py *47] INFO: 共耗时：0:00:00.090154s

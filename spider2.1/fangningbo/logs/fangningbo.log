@@ -1,0 +1,1838 @@
+2017/10/09 13:02:49 [*139859834440064 *crawl_main.py *373] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 305, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:07:01 [*140542627035520 *crawl_main.py *373] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 305, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:10:20 [*140202191210880 *crawl_main.py *370] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 284, in crawl
+    self.logger.info("登录失败：%s" % content["msg"].encode("utf8"))
+TypeError: 'Response' object has no attribute '__getitem__'
+
+2017/10/09 13:10:32 [*139667149461888 *crawl_main.py *370] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 364, in crawl
+    self.logger.info("登录失败：%s" % content["msg"].encode("utf8"))
+TypeError: 'Response' object has no attribute '__getitem__'
+
+2017/10/09 13:12:53 [*140330518940032 *crawl_main.py *370] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 364, in crawl
+    self.logger.info("登录失败：%s" % content.text)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe7 in position 0: ordinal not in range(128)
+
+2017/10/09 13:13:34 [*139968990562688 *crawl_main.py *370] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 364, in crawl
+    self.logger.info("登录失败：%s" % content.text.decode('utf8'))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe7 in position 0: ordinal not in range(128)
+
+2017/10/09 13:14:11 [*140244265617792 *crawl_main.py *370] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 297, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:21:40 [*139816794392960 *crawl_main.py *371] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 301, in crawl
+    content = self._fetchUrl(url=self.secondUrl, header=LOGINHEADERS, fileName="person.html")
+AttributeError: SpiderMain instance has no attribute 'secondUrl'
+
+2017/10/09 13:22:26 [*140231551310208 *crawl_main.py *154] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 148, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:22:56 [*140231551310208 *crawl_main.py *154] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 148, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:23:26 [*140231551310208 *crawl_main.py *154] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 148, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:23:26 [*140231551310208 *crawl_main.py *155] ERROR: request url http://esf.nb.fang.com/house/c61-kw新时代 failed ,check pls
+2017/10/09 13:23:26 [*140231551310208 *crawl_main.py *371] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 301, in crawl
+    content = self._fetchUrl(url=secondUrl, header=LOGINHEADERS, fileName="person.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 157, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/house/c61-kw新时代)
+
+2017/10/09 13:25:39 [*140288907811200 *crawl_main.py *155] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 149, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:26:09 [*140288907811200 *crawl_main.py *155] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 149, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:27:01 [*139754132994432 *crawl_main.py *155] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 149, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:27:31 [*139754132994432 *crawl_main.py *155] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 149, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:28:01 [*139754132994432 *crawl_main.py *155] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 149, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 13:28:01 [*139754132994432 *crawl_main.py *156] ERROR: request url http://esf.nb.fang.com/house/c61-kw%E6%97%B6%E4%BB%A3%E5%8D%8E%E5%BA%AD failed ,check pls
+2017/10/09 13:28:01 [*139754132994432 *crawl_main.py *374] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 304, in crawl
+    content = self._fetchUrl(url=secondUrl, header=LOGINHEADERS, fileName="person.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 158, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/house/c61-kw%E6%97%B6%E4%BB%A3%E5%8D%8E%E5%BA%AD)
+
+2017/10/09 13:31:12 [*139647047649664 *crawl_main.py *374] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 341, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:33:44 [*140147157633408 *crawl_main.py *374] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 341, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:37:07 [*140562656139648 *crawl_main.py *374] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 341, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:38:50 [*140558013639040 *crawl_main.py *374] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 341, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:39:23 [*140083416242560 *crawl_main.py *374] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 341, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 13:41:09 [*140641499302272 *crawl_main.py *374] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 341, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 14:03:52 [*139969736276352 *crawl_main.py *340] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 307, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 14:07:57 [*140499742939520 *crawl_main.py *340] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 307, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 14:20:43 [*139693756160384 *crawl_main.py *340] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 307, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 14:25:54 [*140565991840128 *crawl_main.py *341] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 308, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 14:39:51 [*140444763740544 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbbcd648e90>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 14:40:30 [*140444763740544 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbbcd60c910>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 14:41:00 [*140444763740544 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbbcd60ca50>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 14:41:00 [*140444763740544 *crawl_main.py *159] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/09 14:41:00 [*140444763740544 *crawl_main.py *342] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 285, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 275, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/09 14:43:15 [*140441020430720 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbaee464e90>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 14:43:45 [*140441020430720 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbaee4248d0>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 14:44:15 [*140441020430720 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fbaee424a10>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 14:44:15 [*140441020430720 *crawl_main.py *159] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/09 14:44:15 [*140441020430720 *crawl_main.py *342] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 285, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 275, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/09 15:13:26 [*139892572039552 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b3c33fcd0>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 15:14:06 [*139892572039552 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b3c2f9750>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 15:14:36 [*139892572039552 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f3b3c2f9650>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 15:14:36 [*139892572039552 *crawl_main.py *159] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/09 15:14:36 [*139892572039552 *crawl_main.py *342] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 285, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 275, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/09 15:15:23 [*139631034283776 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7efe5d3fbcd0>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 15:15:53 [*139631034283776 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7efe5d3b4750>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 15:16:23 [*139631034283776 *crawl_main.py *158] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 145, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7efe5d3b4650>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2017/10/09 15:16:23 [*139631034283776 *crawl_main.py *159] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/09 15:16:23 [*139631034283776 *crawl_main.py *342] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 285, in crawl
+    content = self.login(flag)
+  File "crawl_main.py", line 275, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "crawl_main.py", line 161, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/09 15:24:19 [*140214372190592 *crawl_main.py *342] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 309, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 15:36:48 [*140250378762624 *crawl_main.py *345] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 312, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 15:40:59 [*140294097037696 *crawl_main.py *159] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 146, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f98b8763690>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2017/10/09 15:41:00 [*140294097037696 *crawl_main.py *345] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 312, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/10/09 16:00:53 [*140323835054464 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 315, in crawl
+    print zong.search(a).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2017/10/09 16:03:39 [*139798238796160 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 315, in crawl
+    print zong.search(a).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2017/10/09 16:04:29 [*140639548545408 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 311, in crawl
+    a = str(self.ifNotEmptyGetIndex(infohtml.xpath("//div[@class='fanye gray6']/span/text()")))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5171' in position 0: ordinal not in range(128)
+
+2017/10/09 16:06:21 [*140622062406016 *crawl_main.py *357] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 316, in crawl
+    print zong.search(a).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2017/10/09 16:06:41 [*140604468873600 *crawl_main.py *358] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 317, in crawl
+    print zong.search(a).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2017/10/09 16:07:18 [*139987801938304 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 312, in crawl
+    print str(a)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5171' in position 0: ordinal not in range(128)
+
+2017/10/09 16:07:56 [*139779512760704 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 315, in crawl
+    print zong.search(a).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2017/10/09 16:08:21 [*139864003660160 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 315, in crawl
+    print zong.search(a).group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+
+2017/10/09 16:08:31 [*139902204524928 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 315, in crawl
+    print zong.search(a).group(1)
+TypeError: expected string or buffer
+
+2017/10/09 16:10:44 [*140627711465856 *crawl_main.py *356] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 312, in crawl
+    a = type(str(a.encode('utf8')))[1:-2]
+TypeError: 'type' object has no attribute '__getitem__'
+
+2017/10/09 16:34:21 [*140636689095040 *crawl_main.py *360] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 320, in crawl
+    a = html.xpath("dd/p[1]/@href")
+AttributeError: 'list' object has no attribute 'xpath'
+
+2017/10/09 17:33:50 [*139781243013504 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 499, in request
+    prep.url, proxies, stream, verify, cert
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 671, in merge_environment_settings
+    no_proxy = proxies.get('no_proxy') if proxies is not None else None
+AttributeError: 'str' object has no attribute 'get'
+
+2017/10/09 17:33:50 [*139781243013504 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 499, in request
+    prep.url, proxies, stream, verify, cert
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 671, in merge_environment_settings
+    no_proxy = proxies.get('no_proxy') if proxies is not None else None
+AttributeError: 'str' object has no attribute 'get'
+
+2017/10/09 17:33:50 [*139781243013504 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 499, in request
+    prep.url, proxies, stream, verify, cert
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 671, in merge_environment_settings
+    no_proxy = proxies.get('no_proxy') if proxies is not None else None
+AttributeError: 'str' object has no attribute 'get'
+
+2017/10/09 17:33:50 [*139781243013504 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/09 17:33:50 [*139781243013504 *crawl_main.py *341] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 295, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, proxy=PROXYADDR, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/09 17:34:43 [*140649406028160 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 405, in send
+    conn = self.get_connection(request.url, proxies)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 303, in get_connection
+    proxy_manager = self.proxy_manager_for(proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 197, in proxy_manager_for
+    **proxy_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 440, in proxy_from_url
+    return ProxyManager(proxy_url=url, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 385, in __init__
+    proxy = parse_url(proxy_url)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/util/url.py", line 199, in parse_url
+    raise LocationParseError(url)
+LocationParseError: Failed to parse: 
+        【使用方法:】<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直接get方法调用:13579
+
+2017/10/09 17:34:43 [*140649406028160 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 405, in send
+    conn = self.get_connection(request.url, proxies)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 303, in get_connection
+    proxy_manager = self.proxy_manager_for(proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 197, in proxy_manager_for
+    **proxy_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 440, in proxy_from_url
+    return ProxyManager(proxy_url=url, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 385, in __init__
+    proxy = parse_url(proxy_url)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/util/url.py", line 199, in parse_url
+    raise LocationParseError(url)
+LocationParseError: Failed to parse: 
+        【使用方法:】<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直接get方法调用:13579
+
+2017/10/09 17:34:43 [*140649406028160 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 405, in send
+    conn = self.get_connection(request.url, proxies)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 303, in get_connection
+    proxy_manager = self.proxy_manager_for(proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 197, in proxy_manager_for
+    **proxy_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 440, in proxy_from_url
+    return ProxyManager(proxy_url=url, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 385, in __init__
+    proxy = parse_url(proxy_url)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/util/url.py", line 199, in parse_url
+    raise LocationParseError(url)
+LocationParseError: Failed to parse: 
+        【使用方法:】<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直接get方法调用:13579
+
+2017/10/09 17:34:43 [*140649406028160 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/09 17:34:43 [*140649406028160 *crawl_main.py *341] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 295, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, proxy=self.proxy, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/09 17:39:26 [*139999468902784 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f541f418950>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2017/10/09 17:39:46 [*139968603736448 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 405, in send
+    conn = self.get_connection(request.url, proxies)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 303, in get_connection
+    proxy_manager = self.proxy_manager_for(proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 197, in proxy_manager_for
+    **proxy_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 440, in proxy_from_url
+    return ProxyManager(proxy_url=url, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 385, in __init__
+    proxy = parse_url(proxy_url)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/util/url.py", line 199, in parse_url
+    raise LocationParseError(url)
+LocationParseError: Failed to parse: 
+        【使用方法:】<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直接get方法调用:13579
+
+2017/10/09 17:39:46 [*139968603736448 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 405, in send
+    conn = self.get_connection(request.url, proxies)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 303, in get_connection
+    proxy_manager = self.proxy_manager_for(proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 197, in proxy_manager_for
+    **proxy_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 440, in proxy_from_url
+    return ProxyManager(proxy_url=url, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 385, in __init__
+    proxy = parse_url(proxy_url)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/util/url.py", line 199, in parse_url
+    raise LocationParseError(url)
+LocationParseError: Failed to parse: 
+        【使用方法:】<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直接get方法调用:13579
+
+2017/10/09 17:39:46 [*139968603736448 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 405, in send
+    conn = self.get_connection(request.url, proxies)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 303, in get_connection
+    proxy_manager = self.proxy_manager_for(proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 197, in proxy_manager_for
+    **proxy_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 440, in proxy_from_url
+    return ProxyManager(proxy_url=url, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/poolmanager.py", line 385, in __init__
+    proxy = parse_url(proxy_url)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/util/url.py", line 199, in parse_url
+    raise LocationParseError(url)
+LocationParseError: Failed to parse: 
+        【使用方法:】<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直接get方法调用:13579
+
+2017/10/09 17:39:46 [*139968603736448 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/09 17:39:46 [*139968603736448 *crawl_main.py *341] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 295, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, proxy=self.proxy, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/09 18:09:31 [*139651219573120 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 18:10:01 [*139651219573120 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 18:10:31 [*139651219573120 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 18:10:42 [*139722863131008 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 18:11:12 [*139722863131008 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 18:11:42 [*139722863131008 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+ReadTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out. (read timeout=30)
+
+2017/10/09 18:11:42 [*139722863131008 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/ failed ,check pls
+2017/10/09 18:11:42 [*139722863131008 *crawl_main.py *345] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 288, in login
+    content = self._fetchUrl(url=self.hostUrl, header=LOGINHEADERS, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/)
+
+2017/10/09 18:13:49 [*140255167871360 *crawl_main.py *345] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 302, in crawl
+    self.logger.info("获取信息失败：%s" % content["msg"].encode("utf8"))
+TypeError: 'Response' object has no attribute '__getitem__'
+
+2017/10/09 18:36:44 [*140569493195136 *crawl_main.py *358] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 310, in crawl
+    fang_url = 'http://esf.nb.fang.com/house/'+self.hu_type+self.flower+self.age+'i3'+str(i+1)+'-'+'kw'+data.lower()+'/'
+UnboundLocalError: local variable 'data' referenced before assignment
+
+2017/10/09 18:40:53 [*140104173009280 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 658, in send
+    r.content
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 823, in content
+    self._content = bytes().join(self.iter_content(CONTENT_CHUNK_SIZE)) or bytes()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 752, in generate
+    raise ConnectionError(e)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Read timed out.
+
+2017/10/09 18:41:30 [*140427802330880 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/10/09 18:41:31 [*140427802330880 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/10/09 18:41:32 [*140427802330880 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/10/09 18:41:32 [*140427802330880 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/10/09 18:41:32 [*140427802330880 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/10/09 18:41:32 [*140427802330880 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python2.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse(buffering=True)
+  File "/usr/lib/python2.7/httplib.py", line 1136, in getresponse
+    response.begin()
+  File "/usr/lib/python2.7/httplib.py", line 453, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python2.7/httplib.py", line 409, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+
+2017/10/09 18:41:32 [*140427802330880 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com failed ,check pls
+2017/10/09 18:41:32 [*140427802330880 *crawl_main.py *358] ERROR: 抓取错误：Traceback (most recent call last):
+  File "crawl_main.py", line 318, in crawl
+    detail_content = self._fetchUrl(url=detail_url, header=PERHEADERS, fileName="detail.html")
+  File "crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com)
+
+2017/10/09 18:42:44 [*140104173009280 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 161, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /chushou/10_281206501.htm (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6c801b69d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2017/10/10 09:31:35 [*140148206922112 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+2017/10/10 09:31:35 [*140148206922112 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+2017/10/10 09:31:35 [*140148206922112 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+2017/10/10 09:31:35 [*140148206922112 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2017/10/10 09:31:35 [*140148206922112 *crawl_main.py *359] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 298, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2017/10/10 11:40:33 [*139885333899648 *crawl_main.py *381] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 364, in crawl
+    print area
+NameError: global name 'area' is not defined
+
+2017/10/10 11:40:50 [*140239381744000 *crawl_main.py *381] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 359, in crawl
+    print qu.xpath("text()").strip()
+AttributeError: 'list' object has no attribute 'strip'
+
+2017/10/10 11:41:13 [*139900884777344 *crawl_main.py *381] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 364, in crawl
+    print area
+NameError: global name 'area' is not defined
+
+2017/10/10 14:53:15 [*140628427143552 *crawl_main.py *435] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/crawl_main.py", line 425, in crawl
+    a = json.dumps(self.result[0],allow_redirects=False)
+  File "/usr/lib/python2.7/json/__init__.py", line 251, in dumps
+    sort_keys=sort_keys, **kw).encode(obj)
+TypeError: __init__() got an unexpected keyword argument 'allow_redirects'
+
+2017/10/10 15:50:03 [*140719519708928 *crawl_main.py *546] ERROR: Traceback (most recent call last):
+  File "fangningbo/crawl_main.py", line 522, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE,token=self.token, val="1", decs="抓取成功！", result=result_json)
+AttributeError: SpiderMain instance has no attribute 'redisUtils'
+
+2017/10/10 15:50:03 [*140719519708928 *crawl_main.py *553] ERROR: Traceback (most recent call last):
+  File "fangningbo/crawl_main.py", line 550, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+AttributeError: SpiderMain instance has no attribute 'redisUtils'
+
+2017/10/10 16:24:54 [*139934348084992 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/spider_main.py", line 76, in threadWork
+    name = dict_json['idCard']
+KeyError: 'idCard'
+
+2017/10/10 16:31:58 [*140573205853952 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fangningbo/fangningbo/spider_main.py", line 76, in threadWork
+    name = dict_json['keyword'] or 'no key'
+KeyError: 'keyword'
+
+2017/10/10 18:10:36 [*140693590763264 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "fangningbo/crawl_main.py", line 150, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='54.223.175.242', port=33862): Max retries exceeded with url: http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5f056af50>, 'Connection to 54.223.175.242 timed out. (connect timeout=30)'))
+
+2017/10/10 18:11:06 [*140693590763264 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "fangningbo/crawl_main.py", line 150, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='54.223.175.242', port=33862): Max retries exceeded with url: http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff5e85f16d0>, 'Connection to 54.223.175.242 timed out. (connect timeout=30)'))
+
+2017/12/18 10:46:44 [*140452535723776 *spider_main.py *110] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/更新代码/fangningbo/fangningbo/spider_main.py", line 101, in taskWork
+    client = SpiderMain(dict_json)
+  File "fangningbo/crawl_main.py", line 86, in __init__
+    self.proxy = self._proxy()
+  File "fangningbo/crawl_main.py", line 89, in _proxy
+    proxy = self.session.get(self.PROXYADDR).content
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+2017/12/18 10:48:00 [*140058924140288 *crawl_main.py *512] ERROR: 抓取错误：Traceback (most recent call last):
+  File "fangningbo/crawl_main.py", line 297, in crawl
+    content = self.login(flag)
+  File "fangningbo/crawl_main.py", line 284, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, proxy=self.proxy, fileName="login.html")
+AttributeError: SpiderMain instance has no attribute 'proxy'
+
+2017/12/18 10:49:08 [*140708851193600 *crawl_main.py *512] ERROR: 抓取错误：Traceback (most recent call last):
+  File "fangningbo/crawl_main.py", line 407, in crawl
+    content = self._fetchUrl(url=secondUrl, header=PERHEADERS, proxy=self.proxy, fileName="person.html")
+AttributeError: SpiderMain instance has no attribute 'proxy'
+
+2017/12/18 10:51:39 [*140142484379392 *crawl_main.py *514] ERROR: 抓取错误：Traceback (most recent call last):
+  File "fangningbo/crawl_main.py", line 416, in crawl
+    proxy1 = self._proxy()
+  File "fangningbo/crawl_main.py", line 89, in _proxy
+    proxy = self.session.get(self.PROXYADDR).content
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+2018/01/04 10:59:07 [*140653191227136 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fec8061dc50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/04 10:59:07 [*140653191227136 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fec801dd610>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/04 10:59:07 [*140653191227136 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fec801dd810>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/04 10:59:07 [*140653191227136 *crawl_main.py *167] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/04 10:59:07 [*140653191227136 *crawl_main.py *521] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 298, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 284, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 169, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/04 11:54:16 [*139738881967872 *crawl_main.py *557] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 473, in crawl
+    build_age = self.ifNotEmptyGetIndex(build_age_list.findall(content))
+TypeError: expected string or buffer
+
+2018/01/12 15:58:47 [*139877958022912 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f37fc163110>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/12 15:58:47 [*139877958022912 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f37fc107d50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/12 15:58:47 [*139877958022912 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f37fc107e90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/12 15:58:47 [*139877958022912 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/12 15:58:47 [*139877958022912 *crawl_main.py *557] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/12 16:04:41 [*140003471496960 *crawl_main.py *556] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 509, in crawl
+    sum_price=sum_price,
+UnboundLocalError: local variable 'sum_price' referenced before assignment
+
+2018/01/18 15:38:31 [*140558396532480 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd64d4d5510>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/18 15:38:31 [*140558396532480 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd64c460110>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/18 17:40:40 [*140215943407360 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 499, in request
+    prep.url, proxies, stream, verify, cert
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 671, in merge_environment_settings
+    no_proxy = proxies.get('no_proxy') if proxies is not None else None
+AttributeError: 'str' object has no attribute 'get'
+
+2018/01/18 17:40:40 [*140215943407360 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 499, in request
+    prep.url, proxies, stream, verify, cert
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 671, in merge_environment_settings
+    no_proxy = proxies.get('no_proxy') if proxies is not None else None
+AttributeError: 'str' object has no attribute 'get'
+
+2018/01/18 17:40:40 [*140215943407360 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 499, in request
+    prep.url, proxies, stream, verify, cert
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 671, in merge_environment_settings
+    no_proxy = proxies.get('no_proxy') if proxies is not None else None
+AttributeError: 'str' object has no attribute 'get'
+
+2018/01/18 17:40:40 [*140215943407360 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/18 17:40:40 [*140215943407360 *crawl_main.py *532] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html", proxy=self.proxy)
+  File "./fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/18 18:19:53 [*140338209986304 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa3200a8d90>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:20:23 [*140338209986304 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa308223150>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:20:53 [*140338209986304 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fa3200a8b10>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:20:53 [*140338209986304 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/18 18:20:53 [*140338209986304 *crawl_main.py *532] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/18 18:25:52 [*140142444513024 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7574a18290>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:26:22 [*140142444513024 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f75741d84d0>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:26:52 [*140142444513024 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f75861bbe10>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:26:52 [*140142444513024 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/18 18:26:52 [*140142444513024 *crawl_main.py *532] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/18 18:30:56 [*140094696572672 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6a56a26050>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:31:26 [*140094696572672 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6a559a04d0>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:31:56 [*140094696572672 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6a56a26190>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:31:56 [*140094696572672 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/18 18:31:56 [*140094696572672 *crawl_main.py *532] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/18 18:41:06 [*140018242791168 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5889a25050>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:41:36 [*140018242791168 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f58889a33d0>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:42:07 [*140018242791168 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f58a010c450>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 18:42:07 [*140018242791168 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/18 18:42:07 [*140018242791168 *crawl_main.py *532] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/18 20:30:11 [*139914180024064 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f40740226d0>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 20:30:41 [*139914180024064 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f406c1be450>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 20:31:11 [*139914180024064 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4074fb6a90>, 'Connection to esf.nb.fang.com timed out. (connect timeout=30)'))
+
+2018/01/18 20:31:11 [*139914180024064 *crawl_main.py *168] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/18 20:31:11 [*139914180024064 *crawl_main.py *532] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 299, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 285, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 170, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/19 13:25:34 [*139685405906688 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0b302e3b50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/19 13:27:50 [*140045579179776 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5f045503d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/19 13:27:50 [*140045579179776 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5f040ead10>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/19 13:27:50 [*140045579179776 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5f040eac50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/19 13:27:50 [*140045579179776 *crawl_main.py *167] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/19 13:27:50 [*140045579179776 *crawl_main.py *456] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 382, in crawl
+    contact_person=contact_person,
+  File "./fangningbo/crawl_main.py", line 284, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 169, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/22 10:39:30 [*140319495792384 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eadb5a250>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/22 10:39:31 [*140319495792384 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eacacdfd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/22 10:39:31 [*140319495792384 *crawl_main.py *166] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 153, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9eacadb090>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/22 10:39:31 [*140319495792384 *crawl_main.py *167] ERROR: request url http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx failed ,check pls
+2018/01/22 10:39:31 [*140319495792384 *crawl_main.py *454] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 381, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 367, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, data=LoginData, fileName="login.html")
+  File "./fangningbo/crawl_main.py", line 169, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx)
+
+2018/01/22 12:17:16 [*140010672080640 *crawl_main.py *455] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 382, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 367, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, proxy=proxy, data=LoginData, fileName="login.html")
+NameError: global name 'proxy' is not defined
+
+2018/01/22 12:18:23 [*140010672080640 *crawl_main.py *455] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 382, in crawl
+    content = self.login(flag)
+  File "./fangningbo/crawl_main.py", line 367, in login
+    content = self._fetchUrl(url=self.startUrl, header=LOGINHEADERS, proxy=self.proxy, data=LoginData, fileName="login.html")
+NameError: global name 'proxy' is not defined
+
+2018/01/22 13:43:13 [*139642228680448 *crawl_main.py *168] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 152, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='52.80.93.136', port=33862): Max retries exceeded with url: http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f00fd72ee90>, 'Connection to 52.80.93.136 timed out. (connect timeout=30)'))
+
+2018/01/22 13:43:43 [*139642228680448 *crawl_main.py *168] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 152, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='52.80.93.136', port=33862): Max retries exceeded with url: http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f01140f1b50>, 'Connection to 52.80.93.136 timed out. (connect timeout=30)'))
+
+2018/01/22 14:44:36 [*140279168349952 *spider_main.py *113] ERROR: Traceback (most recent call last):
+  File "fangningbo/spider_main.py", line 104, in taskWork
+    client = SpiderMain(dict_json)
+  File "./fangningbo/crawl_main.py", line 86, in __init__
+    self.proxy = self._proxy()
+  File "./fangningbo/crawl_main.py", line 89, in _proxy
+    proxy = self.session.get(self.PROXYADDR).content
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /ip (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f95494e4050>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/22 14:45:25 [*140279168349952 *spider_main.py *113] ERROR: Traceback (most recent call last):
+  File "fangningbo/spider_main.py", line 104, in taskWork
+    client = SpiderMain(dict_json)
+  File "./fangningbo/crawl_main.py", line 86, in __init__
+    # self.proxy = self._proxy()
+  File "./fangningbo/crawl_main.py", line 89, in _proxy
+    proxy = self.session.get(self.PROXYADDR).content
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /ip (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9562c721d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/22 14:46:16 [*140279176742656 *spider_main.py *113] ERROR: Traceback (most recent call last):
+  File "fangningbo/spider_main.py", line 104, in taskWork
+    client = SpiderMain(dict_json)
+  File "./fangningbo/crawl_main.py", line 86, in __init__
+    # self.proxy = self._proxy()
+  File "./fangningbo/crawl_main.py", line 89, in _proxy
+    proxy = self.session.get(self.PROXYADDR).content
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /ip (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9562c72290>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/22 14:49:35 [*140159328704256 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 151, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 496, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='143.0.188.8', port=80): Max retries exceeded with url: http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7980395610>, 'Connection to 143.0.188.8 timed out. (connect timeout=30)'))
+
+2018/01/22 14:50:38 [*140159328704256 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 158, in _fetchUrl
+    content = self.session.get(url, headers=headers, timeout=timeout, allow_redirects=False, proxies=proxy)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 658, in send
+    r.content
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 823, in content
+    self._content = bytes().join(self.iter_content(CONTENT_CHUNK_SIZE)) or bytes()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 752, in generate
+    raise ConnectionError(e)
+ConnectionError: HTTPConnectionPool(host='143.0.188.8', port=80): Read timed out.
+
+2018/01/24 14:59:57 [*140291301152512 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f981d2da450>: Failed to establish a new connection: [Errno 111] Connection refused',))
+
+2018/01/24 14:59:57 [*140291301152512 *crawl_main.py *167] ERROR: Traceback (most recent call last):
+  File "./fangningbo/crawl_main.py", line 154, in _fetchUrl
+    content = self.session.post(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 555, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPConnectionPool(host='esf.nb.fang.com', port=80): Max retries exceeded with url: /NewSecond/sale_info/searchlist_new2014.aspx (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f981c24ef50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+

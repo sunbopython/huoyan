@@ -1,0 +1,1684 @@
+2017/12/04 14:26:31 [*139968345270016 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fang_translate/translate/spider_main.py", line 76, in threadWork
+    name = dict_json['idCard']
+KeyError: 'idCard'
+
+2017/12/04 14:28:14 [*139968353662720 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fang_translate/translate/spider_main.py", line 76, in threadWork
+    name = dict_json['userid']
+KeyError: 'idCard'
+
+2017/12/04 14:30:10 [*139769345603328 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fang_translate/translate/spider_main.py", line 75, in threadWork
+    dict_json = decryptKwargs(dict_json)
+  File "__Utils/param_crypto.py", line 103, in decryptKwargs
+    return ParamCrypto().kwargsHandler(dict_json)
+  File "__Utils/param_crypto.py", line 73, in kwargsHandler
+    secret_key = self.useridHandler(dict_json['userid'])  # 获取密钥
+KeyError: 'userid'
+
+2017/12/04 14:31:12 [*140495803139840 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fang_translate/translate/spider_main.py", line 78, in threadWork
+    logger.info("获取到任务,%s" % name)
+NameError: global name 'name' is not defined
+
+2017/12/04 14:31:47 [*140495527327488 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fang_translate/translate/spider_main.py", line 78, in threadWork
+    logger.info("获取到任务,%s" % name)
+NameError: global name 'name' is not defined
+
+2017/12/04 14:33:05 [*140495794747136 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/fang_translate/translate/spider_main.py", line 78, in threadWork
+    logger.info("获取到任务,%s" % name)
+NameError: global name 'name' is not defined
+
+2017/12/04 14:33:51 [*140181306840832 *crawl_main.py *128] WARNING: Traceback (most recent call last):
+  File "translate/crawl_main.py", line 122, in _sampleRecord
+    f.write(content)
+TypeError: expected a string or other character buffer object
+
+2017/12/04 14:33:51 [*140181306840832 *crawl_main.py *240] ERROR: 抓取错误：Traceback (most recent call last):
+  File "translate/crawl_main.py", line 204, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/12/04 14:35:35 [*140181306840832 *crawl_main.py *128] WARNING: Traceback (most recent call last):
+  File "translate/crawl_main.py", line 122, in _sampleRecord
+    f.write(content)
+TypeError: expected a string or other character buffer object
+
+2017/12/04 14:35:35 [*140181306840832 *crawl_main.py *240] ERROR: 抓取错误：Traceback (most recent call last):
+  File "translate/crawl_main.py", line 204, in crawl
+    "accnum":self.gjjaccnum,
+AttributeError: SpiderMain instance has no attribute 'gjjaccnum'
+
+2017/12/04 14:36:31 [*140159257663232 *crawl_main.py *128] WARNING: Traceback (most recent call last):
+  File "translate/crawl_main.py", line 122, in _sampleRecord
+    f.write(content)
+TypeError: expected a string or other character buffer object
+
+2017/12/04 14:38:02 [*140159257663232 *crawl_main.py *128] WARNING: Traceback (most recent call last):
+  File "translate/crawl_main.py", line 122, in _sampleRecord
+    f.write(str(content))
+TypeError: expected a string or other character buffer object
+
+2017/12/04 14:47:44 [*139666935232256 *crawl_main.py *244] ERROR: 抓取错误：Traceback (most recent call last):
+  File "translate/crawl_main.py", line 181, in crawl
+    content = self.login(flag)
+  File "translate/crawl_main.py", line 172, in login
+    return etree.HTML(content)
+  File "src/lxml/lxml.etree.pyx", line 3176, in lxml.etree.HTML (src/lxml/lxml.etree.c:79050)
+  File "src/lxml/parser.pxi", line 1847, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:119109)
+ValueError: can only parse strings
+
+2017/12/04 14:48:35 [*139666935232256 *crawl_main.py *244] ERROR: 抓取错误：Traceback (most recent call last):
+  File "translate/crawl_main.py", line 181, in crawl
+    content = self.login(flag)
+  File "translate/crawl_main.py", line 172, in login
+    return etree.HTML(str(content))
+  File "src/lxml/lxml.etree.pyx", line 3176, in lxml.etree.HTML (src/lxml/lxml.etree.c:79050)
+  File "src/lxml/parser.pxi", line 1847, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:119109)
+ValueError: can only parse strings
+
+2017/12/04 17:43:52 [*140382631073536 *crawl_main.py *285] ERROR: 抓取错误：Traceback (most recent call last):
+  File "translate/crawl_main.py", line 251, in crawl
+    self.GJJInfo.append(hypc_translate.baseifo(
+AttributeError: class hypc_translate has no attribute 'baseifo'
+
+2017/12/06 13:37:35 [*140222352320256 *crawl_main.py *295] ERROR: 抓取错误：Traceback (most recent call last):
+  File "translate/crawl_main.py", line 237, in crawl
+    wangqian_info = etree.HTML(wang_content.text)
+  File "src/lxml/lxml.etree.pyx", line 3176, in lxml.etree.HTML (src/lxml/lxml.etree.c:79050)
+  File "src/lxml/parser.pxi", line 1843, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:119069)
+ValueError: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+2017/12/06 15:10:32 [*140551237125888 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 506, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='newhouse.cnnbfdc.com', port=443): Max retries exceeded with url: /publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D= (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+
+2017/12/18 11:29:31 [*140261724669696 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 11:29:36 [*140261074134784 *spider_main.py *79] INFO: 获取到任务,6dd8c2c9-4f34-4ffb-8a6c-34d139c5b708
+2017/12/18 11:29:36 [*140261074134784 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:6dd8c2c9-4f34-4ffb-8a6c-34d139c5b708
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *141] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/18 11:29:36 [*140261074134784 *crawl_main.py *50] INFO: 共耗时：0:00:00.085530s
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *144] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *150] DEBUG: 第0次 抓取
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *164] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *124] INFO: 保存网页内容
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *130] DEBUG: 已保存网页内容到translate/sample/
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *191] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *141] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *144] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 11:29:36 [*140261061809920 *crawl_main.py *150] DEBUG: 第0次 抓取
+2017/12/18 11:29:37 [*140261061809920 *crawl_main.py *164] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/18 11:29:37 [*140261061809920 *crawl_main.py *124] INFO: 保存网页内容
+2017/12/18 11:29:37 [*140261061809920 *crawl_main.py *130] DEBUG: 已保存网页内容到translate/sample/
+2017/12/18 11:29:37 [*140261061809920 *crawl_main.py *141] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/18 11:29:37 [*140261061809920 *crawl_main.py *144] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0'}
+2017/12/18 11:29:37 [*140261061809920 *crawl_main.py *150] DEBUG: 第0次 抓取
+2017/12/18 11:29:38 [*140261061809920 *crawl_main.py *164] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/18 11:29:38 [*140261061809920 *crawl_main.py *124] INFO: 保存网页内容
+2017/12/18 11:29:38 [*140261061809920 *crawl_main.py *130] DEBUG: 已保存网页内容到translate/sample/
+2017/12/18 11:29:38 [*140261061809920 *crawl_main.py *141] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/18 11:29:38 [*140261061809920 *crawl_main.py *144] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0'}
+2017/12/18 11:29:38 [*140261061809920 *crawl_main.py *150] DEBUG: 第0次 抓取
+2017/12/18 11:29:39 [*140261061809920 *crawl_main.py *164] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/18 11:29:39 [*140261061809920 *crawl_main.py *124] INFO: 保存网页内容
+2017/12/18 11:29:39 [*140261061809920 *crawl_main.py *130] DEBUG: 已保存网页内容到translate/sample/
+2017/12/18 11:29:39 [*140261061809920 *crawl_main.py *291] INFO: 解析完成
+2017/12/18 11:29:39 [*140261061809920 *crawl_main.py *50] INFO: 共耗时：0:00:02.773221s
+2017/12/18 13:19:12 [*140455831459584 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:19:12 [*140455675389696 *spider_main.py *79] INFO: 获取到任务,7cb4dc48-6c0a-490f-b959-6bf03b2b2508
+2017/12/18 13:19:12 [*140455675389696 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 72, in __init__
+    self.title = urllib.quote(title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:19:12 [*140455675389696 *crawl_main.py *50] INFO: 共耗时：0:00:00.090146s
+2017/12/18 13:24:08 [*140384306517760 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:24:08 [*140384158836480 *spider_main.py *79] INFO: 获取到任务,d1837102-ca4c-4226-a88b-f7841d6daf04
+2017/12/18 13:24:09 [*140384158836480 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:d1837102-ca4c-4226-a88b-f7841d6daf04
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *141] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e
+2017/12/18 13:24:09 [*140384158836480 *crawl_main.py *50] INFO: 共耗时：0:00:00.080160s
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *144] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *150] DEBUG: 第0次 抓取
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *150] DEBUG: 第1次 抓取
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *150] DEBUG: 第2次 抓取
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *170] ERROR: request url https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e failed ,check pls
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *299] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 185, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 176, in login
+    content = self._fetchUrl(url=first_url, header=LOGINHEADERS, fileName="login.html")
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 172, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e)
+
+2017/12/18 13:24:09 [*140383597086464 *crawl_main.py *50] INFO: 共耗时：0:00:00.069356s
+2017/12/18 13:25:14 [*140384116872960 *spider_main.py *79] INFO: 获取到任务,05fdbb79-2a75-4c36-beaf-58ca8b801504
+2017/12/18 13:25:15 [*140384116872960 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:05fdbb79-2a75-4c36-beaf-58ca8b801504
+2017/12/18 13:25:15 [*140384116872960 *crawl_main.py *50] INFO: 共耗时：0:00:00.085524s
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *141] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *144] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *150] DEBUG: 第0次 抓取
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *150] DEBUG: 第1次 抓取
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *150] DEBUG: 第2次 抓取
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *170] ERROR: request url https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e failed ,check pls
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *299] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 185, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 176, in login
+    content = self._fetchUrl(url=first_url, header=LOGINHEADERS, fileName="login.html")
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 172, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e)
+
+2017/12/18 13:25:15 [*140383597086464 *crawl_main.py *50] INFO: 共耗时：0:00:00.007871s
+2017/12/18 13:28:53 [*139639193519872 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:28:53 [*139639045838592 *spider_main.py *79] INFO: 获取到任务,3ebfd95c-3262-4465-a62b-74ff21bdd52a
+2017/12/18 13:28:53 [*139639045838592 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:3ebfd95c-3262-4465-a62b-74ff21bdd52a
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *141] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *144] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *150] DEBUG: 第0次 抓取
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *150] DEBUG: 第1次 抓取
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *150] DEBUG: 第2次 抓取
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *169] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 163, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *170] ERROR: request url https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e failed ,check pls
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *299] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 185, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 176, in login
+    content = self._fetchUrl(url=first_url, header=LOGINHEADERS, fileName="login.html")
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 172, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e)
+
+2017/12/18 13:28:53 [*139638484223744 *crawl_main.py *50] INFO: 共耗时：0:00:00.005241s
+2017/12/18 13:28:53 [*139639045838592 *crawl_main.py *50] INFO: 共耗时：0:00:00.100552s
+2017/12/18 13:28:53 [*140343420380928 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:33:16 [*140141763028736 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:33:16 [*140141200918272 *spider_main.py *79] INFO: 获取到任务,4586fa11-10fc-4ef5-9dcb-b52efb9801ea
+2017/12/18 13:33:16 [*140386963953408 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:33:16 [*140141200918272 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 67, in __init__
+    self.title = user.get("title", "").encode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:33:16 [*140141200918272 *crawl_main.py *50] INFO: 共耗时：0:00:00.095873s
+2017/12/18 13:34:01 [*140141573383936 *spider_main.py *79] INFO: 获取到任务,74db88b7-25c1-4249-883d-d7dc7e7a10da
+2017/12/18 13:34:01 [*140141573383936 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 67, in __init__
+    self.title = user.get("title", "").encode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:34:01 [*140141573383936 *crawl_main.py *50] INFO: 共耗时：0:00:00.055468s
+2017/12/18 13:36:14 [*140006710851328 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:36:14 [*140006563170048 *spider_main.py *79] INFO: 获取到任务,73023960-1ef3-4728-9150-c8a6299868f3
+2017/12/18 13:36:14 [*139654055626496 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:36:14 [*140006563170048 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 67, in __init__
+    self.title = user.get("title", "").encode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:36:14 [*140006563170048 *crawl_main.py *50] INFO: 共耗时：0:00:00.090715s
+2017/12/18 13:39:05 [*139763233343232 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:39:05 [*139763085661952 *spider_main.py *79] INFO: 获取到任务,95eb62a4-07ae-4ea6-ae2d-c2b5ba798ce5
+2017/12/18 13:39:05 [*139763085661952 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 67, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:39:05 [*139763085661952 *crawl_main.py *49] INFO: 共耗时：0:00:00.080745s
+2017/12/18 13:44:35 [*140515088447232 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:44:35 [*140514527528704 *spider_main.py *79] INFO: 获取到任务,7fff5dcb-091f-4f8f-9fc1-c344ecef2f59
+2017/12/18 13:44:36 [*140514527528704 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 66, in __init__
+    self.title = user.get("title", "").decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:44:36 [*140514527528704 *crawl_main.py *49] INFO: 共耗时：0:00:00.085698s
+2017/12/18 13:48:38 [*140340335281920 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:48:38 [*140340187604736 *spider_main.py *79] INFO: 获取到任务,cc475ef7-5f98-4bfc-b9eb-9ffc4d8a281e
+2017/12/18 13:48:38 [*140340187604736 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 66, in __init__
+    self.title = user.get("title", "").decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:48:38 [*140340187604736 *crawl_main.py *49] INFO: 共耗时：0:00:00.090224s
+2017/12/18 13:49:06 [*139917084538624 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:49:06 [*139916928468736 *spider_main.py *79] INFO: 获取到任务,26d201b2-1405-4019-8237-60a2a790a92d
+2017/12/18 13:49:06 [*139916928468736 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 66, in __init__
+    self.title = user.get("title", "").decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:49:06 [*139916928468736 *crawl_main.py *49] INFO: 共耗时：0:00:00.084073s
+2017/12/18 13:50:26 [*140470249658112 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:50:26 [*140469690414848 *spider_main.py *79] INFO: 获取到任务,b9517dd2-b01e-4cb4-903d-e9ff79681d22
+2017/12/18 13:50:26 [*140469690414848 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:b9517dd2-b01e-4cb4-903d-e9ff79681d22
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *143] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e
+2017/12/18 13:50:26 [*140469690414848 *crawl_main.py *49] INFO: 共耗时：0:00:00.081311s
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *146] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *152] DEBUG: 第0次 抓取
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *171] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 165, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *152] DEBUG: 第1次 抓取
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *171] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 165, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *152] DEBUG: 第2次 抓取
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *171] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 165, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *172] ERROR: request url https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e failed ,check pls
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *301] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 187, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 178, in login
+    content = self._fetchUrl(url=first_url, header=LOGINHEADERS, fileName="login.html")
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 174, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e)
+
+2017/12/18 13:50:26 [*140469674415872 *crawl_main.py *49] INFO: 共耗时：0:00:00.006818s
+2017/12/18 13:52:30 [*140215379404544 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:52:30 [*140215231723264 *spider_main.py *79] INFO: 获取到任务,2da333f7-960b-4f5d-b85c-360a9ccfc987
+2017/12/18 13:52:30 [*140215231723264 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:2da333f7-960b-4f5d-b85c-360a9ccfc987
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *144] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e
+2017/12/18 13:52:30 [*140215231723264 *crawl_main.py *49] INFO: 共耗时：0:00:00.073921s
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *147] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *153] DEBUG: 第0次 抓取
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *153] DEBUG: 第1次 抓取
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *153] DEBUG: 第2次 抓取
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, data=data, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *173] ERROR: request url https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e failed ,check pls
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *302] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 188, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 179, in login
+    content = self._fetchUrl(url=first_url, header=LOGINHEADERS, fileName="login.html")
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 175, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e)
+
+2017/12/18 13:52:30 [*140214804129536 *crawl_main.py *49] INFO: 共耗时：0:00:00.011565s
+2017/12/18 13:56:58 [*139997891319552 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:56:58 [*139997743642368 *spider_main.py *79] INFO: 获取到任务,93ea1e59-f976-4102-9c75-c6ea3ef72439
+2017/12/18 13:56:58 [*139997743642368 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:93ea1e59-f976-4102-9c75-c6ea3ef72439
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *144] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e
+2017/12/18 13:56:58 [*139997743642368 *crawl_main.py *49] INFO: 共耗时：0:00:00.078720s
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *147] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; fr) Presto/2.9.168 Version/11.52', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *153] DEBUG: 第0次 抓取
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *153] DEBUG: 第1次 抓取
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *153] DEBUG: 第2次 抓取
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *173] ERROR: request url https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e failed ,check pls
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *302] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 188, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 179, in login
+    content = self._fetchUrl(url=first_url, header=LOGINHEADERS, fileName="login.html")
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 175, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e)
+
+2017/12/18 13:56:58 [*139997181888256 *crawl_main.py *49] INFO: 共耗时：0:00:00.007500s
+2017/12/18 13:59:19 [*140532676224768 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:59:19 [*140532528543488 *spider_main.py *79] INFO: 获取到任务,2b4530d2-ec7f-418d-a555-f79f4e0f4a84
+2017/12/18 13:59:20 [*140532528543488 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 74, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf-8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 13:59:20 [*140532528543488 *crawl_main.py *49] INFO: 共耗时：0:00:00.073437s
+2017/12/18 13:59:56 [*139715193272064 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 13:59:56 [*139715045590784 *spider_main.py *79] INFO: 获取到任务,cf313554-ec55-422b-a5e3-17fb1656311d
+2017/12/18 13:59:57 [*139715045590784 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:cf313554-ec55-422b-a5e3-17fb1656311d
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *144] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e
+2017/12/18 13:59:57 [*139715045590784 *crawl_main.py *49] INFO: 共耗时：0:00:00.089370s
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *147] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *153] DEBUG: 第0次 抓取
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *153] DEBUG: 第1次 抓取
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *153] DEBUG: 第2次 抓取
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 166, in _fetchUrl
+    content = self.session.get(url, headers=headers, timeout=timeout, allow_redirects=False)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 494, in request
+    prep = self.prepare_request(req)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/sessions.py", line 437, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 305, in prepare
+    self.prepare_url(url, params)
+  File "/home/python/.local/lib/python2.7/site-packages/requests/models.py", line 355, in prepare_url
+    url = url.decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 62: invalid continuation byte
+
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *173] ERROR: request url https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e failed ,check pls
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *302] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 188, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 179, in login
+    content = self._fetchUrl(url=first_url, header=LOGINHEADERS, fileName="login.html")
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 175, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://newhouse.cnnbfdc.com/publicity/project-licenses?title=�_��۸�v��9�d7�W�h��F�ѩ?�r�j�O+"��xOŝ��&project_district=�_ ��Wi���#Wт&project_developer_name_value=�zD��-�E`�\��e&date_filter%5Bmin%5D%5Bdate%5D=�zD��-�E`�\��e&date_filter%5Bmax%5D%5Bdate%5D=�zD��-�E`�\��e)
+
+2017/12/18 13:59:57 [*139714279503616 *crawl_main.py *49] INFO: 共耗时：0:00:00.006510s
+2017/12/18 14:13:32 [*140214655559424 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 14:13:32 [*140214507878144 *spider_main.py *79] INFO: 获取到任务,e0c804a9-23fd-4e28-ad38-b7d131a191e8
+2017/12/18 14:13:32 [*140214507878144 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 67, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 14:13:32 [*140214507878144 *crawl_main.py *49] INFO: 共耗时：0:00:00.092177s
+2017/12/18 14:22:01 [*140236280194816 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 14:22:01 [*140236132513536 *spider_main.py *79] INFO: 获取到任务,ea21c5f5-8d03-486c-af2e-3f689bb2ce1c
+2017/12/18 14:22:01 [*140236132513536 *sjisprober.py *61] DEBUG: CP932 Japanese prober hit error at byte 46
+2017/12/18 14:22:01 [*140236132513536 *eucjpprober.py *62] DEBUG: EUC-JP Japanese prober hit error at byte 1
+2017/12/18 14:22:01 [*140236132513536 *mbcharsetprober.py *66] DEBUG: GB2312 Chinese prober hit error at byte 9
+2017/12/18 14:22:01 [*140236132513536 *mbcharsetprober.py *66] DEBUG: EUC-KR Korean prober hit error at byte 1
+2017/12/18 14:22:01 [*140236132513536 *mbcharsetprober.py *66] DEBUG: CP949 Korean prober hit error at byte 1
+2017/12/18 14:22:01 [*140236132513536 *mbcharsetprober.py *66] DEBUG: Big5 Chinese prober hit error at byte 9
+2017/12/18 14:22:01 [*140236132513536 *mbcharsetprober.py *66] DEBUG: EUC-TW Taiwan prober hit error at byte 1
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:22:01 [*140236132513536 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 69, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 14:22:01 [*140236132513536 *crawl_main.py *50] INFO: 共耗时：0:00:00.083435s
+2017/12/18 14:26:13 [*140169124755200 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 14:26:14 [*140168968685312 *spider_main.py *79] INFO: 获取到任务,d41c95e9-49d5-458b-a7cb-d1d49e599f92
+2017/12/18 14:26:14 [*140168968685312 *sjisprober.py *61] DEBUG: CP932 Japanese prober hit error at byte 46
+2017/12/18 14:26:14 [*140168968685312 *eucjpprober.py *62] DEBUG: EUC-JP Japanese prober hit error at byte 1
+2017/12/18 14:26:14 [*140168968685312 *mbcharsetprober.py *66] DEBUG: GB2312 Chinese prober hit error at byte 9
+2017/12/18 14:26:14 [*140168968685312 *mbcharsetprober.py *66] DEBUG: EUC-KR Korean prober hit error at byte 1
+2017/12/18 14:26:14 [*140168968685312 *mbcharsetprober.py *66] DEBUG: CP949 Korean prober hit error at byte 1
+2017/12/18 14:26:14 [*140168968685312 *mbcharsetprober.py *66] DEBUG: Big5 Chinese prober hit error at byte 9
+2017/12/18 14:26:14 [*140168968685312 *mbcharsetprober.py *66] DEBUG: EUC-TW Taiwan prober hit error at byte 1
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:26:14 [*140168968685312 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 71, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 14:26:14 [*140168968685312 *crawl_main.py *52] INFO: 共耗时：0:00:00.093212s
+2017/12/18 14:34:51 [*140046941828864 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 14:34:51 [*140046794151680 *spider_main.py *79] INFO: 获取到任务,6582dbb2-e57b-49ff-9d95-16bb0c34131f
+2017/12/18 14:34:51 [*140046794151680 *sjisprober.py *61] DEBUG: CP932 Japanese prober hit error at byte 46
+2017/12/18 14:34:51 [*140046794151680 *eucjpprober.py *62] DEBUG: EUC-JP Japanese prober hit error at byte 1
+2017/12/18 14:34:51 [*140046794151680 *mbcharsetprober.py *66] DEBUG: GB2312 Chinese prober hit error at byte 9
+2017/12/18 14:34:51 [*140046794151680 *mbcharsetprober.py *66] DEBUG: EUC-KR Korean prober hit error at byte 1
+2017/12/18 14:34:51 [*140046794151680 *mbcharsetprober.py *66] DEBUG: CP949 Korean prober hit error at byte 1
+2017/12/18 14:34:51 [*140046794151680 *mbcharsetprober.py *66] DEBUG: Big5 Chinese prober hit error at byte 9
+2017/12/18 14:34:51 [*140046794151680 *mbcharsetprober.py *66] DEBUG: EUC-TW Taiwan prober hit error at byte 1
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 14:34:51 [*140046794151680 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 71, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 14:34:51 [*140046794151680 *crawl_main.py *52] INFO: 共耗时：0:00:00.082579s
+2017/12/18 15:12:00 [*140011009025792 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/18 15:12:00 [*140010861344512 *spider_main.py *79] INFO: 获取到任务,4840bcb9-ae4c-4fcf-946b-b0cac1fc3745
+2017/12/18 15:12:00 [*140010861344512 *sjisprober.py *61] DEBUG: CP932 Japanese prober hit error at byte 46
+2017/12/18 15:12:00 [*140010861344512 *eucjpprober.py *62] DEBUG: EUC-JP Japanese prober hit error at byte 1
+2017/12/18 15:12:00 [*140010861344512 *mbcharsetprober.py *66] DEBUG: GB2312 Chinese prober hit error at byte 9
+2017/12/18 15:12:00 [*140010861344512 *mbcharsetprober.py *66] DEBUG: EUC-KR Korean prober hit error at byte 1
+2017/12/18 15:12:00 [*140010861344512 *mbcharsetprober.py *66] DEBUG: CP949 Korean prober hit error at byte 1
+2017/12/18 15:12:00 [*140010861344512 *mbcharsetprober.py *66] DEBUG: Big5 Chinese prober hit error at byte 9
+2017/12/18 15:12:00 [*140010861344512 *mbcharsetprober.py *66] DEBUG: EUC-TW Taiwan prober hit error at byte 1
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:12:00 [*140010861344512 *spider_main.py *111] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 102, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 71, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 15:12:00 [*140010861344512 *crawl_main.py *52] INFO: 共耗时：0:00:00.111118s
+2017/12/18 15:21:27 [*139925588834048 *spider_main.py *126] INFO: waiting tasks ...
+2017/12/18 15:21:27 [*139925432760064 *spider_main.py *81] INFO: 获取到任务,9e22ae78-12b5-4513-8d3b-338d87b0f221
+2017/12/18 15:21:27 [*139925432760064 *sjisprober.py *61] DEBUG: CP932 Japanese prober hit error at byte 46
+2017/12/18 15:21:27 [*139925432760064 *eucjpprober.py *62] DEBUG: EUC-JP Japanese prober hit error at byte 1
+2017/12/18 15:21:27 [*139925432760064 *mbcharsetprober.py *66] DEBUG: GB2312 Chinese prober hit error at byte 9
+2017/12/18 15:21:27 [*139925432760064 *mbcharsetprober.py *66] DEBUG: EUC-KR Korean prober hit error at byte 1
+2017/12/18 15:21:27 [*139925432760064 *mbcharsetprober.py *66] DEBUG: CP949 Korean prober hit error at byte 1
+2017/12/18 15:21:27 [*139925432760064 *mbcharsetprober.py *66] DEBUG: Big5 Chinese prober hit error at byte 9
+2017/12/18 15:21:27 [*139925432760064 *mbcharsetprober.py *66] DEBUG: EUC-TW Taiwan prober hit error at byte 1
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:21:27 [*139925432760064 *spider_main.py *113] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 104, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 71, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 15:21:27 [*139925432760064 *crawl_main.py *52] INFO: 共耗时：0:00:00.099654s
+2017/12/18 15:23:36 [*139925160699648 *spider_main.py *81] INFO: 获取到任务,3cf1922b-b4b4-4c09-923c-39d296f40106
+2017/12/18 15:23:36 [*139925160699648 *sjisprober.py *61] DEBUG: CP932 Japanese prober hit error at byte 46
+2017/12/18 15:23:36 [*139925160699648 *eucjpprober.py *62] DEBUG: EUC-JP Japanese prober hit error at byte 1
+2017/12/18 15:23:36 [*139925160699648 *mbcharsetprober.py *66] DEBUG: GB2312 Chinese prober hit error at byte 9
+2017/12/18 15:23:36 [*139925160699648 *mbcharsetprober.py *66] DEBUG: EUC-KR Korean prober hit error at byte 1
+2017/12/18 15:23:36 [*139925160699648 *mbcharsetprober.py *66] DEBUG: CP949 Korean prober hit error at byte 1
+2017/12/18 15:23:36 [*139925160699648 *mbcharsetprober.py *66] DEBUG: Big5 Chinese prober hit error at byte 9
+2017/12/18 15:23:36 [*139925160699648 *mbcharsetprober.py *66] DEBUG: EUC-TW Taiwan prober hit error at byte 1
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:23:36 [*139925160699648 *spider_main.py *113] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 104, in taskWork
+    token = dict_json['token']
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 71, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 15:23:36 [*139925160699648 *crawl_main.py *52] INFO: 共耗时：0:00:00.076841s
+2017/12/18 15:24:15 [*140450443962112 *spider_main.py *128] INFO: waiting tasks ...
+2017/12/18 15:24:15 [*140450296284928 *spider_main.py *83] INFO: 获取到任务,2f6b8f0d-6add-4bc8-a139-47af53469c80
+2017/12/18 15:24:15 [*140450296284928 *sjisprober.py *61] DEBUG: CP932 Japanese prober hit error at byte 46
+2017/12/18 15:24:15 [*140450296284928 *eucjpprober.py *62] DEBUG: EUC-JP Japanese prober hit error at byte 1
+2017/12/18 15:24:15 [*140450296284928 *mbcharsetprober.py *66] DEBUG: GB2312 Chinese prober hit error at byte 9
+2017/12/18 15:24:15 [*140450296284928 *mbcharsetprober.py *66] DEBUG: EUC-KR Korean prober hit error at byte 1
+2017/12/18 15:24:15 [*140450296284928 *mbcharsetprober.py *66] DEBUG: CP949 Korean prober hit error at byte 1
+2017/12/18 15:24:15 [*140450296284928 *mbcharsetprober.py *66] DEBUG: Big5 Chinese prober hit error at byte 9
+2017/12/18 15:24:15 [*140450296284928 *mbcharsetprober.py *66] DEBUG: EUC-TW Taiwan prober hit error at byte 1
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.263303905221
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.01
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:24:15 [*140450296284928 *spider_main.py *115] ERROR: Traceback (most recent call last):
+  File "spider_translate/spider_main.py", line 106, in taskWork
+    client = SpiderMain(dict_json)
+  File "/home/python/Desktop/spider2.0/spider_translate/crawl_main.py", line 71, in __init__
+    self.title = urllib.quote(self.title.decode(sys.stdin.encoding).encode('utf8'))
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf2 in position 0: invalid continuation byte
+
+2017/12/18 15:24:15 [*140450296284928 *crawl_main.py *52] INFO: 共耗时：0:00:00.157625s
+2017/12/18 15:40:43 [*139956200777472 *spider_main.py *128] INFO: waiting tasks ...
+2017/12/18 15:40:43 [*139956044703488 *spider_main.py *83] INFO: 获取到任务,d2a8b0f5-5038-4286-8067-5bd4f37a510b
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: utf-8  confidence = 0.99
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: EUC-JP Japanese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: GB2312 Chinese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: EUC-KR Korean confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: CP949 Korean confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: Big5 Chinese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: EUC-TW Taiwan confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.0556224984966
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0986035200622
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: utf-8  confidence = 0.99
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: EUC-JP Japanese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: GB2312 Chinese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: EUC-KR Korean confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: CP949 Korean confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: Big5 Chinese confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *charsetgroupprober.py *100] DEBUG: EUC-TW Taiwan confidence = 0.01
+2017/12/18 15:40:43 [*139956044703488 *spider_main.py *107] INFO: 不需要抓取图片验证码,token:d2a8b0f5-5038-4286-8067-5bd4f37a510b
+2017/12/18 15:40:43 [*139955625502464 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/18 15:40:43 [*139955625502464 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 15:40:43 [*139955625502464 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:40:43 [*139956044703488 *crawl_main.py *52] INFO: 共耗时：0:00:00.084403s
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11'}
+2017/12/18 15:40:44 [*139955625502464 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:40:45 [*139955625502464 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/18 15:40:45 [*139955625502464 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:40:45 [*139955625502464 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:40:45 [*139955625502464 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/18 15:40:45 [*139955625502464 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11'}
+2017/12/18 15:40:45 [*139955625502464 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:40:46 [*139955625502464 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/18 15:40:46 [*139955625502464 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:40:46 [*139955625502464 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:40:46 [*139955625502464 *crawl_main.py *301] INFO: 解析完成
+2017/12/18 15:40:46 [*139955625502464 *crawl_main.py *52] INFO: 共耗时：0:00:02.622790s
+2017/12/18 15:42:40 [*140209633670912 *spider_main.py *126] INFO: waiting tasks ...
+2017/12/18 15:42:40 [*140209400309504 *spider_main.py *81] INFO: 获取到任务,d1c4e6f0-7aaa-46cd-8471-0bcd151ddc55
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: utf-8  confidence = 0.99
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: EUC-JP Japanese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: GB2312 Chinese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: EUC-KR Korean confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: CP949 Korean confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: Big5 Chinese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: EUC-TW Taiwan confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: windows-1251 Russian confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: KOI8-R Russian confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Russian confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: MacCyrillic Russian confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: IBM866 Russian confidence = 0.0556224984966
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: IBM855 Russian confidence = 0.0986035200622
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: ISO-8859-7 Greek confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: windows-1253 Greek confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: windows-1251 Bulgarian confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: TIS-620 Thai confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: ISO-8859-9 Turkish confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: windows-1255 Hebrew confidence = 0.0
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: utf-8  confidence = 0.99
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: EUC-JP Japanese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: GB2312 Chinese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: EUC-KR Korean confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: CP949 Korean confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: Big5 Chinese confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *charsetgroupprober.py *100] DEBUG: EUC-TW Taiwan confidence = 0.01
+2017/12/18 15:42:40 [*140209400309504 *spider_main.py *105] INFO: 不需要抓取图片验证码,token:d1c4e6f0-7aaa-46cd-8471-0bcd151ddc55
+2017/12/18 15:42:40 [*140208855045888 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/18 15:42:40 [*140209400309504 *crawl_main.py *52] INFO: 共耗时：0:00:00.086661s
+2017/12/18 15:42:40 [*140208855045888 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 15:42:40 [*140208855045888 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:42:41 [*140208855045888 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/18 15:42:41 [*140208855045888 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:42:41 [*140208855045888 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:42:41 [*140208855045888 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2017/12/18 15:42:41 [*140208855045888 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/18 15:42:41 [*140208855045888 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/18 15:42:41 [*140208855045888 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)'}
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)'}
+2017/12/18 15:42:42 [*140208855045888 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/18 15:42:43 [*140208855045888 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/18 15:42:43 [*140208855045888 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/18 15:42:43 [*140208855045888 *crawl_main.py *138] DEBUG: 已保存网页内容到/home/python/Desktop/spider2.0/spider_translate/sample/
+2017/12/18 15:42:43 [*140208855045888 *crawl_main.py *301] INFO: 解析完成
+2017/12/18 15:42:43 [*140208855045888 *crawl_main.py *52] INFO: 共耗时：0:00:02.776282s
+2017/12/27 18:45:37 [*140328536958720 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/27 18:45:37 [*140328149427968 *spider_main.py *79] INFO: 获取到任务,c1d04bb8-2a63-461d-ba1e-71d20d9fc57a
+2017/12/27 18:45:37 [*140328149427968 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:c1d04bb8-2a63-461d-ba1e-71d20d9fc57a
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/27 18:45:37 [*140328149427968 *crawl_main.py *52] INFO: 共耗时：0:00:00.095517s
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/27 18:45:37 [*140328136578816 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'}
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'}
+2017/12/27 18:45:38 [*140328136578816 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/27 18:45:39 [*140328136578816 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/27 18:45:39 [*140328136578816 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/27 18:45:39 [*140328136578816 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/27 18:45:39 [*140328136578816 *crawl_main.py *301] INFO: 解析完成
+2017/12/27 18:45:39 [*140328136578816 *crawl_main.py *52] INFO: 共耗时：0:00:02.589584s
+2017/12/29 15:23:59 [*139913978042112 *spider_main.py *124] INFO: waiting tasks ...
+2017/12/29 15:23:59 [*139913870993152 *spider_main.py *79] INFO: 获取到任务,1c4af9cb-c458-4086-bf91-7278ddb3335c
+2017/12/29 15:24:00 [*139913870993152 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:1c4af9cb-c458-4086-bf91-7278ddb3335c
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/29 15:24:00 [*139913870993152 *crawl_main.py *52] INFO: 共耗时：0:00:00.094380s
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2017/12/29 15:24:00 [*139913240499968 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/29 15:24:01 [*139913240499968 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2017/12/29 15:24:01 [*139913240499968 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/29 15:24:01 [*139913240499968 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/29 15:24:01 [*139913240499968 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/29 15:24:01 [*139913240499968 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)'}
+2017/12/29 15:24:01 [*139913240499968 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)'}
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *158] DEBUG: 第0次 抓取
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *132] INFO: 保存网页内容
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2017/12/29 15:24:02 [*139913240499968 *crawl_main.py *301] INFO: 解析完成
+2017/12/29 15:24:03 [*139913240499968 *crawl_main.py *52] INFO: 共耗时：0:00:02.946711s
+2018/01/04 11:02:32 [*140561263974144 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 17:15:54 [*139962366756608 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 17:15:54 [*139962263017216 *spider_main.py *79] INFO: 获取到任务,31872254-5762-4b47-a02b-955a407c9915
+2018/01/23 17:15:54 [*139962263017216 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:31872254-5762-4b47-a02b-955a407c9915
+2018/01/23 17:15:54 [*139961625990912 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:15:54 [*139962263017216 *crawl_main.py *52] INFO: 共耗时：0:00:00.118735s
+2018/01/23 17:15:54 [*139961625990912 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:15:54 [*139961625990912 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)'}
+2018/01/23 17:15:55 [*139961625990912 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:15:56 [*139961625990912 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:15:56 [*139961625990912 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:15:56 [*139961625990912 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:15:56 [*139961625990912 *crawl_main.py *311] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 249, in crawl
+    for j in range(len(wangqian_info.xpath("//result/item"))):
+AttributeError: 'NoneType' object has no attribute 'xpath'
+
+2018/01/23 17:15:56 [*139961625990912 *crawl_main.py *52] INFO: 共耗时：0:00:01.506234s
+2018/01/23 17:17:50 [*139962179647232 *spider_main.py *79] INFO: 获取到任务,961df6be-6929-4a92-a753-cba8d87a9853
+2018/01/23 17:17:50 [*139962179647232 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:961df6be-6929-4a92-a753-cba8d87a9853
+2018/01/23 17:17:50 [*139961625990912 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:17:50 [*139962179647232 *crawl_main.py *52] INFO: 共耗时：0:00:00.101110s
+2018/01/23 17:17:50 [*139961625990912 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:17:50 [*139961625990912 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)'}
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *311] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 249, in crawl
+    wangqian_list = []
+AttributeError: 'NoneType' object has no attribute 'xpath'
+
+2018/01/23 17:17:51 [*139961625990912 *crawl_main.py *52] INFO: 共耗时：0:00:01.448059s
+2018/01/23 17:18:29 [*140588474464000 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 17:18:29 [*140588370724608 *spider_main.py *79] INFO: 获取到任务,6dd62838-a37d-466c-a91f-c2cfde7dd69e
+2018/01/23 17:18:29 [*140588370724608 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:6dd62838-a37d-466c-a91f-c2cfde7dd69e
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:18:29 [*140588370724608 *crawl_main.py *52] INFO: 共耗时：0:00:00.104785s
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:18:29 [*140587809097472 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)'}
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *312] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 250, in crawl
+    for j in range(len(wangqian_info.xpath("//result/item"))):
+AttributeError: 'NoneType' object has no attribute 'xpath'
+
+2018/01/23 17:18:30 [*140587809097472 *crawl_main.py *52] INFO: 共耗时：0:00:01.468842s
+2018/01/23 17:19:31 [*140588328761088 *spider_main.py *79] INFO: 获取到任务,be20c8cd-ee95-473a-a421-a8f04dce7ee1
+2018/01/23 17:19:31 [*140588328761088 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:be20c8cd-ee95-473a-a421-a8f04dce7ee1
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:19:31 [*140588328761088 *crawl_main.py *52] INFO: 共耗时：0:00:00.074784s
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:19:31 [*140587809097472 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)'}
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *312] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 250, in crawl
+    wangqian_list = []
+AttributeError: 'NoneType' object has no attribute 'xpath'
+
+2018/01/23 17:19:32 [*140587809097472 *crawl_main.py *52] INFO: 共耗时：0:00:01.471972s
+2018/01/23 17:21:34 [*140381027489536 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 17:21:34 [*140380923750144 *spider_main.py *79] INFO: 获取到任务,db8cf74b-4be6-4726-a96e-e0df6ec3eff1
+2018/01/23 17:21:34 [*140380923750144 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:db8cf74b-4be6-4726-a96e-e0df6ec3eff1
+2018/01/23 17:21:34 [*140380923750144 *crawl_main.py *52] INFO: 共耗时：0:00:00.105409s
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:21:34 [*140380496176896 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)'}
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *314] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 252, in crawl
+    for j in range(len(wangqian_info.xpath("//result/item"))):
+AttributeError: 'NoneType' object has no attribute 'xpath'
+
+2018/01/23 17:21:35 [*140380496176896 *crawl_main.py *52] INFO: 共耗时：0:00:01.487553s
+2018/01/23 17:23:28 [*140380890179328 *spider_main.py *79] INFO: 获取到任务,0b3c39b1-b582-4a6b-98fb-4370801f2ed6
+2018/01/23 17:23:28 [*140380890179328 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:0b3c39b1-b582-4a6b-98fb-4370801f2ed6
+2018/01/23 17:23:28 [*140380496176896 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:23:28 [*140380496176896 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:23:28 [*140380496176896 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:23:28 [*140380890179328 *crawl_main.py *52] INFO: 共耗时：0:00:00.081705s
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)'}
+2018/01/23 17:23:29 [*140380496176896 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:23:30 [*140380496176896 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=
+2018/01/23 17:23:30 [*140380496176896 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:23:30 [*140380496176896 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:23:30 [*140380496176896 *crawl_main.py *314] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 252, in crawl
+    for j in range(len(wangqian_info.xpath("//result/item"))):
+AttributeError: 'NoneType' object has no attribute 'xpath'
+
+2018/01/23 17:23:30 [*140380496176896 *crawl_main.py *52] INFO: 共耗时：0:00:01.532082s
+2018/01/23 17:24:53 [*139687160739584 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 17:24:54 [*139687057000192 *spider_main.py *79] INFO: 获取到任务,95c60a6d-a7c0-4b2b-a537-907eff40e175
+2018/01/23 17:24:54 [*139687057000192 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:95c60a6d-a7c0-4b2b-a537-907eff40e175
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:24:54 [*139687057000192 *crawl_main.py *52] INFO: 共耗时：0:00:00.106236s
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:24:54 [*139686353823488 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:24:55 [*139686353823488 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:24:55 [*139686353823488 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:24:55 [*139686353823488 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:24:55 [*139686353823488 *crawl_main.py *306] INFO: 解析完成
+2018/01/23 17:24:55 [*139686353823488 *crawl_main.py *52] INFO: 共耗时：0:00:01.112042s
+2018/01/23 17:34:45 [*140542817580800 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 17:34:45 [*140542713841408 *spider_main.py *79] INFO: 获取到任务,2bf33059-aeeb-4553-975e-ec8d04ef3241
+2018/01/23 17:34:45 [*140542713841408 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:2bf33059-aeeb-4553-975e-ec8d04ef3241
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:34:45 [*140542713841408 *crawl_main.py *52] INFO: 共耗时：0:00:00.105460s
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 17:34:45 [*140542286468864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)'}
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; LBBROWSER)'}
+2018/01/23 17:34:46 [*140542286468864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 17:34:47 [*140542286468864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/01/23 17:34:47 [*140542286468864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 17:34:47 [*140542286468864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 17:34:47 [*140542286468864 *crawl_main.py *306] INFO: 解析完成
+2018/01/23 17:34:47 [*140542286468864 *crawl_main.py *52] INFO: 共耗时：0:00:02.578946s
+2018/01/23 18:00:17 [*140469877016320 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 18:00:17 [*140469773276928 *spider_main.py *79] INFO: 获取到任务,edfe43c8-6d73-4e6b-92f9-0e8b43af0110
+2018/01/23 18:00:17 [*140469773276928 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:edfe43c8-6d73-4e6b-92f9-0e8b43af0110
+2018/01/23 18:00:17 [*140469345691392 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:00:17 [*140469773276928 *crawl_main.py *52] INFO: 共耗时：0:00:00.108428s
+2018/01/23 18:00:17 [*140469345691392 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:00:17 [*140469345691392 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *201] INFO: 可查询到您查的信息：%E6%B5%B72017%E4%BD%8F24
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *314] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 235, in crawl
+    num_floors = self.ifNotEmpt0yGetIndex(detail.xpath("//*[@class='panel-pane pane-views-panes pane-project-license-buildings-panel-pane-1']/div/div/div["+str(i)+"]/div[1]/div/text()")) # 楼号
+AttributeError: SpiderMain instance has no attribute 'ifNotEmpt0yGetIndex'
+
+2018/01/23 18:00:18 [*140469345691392 *crawl_main.py *52] INFO: 共耗时：0:00:01.128696s
+2018/01/23 18:01:44 [*140469388441344 *spider_main.py *79] INFO: 获取到任务,9bc065a3-8024-45c6-addc-4da0da95ff65
+2018/01/23 18:01:44 [*140469388441344 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:9bc065a3-8024-45c6-addc-4da0da95ff65
+2018/01/23 18:01:44 [*140469345691392 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:01:44 [*140469388441344 *crawl_main.py *52] INFO: 共耗时：0:00:00.078643s
+2018/01/23 18:01:44 [*140469345691392 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:01:44 [*140469345691392 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:01:45 [*140469345691392 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:01:45 [*140469345691392 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:01:45 [*140469345691392 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:01:45 [*140469345691392 *crawl_main.py *201] INFO: 可查询到您查的信息：%E6%B5%B72017%E4%BD%8F24
+2018/01/23 18:01:45 [*140469345691392 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:01:45 [*140469345691392 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:01:45 [*140469345691392 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:01:46 [*140469345691392 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:01:46 [*140469345691392 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:01:46 [*140469345691392 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:01:46 [*140469345691392 *crawl_main.py *314] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 235, in crawl
+    num_floors = self.ifNotEmptyGetIndex(detail.xpath("//*[@class='panel-pane pane-views-panes pane-project-license-buildings-panel-pane-1']/div/div/div["+str(i)+"]/div[1]/div/text()")) # 楼号
+AttributeError: SpiderMain instance has no attribute 'ifNotEmpt0yGetIndex'
+
+2018/01/23 18:01:46 [*140469345691392 *crawl_main.py *52] INFO: 共耗时：0:00:01.410033s
+2018/01/23 18:02:22 [*140469748098816 *spider_main.py *79] INFO: 获取到任务,bdbca271-bb36-44ff-be63-40c90b054758
+2018/01/23 18:02:22 [*140469748098816 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:bdbca271-bb36-44ff-be63-40c90b054758
+2018/01/23 18:02:22 [*140469345691392 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:02:22 [*140469748098816 *crawl_main.py *52] INFO: 共耗时：0:00:00.084705s
+2018/01/23 18:02:22 [*140469345691392 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:02:22 [*140469345691392 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *201] INFO: 可查询到您查的信息：%E6%B5%B72017%E4%BD%8F24
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E; LBBROWSER)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *314] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./spider_translate/crawl_main.py", line 235, in crawl
+    num_floors = self.ifNotEmptyGetIndex(detail.xpath("//*[@class='panel-pane pane-views-panes pane-project-license-buildings-panel-pane-1']/div/div/div["+str(i)+"]/div[1]/div/text()")) # 楼号
+AttributeError: SpiderMain instance has no attribute 'ifNotEmpt0yGetIndex'
+
+2018/01/23 18:02:23 [*140469345691392 *crawl_main.py *52] INFO: 共耗时：0:00:01.279807s
+2018/01/23 18:03:31 [*139924322060032 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/23 18:03:31 [*139924218320640 *spider_main.py *79] INFO: 获取到任务,a7cbe738-e5ca-42b6-a2da-1dedd89110a3
+2018/01/23 18:03:31 [*139924218320640 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:a7cbe738-e5ca-42b6-a2da-1dedd89110a3
+2018/01/23 18:03:31 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:03:31 [*139924218320640 *crawl_main.py *52] INFO: 共耗时：0:00:00.110839s
+2018/01/23 18:03:31 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:03:31 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:32 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E6%B5%B72017%E4%BD%8F24&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/23 18:03:32 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:32 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:32 [*139923516548864 *crawl_main.py *201] INFO: 可查询到您查的信息：%E6%B5%B72017%E4%BD%8F24
+2018/01/23 18:03:32 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:03:32 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/23 18:03:32 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/17736
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17978
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17978
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17979
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:33 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17979
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17980
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17980
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17981
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17981
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17982
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:34 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:35 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17982
+2018/01/23 18:03:35 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:35 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:35 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17983
+2018/01/23 18:03:35 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:35 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17983
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17984
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17984
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17985
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17985
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17986
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:36 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:37 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17986
+2018/01/23 18:03:37 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:37 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:37 [*139923516548864 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17987
+2018/01/23 18:03:37 [*139923516548864 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.84 Safari/535.11 LBBROWSER'}
+2018/01/23 18:03:37 [*139923516548864 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/23 18:03:38 [*139923516548864 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=17987
+2018/01/23 18:03:38 [*139923516548864 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/23 18:03:38 [*139923516548864 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/23 18:03:38 [*139923516548864 *crawl_main.py *304] INFO: 解析完成
+2018/01/23 18:03:38 [*139923516548864 *crawl_main.py *52] INFO: 共耗时：0:00:06.728128s
+2018/01/24 09:52:56 [*140267530639104 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/24 09:52:56 [*139919512827648 *spider_main.py *124] INFO: waiting tasks ...
+2018/01/24 09:52:56 [*139919409088256 *spider_main.py *79] INFO: 获取到任务,92839654-1d22-4227-b794-900cf13f6163
+2018/01/24 09:52:56 [*139919409088256 *spider_main.py *103] INFO: 不需要抓取图片验证码,token:92839654-1d22-4227-b794-900cf13f6163
+2018/01/24 09:52:56 [*139918981699328 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/24 09:52:56 [*139919409088256 *crawl_main.py *52] INFO: 共耗时：0:00:00.110559s
+2018/01/24 09:52:56 [*139918981699328 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/24 09:52:56 [*139918981699328 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/publicity/project-licenses?title=%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7&project_district=All&project_developer_name_value=&date_filter%5Bmin%5D%5Bdate%5D=&date_filter%5Bmax%5D%5Bdate%5D=
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *201] INFO: 可查询到您查的信息：%E7%94%AC%E6%96%B0%E6%88%BF%E9%A2%84%E5%AD%97%EF%BC%882017%EF%BC%89%E7%AC%AC1008%E5%8F%B7
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *152] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1'}
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com/project_license_view/39991
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)'}
+2018/01/24 09:52:57 [*139918981699328 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/24 09:52:58 [*139918981699328 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39992
+2018/01/24 09:52:58 [*139918981699328 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/24 09:52:58 [*139918981699328 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/24 09:52:58 [*139918981699328 *crawl_main.py *149] INFO: 开始抓取 https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/01/24 09:52:58 [*139918981699328 *crawl_main.py *152] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'newhouse.cnnbfdc.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)'}
+2018/01/24 09:52:58 [*139918981699328 *crawl_main.py *158] DEBUG: 第0次 抓取
+2018/01/24 09:52:59 [*139918981699328 *crawl_main.py *173] DEBUG: Get url：https://newhouse.cnnbfdc.com//map-api-v1/building_units?args[]=39993
+2018/01/24 09:52:59 [*139918981699328 *crawl_main.py *132] INFO: 保存网页内容
+2018/01/24 09:52:59 [*139918981699328 *crawl_main.py *138] DEBUG: 已保存网页内容到./spider_translate/sample/
+2018/01/24 09:52:59 [*139918981699328 *crawl_main.py *304] INFO: 解析完成
+2018/01/24 09:52:59 [*139918981699328 *crawl_main.py *52] INFO: 共耗时：0:00:02.916051s

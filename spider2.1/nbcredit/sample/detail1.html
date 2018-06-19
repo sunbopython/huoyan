@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--–[if lt IE 7]-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <script src="”http://ie7-js.googlecode.com/svn/version/2.0(beta)/IE7.js”" type="”text/javascript”"></script> 
+  <!--[endif]–-->   
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>宁波市企业信用网</title> 
+  <link rel="stylesheet" type="text/css" href="/zx/css/public.css" /> 
+  <link rel="stylesheet" type="text/css" href="/zx/css/newstyle.css" /> 
+  <script src="/zx/js/jquery-1.11.2.min.js"></script> 
+  <style type="text/css">
+
+body{ margin:0; padding:0; font-family:"微软雅黑" 12px;background:white;}
+
+
+</style> 
+  <script type="text/javascript">
+$(document).ready(function(){ 
+
+
+
+	$(".bghnr,.bgnr").each(function(i){
+	var content=$(this).html();
+	var reg2=/号码:\s*\d+/ig;
+	var reg3=/号码：\s*\d+/ig;
+	//var isIDCard2=/^[1-9]{1}[0-9]{14}$|^[1-9]{1}[0-9]{16}([0-9]|[xX])+/ig; 
+//	var c = 'a412824198702022255';
+ 	// var c_1 = c.replace(isIDCard2,'1111');
+ 	// alert(c_1);
+ 	var test=content.replace(reg2,"号码:********"); 
+ 	var test1=test.replace(reg3,"号码:********"); 
+ 	
+ 	var reg1=/电话:\s*\d+/ig;
+ 	var reg4=/电话：\s*\d+/ig;
+	var test2=test1.replace(reg1,"电话:********"); 
+	var test3=test2.replace(reg4,"电话:********"); 
+ 	
+	if(test3.length<=20){ 
+		$(this).empty();
+		$(this).html(test3); 
+	}else{
+		var shorttest=content.substring(0,20);
+		$(this).empty();
+		shorttest="<span class='shortcontent'>"+shorttest+"...<a class='more'>更多</a></span>";
+		test3="<span style='display:none;'>"+test3+"</span>";
+		$(this).html(shorttest+test3);
+	}
+
+	 
+	});
+	$(".more").click(function(){
+		$(this).parent().hide().siblings().show();
+		 $("#con_nav_ifm_1", parent.document).height($('.form-box').height()+100)  ;
+		//IFrameReSize("con_nav_ifm_1");
+	});
+
+	var total=$(".num").size();
+	var num=5
+	var page=Math.ceil(total/num);
+	var nowpage=1;
+	if(total<=5){
+		
+	}else{
+		var fenye="<tr>"+
+		"<th align='right' colspan='4'>"+
+		"共"+page+"页&nbsp;"+
+		"现在第<span class='nowpage'>"+nowpage+"</span>页&nbsp;"+
+		"<a style='cursor:pointer'  id='first' class='link'>首页</a>&nbsp;"+
+		"<a style='cursor:pointer'  id='beforePage' class='link'>上一页</a>&nbsp;"+
+		"<a style='cursor:pointer'  id='nextPage' class='link'>下一页</a>&nbsp;"+
+		"<a style='cursor:pointer'  id='end' class='link'>尾页</a>&nbsp;"+
+	"</th>"+
+	"</tr>";
+		$("#bgnrtable").append(fenye);
+	}
+	
+	$("#first,#beforePage,#nextPage,#end").click(function(){
+
+		nowpage=$(".nowpage").html();
+		 if($(this).attr("id")=="first"){
+			nowpage=1;
+		}else if($(this).attr("id")=="beforePage"){
+			if(nowpage==1){
+			}else{
+			nowpage=parseInt(nowpage)-1;
+			}
+		}else if($(this).attr("id")=="nextPage"){
+			if(nowpage>=page){
+				nowpage=page;
+			}else{
+			nowpage=parseInt(nowpage)+1;
+			}
+		}
+		else if($(this).attr("id")=="end"){
+			nowpage=page;
+		}
+		 $(".nowpage").html(nowpage);
+			gopage(nowpage);
+
+			 $("#con_nav_ifm_1", parent.document).height($('.form-box').height()+100)  ;//页面高度自适应
+						
+	});	
+	gopage(1);
+	function gopage(nowpage){
+
+		var start=num*(nowpage-1)+1;
+		var end=nowpage*num;
+		for(var i=1;i<=total;i++){
+			if(i>=start&&i<=end){
+			$("#num"+i).show();
+			}else{
+			$("#num"+i).hide();
+			}	
+		}
+		
+		
+	}
+
+
+
+
+	var totalq=$(".numq").size();
+	var numq=5
+	var pageq=Math.ceil(totalq/numq);
+	var nowpageq=1;
+	if(totalq<=5){
+		
+	}else{
+		var fenyeq="<tr>"+
+		"<th align='right' colspan='5'>"+
+		"共"+pageq+"页&nbsp;"+
+		"现在第<span class='nowpageq'>"+nowpageq+"</span>页&nbsp;"+
+		"<a style='cursor:pointer'  id='firstq' class='link'>首页</a>&nbsp;"+
+		"<a style='cursor:pointer'  id='beforePageq' class='link'>上一页</a>&nbsp;"+
+		"<a style='cursor:pointer'  id='nextPageq' class='link'>下一页</a>&nbsp;"+
+		"<a style='cursor:pointer'  id='endq' class='link'>尾页</a>&nbsp;"+
+	"</th>"+
+	"</tr>";
+		$("#qtztftable").append(fenyeq);
+	}
+	
+	$("#firstq,#beforePageq,#nextPageq,#endq").click(function(){
+
+		nowpageq=$(".nowpageq").html();
+		 if($(this).attr("id")=="firstq"){
+			nowpageq=1;
+		}else if($(this).attr("id")=="beforePageq"){
+			if(nowpageq==1){
+			}else{
+			nowpageq=parseInt(nowpageq)-1;
+			}
+		}else if($(this).attr("id")=="nextPageq"){
+			if(nowpageq>=pageq){
+				nowpageq=pageq;
+			}else{
+			nowpageq=parseInt(nowpageq)+1;
+			}
+		}
+		else if($(this).attr("id")=="endq"){
+			nowpageq=pageq;
+		}
+		 $(".nowpageq").html(nowpageq);
+			gopageq(nowpageq);
+	});	
+	gopageq(1);
+	function gopageq(nowpageq){
+
+		var startq=numq*(nowpageq-1)+1;
+		var endq=nowpageq*numq;
+		for(var i=1;i<=totalq;i++){
+			if(i>=startq&&i<=endq){
+			$("#numq"+i).show();
+			}else{
+			$("#numq"+i).hide();
+			}	
+		}
+		
+		
+	}
+
+});
+function convertdate(str)
+{
+return str.substring(0,10)
+}
+/*
+$(function(){
+	 
+	 var val='';
+	 
+	 if($('#zch').text().trim()=='注册号'){
+	   val =$('#qymcval').text()+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+"注册号："+$('#zchval').text();
+	 }else{
+		 val =$('#qymcval').text()+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+"统一社会信用代码："+$('#zchval').text();
+	}
+	 $('#zchtop', window.top.document).html(val);
+	});*/
+</script> 
+ </head> 
+ <body leftmargin="0" topmargin="0" oncontextmenu="return false" ondragstart="return false" onselectstart="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()"> 
+  <!-- 非分支机构，除个体户、营业单位、 其他经营单位  --> 
+  <div class="form-box"> 
+   <table id="baseinfo" class="detailsList" cellspacing="0" cellpadding="0"> 
+    <tbody>
+     <tr> 
+      <th colspan="4" style="text-align: center;">基本信息</th> 
+     </tr> 
+     <tr> 
+      <th width="20%" id="zch">统一社会信用代码</th> 
+      <td width="30%" id="zchval">913302830538344391</td> 
+      <th>名称</th> 
+      <td width="30%" id="qymcval">奉化市百度润兴汽车销售服务有限公司</td> 
+     </tr> 
+     <tr> 
+      <th>类型</th> 
+      <td>私营有限责任公司（自然人控股或私营性质企业控股）</td> 
+      <th width="20%"> 法定代表人 </th> 
+      <td> 傅洪文 </td> 
+     </tr> 
+     <tr> 
+      <th width="20%">注册资本</th> 
+      <td> 10 万人民币元 </td> 
+      <th>成立日期</th> 
+      <td>2012.11.05</td> 
+     </tr> 
+     <!-- 住所 --> 
+     <tr> 
+      <th>住所</th> 
+      <td colspan="3">奉化市岳林街道桃源路93-6号</td> 
+     </tr> 
+     <!-- 个体户 --> 
+     <tr> 
+      <th>营业期限自</th> 
+      <td> 2012.11.05 </td> 
+      <th>营业期限至</th> 
+      <td>2032.11.04</td> 
+     </tr> 
+     <!-- 外资和个体户 --> 
+     <tr> 
+      <th>经营范围<br /></th> 
+      <td colspan="3">汽车销售；二手车经纪、经销。</td> 
+     </tr> 
+     <tr> 
+      <th>登记机关</th> 
+      <td>宁波市奉化区市场监督管理局</td> 
+      <th>核准日期</th> 
+      <td>2016.01.13</td> 
+     </tr> 
+    </tbody>
+   </table> 
+   <br /> 
+   <br /> 
+   <table cellspacing="0" cellpadding="0" class="detailsList" id="qtztftable"> 
+    <tbody>
+     <tr> 
+      <th style="text-align: center;" colspan="5">股东信息<br /> <span style="font-size:12px;font-weight:normal;">股东的出资信息截止2014年2月28日。2014年2月28日之后工商只公示股东姓名，其他出资信息由企业自行公示。</span></th> 
+     </tr> 
+     <tr width="95%"> 
+      <th width="20%" style="text-align: center;">股东类型</th> 
+      <th width="20%" style="text-align: center;">股东</th> 
+      <th width="20%" style="text-align: center;">证照/证件类型</th> 
+      <th width="20%" style="text-align: center;">证照/证件号码</th> 
+      <th width="20%" style="text-align: center;">详情</th> 
+     </tr> 
+     <tr id="numq1" class="numq"> 
+      <td style="padding-left: 5px;"> 自然人股东 </td> 
+      <td style="padding-left: 5px;">傅洪文</td> 
+      <td style="padding-left: 5px;"></td> 
+      <td style="padding-left: 5px;"></td> 
+      <td class="seeDetailTd"> </td> 
+     </tr> 
+     <tr id="numq2" class="numq"> 
+      <td style="padding-left: 5px;"> 自然人股东 </td> 
+      <td style="padding-left: 5px;">熊畏其</td> 
+      <td style="padding-left: 5px;"></td> 
+      <td style="padding-left: 5px;"></td> 
+      <td class="seeDetailTd"> </td> 
+     </tr> 
+    </tbody>
+   </table> 
+   <br /> 
+   <table cellpadding="0" cellspacing="0" class="detailsList" id="bgnrtable"> 
+    <tbody>
+     <tr width="95%"> 
+      <th colspan="4" style="text-align: center;">变更信息</th> 
+     </tr> 
+     <tr> 
+      <th width="15%" style="text-align: center;">变更事项</th> 
+      <th width="25%" style="text-align: center;">变更前内容</th> 
+      <th width="25%" style="text-align: center;">变更后内容</th> 
+      <th width="10%" style="text-align: center;">变更日期</th> 
+     </tr> 
+     <tr id="num1" class="num"> 
+      <td width="15%" style="">统一社会信用代码生成对照</td> 
+      <td class="bgnr" width="25%">注册号：330283000109933 组织机构代码证：053834439</td> 
+      <td class="bghnr" width="25%">统一社会信用代码:913302830538344391</td> 
+      <td width="10%" style="">2016.01.13</td> 
+     </tr> 
+     <tr id="num2" class="num"> 
+      <td width="15%" style="">一般经营项目变更</td> 
+      <td class="bgnr" width="25%">一般经营项目: 商用车及九座以上乘用车销售。</td> 
+      <td class="bghnr" width="25%">一般经营项目: 汽车销售；二手车经纪、经销。</td> 
+      <td width="10%" style="">2016.01.13</td> 
+     </tr> 
+    </tbody>
+   </table> 
+   <br /> 
+   <table cellspacing="0" cellpadding="0" class="detailsList"> 
+    <tbody>
+     <tr style="width:939px"> 
+      <th style="text-align:center;" colspan="6"> 主要人员信息 </th> 
+     </tr> 
+     <tr style="width:939px"> 
+      <th style="width:10%;text-align:center">序号</th> 
+      <th style="width:20%;text-align:center">姓名</th> 
+      <th style="width:20%;text-align:center">职务</th> 
+      <th style="width:10%;text-align:center">序号</th> 
+      <th style="width:20%;text-align:center">姓名</th> 
+      <th style="width:20%;text-align:center">职务</th> 
+     </tr> 
+     <tr> 
+      <td style="text-align:center">1</td> 
+      <td style="text-align:center">傅洪文</td> 
+      <td style="text-align:center">执行董事</td> 
+      <td style="text-align:center">2</td> 
+      <td style="text-align:center">傅洪文</td> 
+      <td style="text-align:center">经理</td> 
+     </tr> 
+     <tr> 
+      <td style="text-align:center">3</td> 
+      <td style="text-align:center">熊畏其</td> 
+      <td style="text-align:center">监事</td> 
+     </tr>
+    </tbody> 
+   </table> 
+   <br /> 
+   <!-- 分支机构信息不完全，因此不参照国家局显示详细信息 --> 
+   <table cellspacing="0" cellpadding="0" class="detailsList" id="t31"> 
+    <tbody>
+     <tr style="width:939px"> 
+      <th style="text-align:center;" colspan="4">分支机构信息</th> 
+     </tr> 
+     <tr> 
+      <th style="text-align:center;width:5%">序号</th> 
+      <th style="text-align:center;width:25%">注册号</th> 
+      <th style="text-align:center;width:30%">名称</th> 
+      <th style="text-align:center;width:20%">登记机关</th> 
+     </tr> 
+    </tbody>
+   </table> 
+   <br /> 
+  </div>   
+ </body>
+</html>

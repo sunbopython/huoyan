@@ -1,0 +1,204 @@
+2018/02/07 14:45:54 [*139969195595520 *spider_main.py *140] INFO: waiting tasks ...
+2018/02/07 14:45:54 [*139969091348224 *spider_main.py *95] INFO: 获取到任务,时代华庭
+2018/02/07 14:45:54 [*139969091348224 *spider_main.py *119] INFO: 不需要抓取图片验证码,token:7902b6ce-3a07-48b2-b93d-7769ae57e988
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx
+2018/02/07 14:45:54 [*139969091348224 *crawl_main.py *50] INFO: 共耗时：0:00:00.113732s
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Content-Length': '260', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20', 'Origin': 'http://esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'}
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *152] DEBUG: POST url：http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx， data：{'city': '\xe5\xae\x81\xe6\xb3\xa2', 'StrNameKeyword': '\xe6\x97\xb6\xe4\xbb\xa3\xe5\x8d\x8e\xe5\xba\xad', 'room': '', 'district': '', 'isFinder': 0, 'strCity': '\xe5\xae\x81\xe6\xb3\xa2', 'houseType': '', 'trackLine': '', 'fromhouseprom': '', 'Strprice': '', 'renttype': '', 'pricemax': '', 'strDistrict': '', 'purpose': '\xd7\xa1\xd5\xac', 'fromdianshang': '', 'input_keyw1': '\xe6\x97\xb6\xe4\xbb\xa3\xe5\x8d\x8e\xe5\xba\xad', 'isnewhouse': 0, 'keyword': '\xe6\x97\xb6\xe4\xbb\xa3\xe5\x8d\x8e\xe5\xba\xad', 'pricemin': '', 'fromesfchengjiao': ''}
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *412] INFO: 获取信息成功：<Response [301]>
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/house/n20-o25-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/house/n20-o25-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/house/n20-o25-i31-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:54 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:55 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/house/n20-o25-i31-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 14:45:55 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:55 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:55 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_294353556.htm
+2018/02/07 14:45:55 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:55 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:56 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_294353556.htm
+2018/02/07 14:45:56 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:56 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:56 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_286777510.htm
+2018/02/07 14:45:56 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:56 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_286777510.htm
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_293611200.htm
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_293611200.htm
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/16_268362.htm
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:57 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/16_268362.htm
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/16_264646.htm
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/16_264646.htm
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/16_259698.htm
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:58 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/16_259698.htm
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/16_248834.htm
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/16_248834.htm
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/16_218372.htm
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:45:59 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/16_218372.htm
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_297798168.htm
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_297798168.htm
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_296821266.htm
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:46:00 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:01 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_296821266.htm
+2018/02/07 14:46:01 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:01 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:01 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_301689547.htm
+2018/02/07 14:46:01 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:46:01 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:02 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_301689547.htm
+2018/02/07 14:46:02 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:02 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:02 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_297552836.htm
+2018/02/07 14:46:02 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:46:02 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_297552836.htm
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_296959540.htm
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_296959540.htm
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/16_222670.htm
+2018/02/07 14:46:04 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/16_222670.htm
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_295050081.htm
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/535.20 (KHTML, like Gecko) Chrome/19.0.1036.7 Safari/535.20'}
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_295050081.htm
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *125] DEBUG: 已保存网页内容到./fangningbo/sample/
+2018/02/07 14:46:05 [*139968529549056 *crawl_main.py *50] INFO: 共耗时：0:00:11.378598s
+2018/02/07 15:13:47 [*140264573699840 *spider_main.py *140] INFO: waiting tasks ...
+2018/02/07 15:13:47 [*140264469452544 *spider_main.py *95] INFO: 获取到任务,时代华庭
+2018/02/07 15:13:47 [*140264469452544 *spider_main.py *119] INFO: 不需要抓取图片验证码,token:94fc3b14-a3a0-48c2-80dd-9d299f3fd71f
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx
+2018/02/07 15:13:47 [*140264469452544 *crawl_main.py *50] INFO: 共耗时：0:00:00.100080s
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Content-Length': '260', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0', 'Origin': 'http://esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Cache-Control': 'max-age=0', 'Content-Type': 'application/x-www-form-urlencoded'}
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *152] DEBUG: POST url：http://esf.nb.fang.com/NewSecond/sale_info/searchlist_new2014.aspx， data：{'city': '\xe5\xae\x81\xe6\xb3\xa2', 'StrNameKeyword': '\xe6\x97\xb6\xe4\xbb\xa3\xe5\x8d\x8e\xe5\xba\xad', 'room': '', 'district': '', 'isFinder': 0, 'strCity': '\xe5\xae\x81\xe6\xb3\xa2', 'houseType': '', 'trackLine': '', 'fromhouseprom': '', 'Strprice': '', 'renttype': '', 'pricemax': '', 'strDistrict': '', 'purpose': '\xd7\xa1\xd5\xac', 'fromdianshang': '', 'input_keyw1': '\xe6\x97\xb6\xe4\xbb\xa3\xe5\x8d\x8e\xe5\xba\xad', 'isnewhouse': 0, 'keyword': '\xe6\x97\xb6\xe4\xbb\xa3\xe5\x8d\x8e\xe5\xba\xad', 'pricemin': '', 'fromesfchengjiao': ''}
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *412] INFO: 获取信息成功：<Response [301]>
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/house/n213-o298-r25-s210-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:47 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:48 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/house/n213-o298-r25-s210-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 15:13:48 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:48 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:48 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/house/n213-o298-r25-s210-i31-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 15:13:48 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:48 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/house/n213-o298-r25-s210-i31-kw%ca%b1%b4%fa%bb%aa%cd%a5/
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_301818296.htm
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_301818296.htm
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_301054089.htm
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:49 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_301054089.htm
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_302552190.htm
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_302552190.htm
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_291041732.htm
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:50 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_291041732.htm
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_300303891.htm
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_300303891.htm
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_301106889.htm
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:51 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_301106889.htm
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_303364129.htm
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_303364129.htm
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_300813605.htm
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_300813605.htm
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_289213625.htm
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:52 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:53 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_289213625.htm
+2018/02/07 15:13:53 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:53 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:53 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_301955949.htm
+2018/02/07 15:13:53 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:53 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_301955949.htm
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *136] INFO: 开始抓取 http://esf.nb.fang.com/chushou/3_301956247.htm
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *139] DEBUG: 伪装头：{'Connection': 'keep-alive', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'Host': 'esf.nb.fang.com', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0'}
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *145] DEBUG: 第0次 抓取
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *159] DEBUG: Get url：http://esf.nb.fang.com/chushou/3_301956247.htm
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *119] INFO: 保存网页内容
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *125] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/fangningbo/sample/
+2018/02/07 15:13:54 [*140263699773184 *crawl_main.py *50] INFO: 共耗时：0:00:06.827406s

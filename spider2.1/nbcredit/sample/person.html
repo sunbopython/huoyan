@@ -1,0 +1,316 @@
+
+
+
+
+
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>宁波市企业信用网</title>
+<link rel="stylesheet" type="text/css" href="/zx/css/nbx.css"/>
+ 
+<link href="/zx/css/yzn.css" rel="stylesheet" type="text/css">
+<script src="/zx/js/jquery-1.11.2.min.js"></script>
+<script>
+$(document).ready(function(){ 
+		
+$('#mask').css('height',$(document).height());
+
+$('.bnoff').click(function(){
+	$('.bg').hide();
+	$('.woaicss').hide();
+	$("#zmdid").hide();
+});
+			
+$("#changeYzm").click(function(){
+	$("#yzmimg").attr("src","/zx/gjcx/gjcxinit.shtml?dispatch=yzm&tm="+Math.random());
+});
+	
+$("#toyzm").click(function(){
+	var qymc=$.trim($("#qymc").val());
+	if(qymc==""){
+		$("#checkQymc").html("请输入企业名称或注册号,名称不少于两位");
+	}else{
+		$("#yzmimg").attr("src","/zx/gjcx/gjcxinit.shtml?dispatch=yzm&tm="+Math.random());
+		$("#zmdid").show();
+		$('.bg').show();
+		$("#checkQymc").empty();
+		$("#yzm").focus();
+	}
+});
+
+
+$("#chaxun").click(function(){
+	submitForm();
+});
+
+	
+
+$("#qycxform").keypress(function (e) {
+    var key = e.which;
+    if (key == 13) {
+        $("#toyzm").trigger("click");
+        e.preventDefault();
+    }
+ });
+
+$(document).keydown(function(event){ 
+	if(event.keyCode==13){ 
+		$("#chaxun").click(); 
+	} 
+}); 
+
+
+function submitForm(){
+		var qymc=$.trim($("#qymc").val());
+		var yzm = $("#yzm").val();
+		//判断表单的格式与查询企业名称的格式
+		var random=Math.random();
+		var checkURL ="/zx/gjcx/gjcxinit.shtml?dispatch=yzmCheck&random="+random;
+		$.getJSON(checkURL,{"YZM":yzm,"IP":"127.0.0.1","QYMC":$("#qymc").val(),"FROMURL":window.location.host,"LY":$("#ly").val()},function(json){
+			var obj = json.msg;
+			if(obj=='false'){
+				$("#error").html("验证码出入有误");
+				$("#yzmimg").attr("src","/zx/gjcx/gjcxinit.shtml?dispatch=yzm&tm="+Math.random());
+				$("#yzm").val("");
+			}else if(obj=='urlerror'){
+				$("#error")("对不起，验证不通过，域名出现问题");
+				$("#yzmimg").attr("src","/zx/gjcx/gjcxinit.shtml?dispatch=yzm&tm="+Math.random());
+				$("#yzm").val("");
+			}
+			else{
+				var reply = json.reply;
+				$("#error").html("");
+				
+				$("#weburl").val(parent.window.location.href);
+				$("#reply").val(reply);
+				$("#qycxform").submit();
+				//return false;
+				}
+		});
+		return false;
+	}
+	
+	
+	
+});
+ 
+</script>
+
+</head>
+
+<body>
+ <div class="top"><div class="top2"><div class="top3"><a href="/zx/" class="fhome">返回首页</a></div></div> 
+	    		 
+	    </div>
+	<div class="main content">
+		  <div class="dress">
+    <img src="/zx/images/span_logo.jpg">
+    <a href="/zx/">首页</a>
+    <a>&nbsp;&nbsp;》&nbsp;&nbsp;</a>
+    <a href="#">企业信息列表</a>
+    </div> <div class="gray_line"></div>		
+       <div class="comeback"><a href="#"  onClick="javascript :history.back(-1);">返回上一页</a> </div>
+		
+	    <div style='margin: 0 auto;width:880px;height:663px;margin-left: 50px' >
+	    <div>
+	 	<form action="/zx/gjcx/gjcxinit.shtml?dispatch=getNewQydjList" name="qycxform"  id="qycxform" method="post" >
+	 	<input type="hidden" name="ly" id="ly" value="sj" />   
+    	<input type="hidden" name="reply" id="reply" value="" />
+    	<input type="hidden" name="weburl" id="weburl" value="" />
+					<div class="se-yichang" id="search" style=" width: 960px; margin: 0px auto; padding-left: 0px;">
+					
+					 <ul class="impt_sercbox">
+ 
+        <li><input type="text" class="text"    value="宁波市鄞州中河奇华快餐店" name="qymc" id="qymc" ></li>
+        <li><input type="button" value="搜&nbsp;&nbsp;索"  id="toyzm" class="button"></li></ul>
+					<input type="hidden" id="codeValue" name="verifyCode">
+				</div>
+				<div id="checkQymc" style="color: red; text-align: left"></div>
+				<table class="wwFormTable">
+			</table></form>
+			</div>		 
+         
+            <dl class="l_dl" style="  padding-left: 0px;margin-bottom: 30px;" class="list" id='qycontent'>
+            
+            </dl>
+			<div style="display:none">	
+ 
+			
+					<div  id="jilu0">
+                        <dt class="font16">
+                        
+                            <a target="_blank" entname="宁波市鄞州中河奇华快餐店" class="entLink" href="/zx/gjcx/gjcxinit.shtml?dispatch=getQydjJbxx&nbxh=MzMwMjI3MzAwMDk2MDM2NQ==&uniscid=92330212MA2EFKAC11&zch=330212609029740&qymc=宁波市鄞州中河奇华快餐店&zt=续存" >宁波市鄞州中河奇华快餐店</a>
+                            
+                             
+                        </dt>
+                        
+                        <dd class="font14" >
+                        
+       	                   
+         
+	   
+	   统一社会信用代码：<span  style="color:blue">92330212MA2EFKAC11;</span>
+	     
+	  
+                        
+                        
+                          <!--注册号:<span>330212609029740</span>  -->  
+                            法定代表人:<span style="color:blue">王奇华</span>
+                            登记机关:<span style="color:blue">宁波市鄞州区市场监督管理局</span>
+                            成立日期:<span style="color:blue">2009-10-27</span>
+                             状态:
+                              
+                             
+                             <span style="color:blue">续存</span>
+                             
+                        </dd>
+                        
+                  
+				</div>
+                   </div>
+                  
+                    
+				 
+
+			 
+			
+            <div class="fenye" id="fenye" style='padding-left: 0px; padding-top: 0px'></div>
+            
+						<div  style='padding-top: 0px;'> &gt;&gt; <font color='red'>如需要查询注销记录，请点击</font>
+						<a href='/zx/gjcx/gjcxinit.shtml?dispatch=getZxjlList&isyzm=0&qymc=%E5%AE%81%E6%B3%A2%E5%B8%82%E9%84%9E%E5%B7%9E%E4%B8%AD%E6%B2%B3%E5%A5%87%E5%8D%8E%E5%BF%AB%E9%A4%90%E5%BA%97' target='_blank' style='background:#ccccff;border:0px;font-size:18px'></a>
+						
+					
+								<input class="button"  type="button"  style='cursor:pointer;border:solid;width:110px;height:35px;background-color:rgb(0, 95, 176);color:#fff;font-size:18px' value="注销搜索" 
+								onclick="window.open('/zx/gjcx/gjcxinit.shtml?dispatch=getZxjlList&isyzm=0&qymc=%E5%AE%81%E6%B3%A2%E5%B8%82%E9%84%9E%E5%B7%9E%E4%B8%AD%E6%B2%B3%E5%A5%87%E5%8D%8E%E5%BF%AB%E9%A4%90%E5%BA%97')" />
+					 
+								 
+							&lt;&lt;&nbsp;&nbsp; 
+						</div>
+			
+            
+            
+            </div>
+
+<script language=javascript>
+	var urls=new Array();
+	var headers=new Array();
+	var year=new Array();
+	var month=new Array();
+	var day=new Array();
+	var imgstrs=new Array();
+	var i=1;
+	var pagecount=6;
+	
+	var formatstr="<li class='li01'><div style='width:75%; float:left;'><a href='_URL_'>_TITLE_</a></div><div style='width:15%; float:right'>[_YEAR_-_MONTH_-_DAY_]</div>"
+	
+	var totalpage = Math.ceil(i/pagecount);
+	var LastPage="上页";
+	var NextPage="下页";
+
+function chgpage(nowpage){
+	showNews(nowpage);
+}
+function showNews(start_num){	
+	start_num = parseInt(start_num);
+    var j=0;
+	var end_num=0;
+	var newshtml="";
+	var pagehtml="";
+	var str="";
+	end_num = ((start_num+pagecount)>i) ? (i-1) : (start_num+pagecount-1);
+	var jiluid= '';
+	for(j=start_num;j<=end_num;j++)	
+	{		 
+		jiluid='#jilu'+j;
+	 
+			newshtml=newshtml+$(jiluid).html();
+			}
+	newshtml = ""+newshtml+"";
+	document.getElementById("qycontent").innerHTML = newshtml;
+	newshtml = null;
+
+	 
+	var currpage = start_num/pagecount+1;
+	pagehtml = "<ul class='buton'>";
+	//if (currpage>1){
+	if (totalpage>1){
+		pagehtml += "<li><a href='###'  onclick='javascript:showNews(0)' class=clickPage2>首页</a></li> ";
+	}
+	//}
+	//if(start_num>0&&currpage>1)		
+	//pagehtml+="<li><a href='###' onclick='javascript:showNews(" + (start_num - pagecount) + ");' class=prePage2>"+LastPage+"</a></li>"+" ";
+	
+	if(totalpage>1){
+		for(n=1;n<=10&&n<=totalpage;n++){
+			if(n==currpage){
+		pagehtml+="<li><a style='color:red;' aval='"+n+"' class='clickPage2' href='###' onclick='javascript:showNews("+(n-1)*pagecount+")'>"+n+"</a></li>";
+			}else{
+				pagehtml+="<li><a  aval='"+n+"' class='clickPage2' href='###' onclick='javascript:showNews("+(n-1)*pagecount+")'>"+n+"</a></li>";
+			}
+		}
+	}
+	//if(end_num<headers.length-1)		pagehtml+="<li><a href='###' onclick='javascript:showNews(" + (start_num + pagecount) + ");' class=nextPage2>"+ NextPage+"</a></li> ";
+    //if (currpage<totalpage ){
+    	if (totalpage>1){
+        pagehtml += " <li><a href='###'  onclick='javascript:showNews("+((totalpage-1)*pagecount)+")' class=clickPage2>尾页</a></li> ";
+    	}
+	//}
+
+	if( i<20&&i>0){
+		pagehtml += "<li style='padding-right:10px;padding-left:10px;color:#666666; font-size:14px;'>共计："+i+"条</li> ";
+	}else{
+	//	pagehtml +="<li>&nbsp;&nbsp;&nbsp;&gt;&gt; 您查询的信息多于20条记录，请输入更精确的查询条件&lt;&lt;&nbsp;&nbsp;   </li> ";
+		}
+
+	var qymc=encodeURIComponent( '宁波市鄞州中河奇华快餐店');
+ 
+	 
+	//pagehtml +="<li style='margin-left:20px'><a href='/zx/gjcx/gjcxinit.shtml?dispatch=getZxjlList&isyzm=0&qymc="+qymc+"' target='_blank' style='background:#ccccff;border:0px;font-size:18px'> 点击查询注销记录</a></li></ul>";
+
+
+	
+  
+
+	pagehtml += "";
+	pagehtml+="";
+	document.getElementById("fenye").innerHTML=pagehtml;pagehtml = null;
+}
+showNews(0);
+
+</script>
+
+    </div>
+	  
+	     <div class="banqun banqun2">
+         		
+					
+                <script src="/zx/js/foot2.js"></script>            
+			</div>  		
+
+	 </div> 
+
+<!-- 验证码 -->
+	<div style="display:none;" id="mask" class="bg" style="top: 0; left: 0; position: absolute; z-index:10;"></div>
+<div style="display:none;" class="woaicss" id="zmdid">
+				 
+					<div class="topyzm">验证码 <a  class="bnoff" href="javascript:;"> </a></div>
+					
+						<div   style="display: block;" id="woaicss_con1" class="woaicss_con">
+						<p class="text1">请根据下图中的文字，在查询框中输入计算出的结果。</p>
+							<div  class='box22'><img   id="yzmimg" src="" style="width: 200px; height: 60px;"></div>
+						<a href="#" class="huan" id="changeYzm">换一张</a>
+						<div class="bot1">
+					验证码:<input type="text1" id='yzm'>
+					<a id="chaxun" href="#">搜索</a>
+					</div>		
+						</div>
+											 
+</div>
+</body>
+</html>
+				

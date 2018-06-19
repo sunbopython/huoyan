@@ -1,0 +1,106 @@
+
+flow 2017-10-17 11:24:55,869 34030 [spider_main.py:threadWork:87] INFO 开始等待获取任务
+flow 2017-10-17 11:25:07,038 34030 [spider_main.py:threadWork:96] INFO 获取到任务,5cb6d21e-7e67-437d-9890-a1093b5d7a58
+flow 2017-10-17 11:25:07,120 34030 [crawl_main.py:crawl:61] INFO 登陆开始
+flow 2017-10-17 11:25:07,120 34030 [crawl_main.py:CheckNeedVerify:236] INFO 检测是否需要图片验证码
+flow 2017-10-17 11:25:07,293 34030 [crawl_main.py:crawl:67] INFO 不需要图片验证码
+flow 2017-10-17 11:25:07,293 34030 [crawl_main.py:get_verifycode:188] INFO 发送登陆短信验证码
+flow 2017-10-17 11:25:07,308 34030 [crawl_main.py:get_verifycode:211] INFO 发送成功
+flow 2017-10-17 11:25:07,313 34030 [crawl_main.py:verifycode_handler:167] INFO 等待用户输入
+flow 2017-10-17 11:25:53,908 34030 [crawl_main.py:verifycode_handler:172] INFO 用户输入短信验证码为946762
+flow 2017-10-17 11:25:54,307 34030 [crawl_main.py:crawl:97] INFO 用户名或密码不正确，还有2次尝试机会
+flow 2017-10-17 11:25:54,311 34030 [spider_main.py:taskWork:122] INFO 任务结束：5cb6d21e-7e67-437d-9890-a1093b5d7a58
+flow 2017-10-17 11:25:54,320 34030 [spider_main.py:_func:43] INFO 共耗时：0:00:47.282046s
+
+
+
+
+
+
+
+flow 2017-10-17 11:26:41,154 34574 [spider_main.py:threadWork:87] INFO 开始等待获取任务
+flow 2017-10-17 11:26:41,159 34574 [spider_main.py:threadWork:96] INFO 获取到任务,34510440-f110-4e99-bff1-566b4c9ffa72
+flow 2017-10-17 11:26:41,232 34574 [crawl_main.py:crawl:61] INFO 登陆开始
+flow 2017-10-17 11:26:41,233 34574 [crawl_main.py:CheckNeedVerify:232] INFO 检测是否需要图片验证码
+flow 2017-10-17 11:26:41,330 34574 [crawl_main.py:crawl:67] INFO 不需要图片验证码
+flow 2017-10-17 11:26:41,330 34574 [crawl_main.py:get_verifycode:184] INFO 发送登陆短信验证码
+flow 2017-10-17 11:26:43,347 34574 [crawl_main.py:get_verifycode:207] INFO 发送成功
+flow 2017-10-17 11:26:43,352 34574 [crawl_main.py:verifycode_handler:163] INFO 等待用户输入
+flow 2017-10-17 11:27:05,332 34574 [crawl_main.py:verifycode_handler:168] INFO 用户输入短信验证码为946762
+flow 2017-10-17 11:27:05,503 34574 [crawl_main.py:crawl:97] INFO 用户名或密码不正确，还有1次尝试机会
+flow 2017-10-17 11:27:05,507 34574 [spider_main.py:taskWork:122] INFO 任务结束：34510440-f110-4e99-bff1-566b4c9ffa72
+flow 2017-10-17 11:27:05,516 34574 [spider_main.py:_func:43] INFO 共耗时：0:00:24.356578s
+
+
+
+
+
+flow 2017-10-17 11:27:23,573 34811 [spider_main.py:threadWork:87] INFO 开始等待获取任务
+flow 2017-10-17 11:27:27,614 34811 [spider_main.py:threadWork:96] INFO 获取到任务,b320dc78-fa93-41a8-bf8d-4863d0f11286
+flow 2017-10-17 11:27:27,695 34811 [crawl_main.py:crawl:61] INFO 登陆开始
+flow 2017-10-17 11:27:27,695 34811 [crawl_main.py:CheckNeedVerify:232] INFO 检测是否需要图片验证码
+flow 2017-10-17 11:27:27,789 34811 [crawl_main.py:crawl:67] INFO 不需要图片验证码
+flow 2017-10-17 11:27:27,790 34811 [crawl_main.py:get_verifycode:184] INFO 发送登陆短信验证码
+flow 2017-10-17 11:27:27,817 34811 [crawl_main.py:get_verifycode:214] INFO 距离上次发送不足1分钟
+flow 2017-10-17 11:27:27,818 34811 [crawl_main.py:crawl:97] INFO 随机码发送频繁，距离上次发送不足1分钟，请稍后再试！
+flow 2017-10-17 11:27:27,826 34811 [spider_main.py:taskWork:122] INFO 任务结束：b320dc78-fa93-41a8-bf8d-4863d0f11286
+flow 2017-10-17 11:27:27,832 34811 [spider_main.py:_func:43] INFO 共耗时：0:00:00.217123s
+
+
+
+
+
+
+flow 2017-10-17 11:28:14,352 35085 [spider_main.py:threadWork:87] INFO 开始等待获取任务
+flow 2017-10-17 11:28:19,333 35085 [spider_main.py:threadWork:96] INFO 获取到任务,63d1044b-418d-43c7-887c-7457037efe91
+flow 2017-10-17 11:28:19,419 35085 [crawl_main.py:crawl:61] INFO 登陆开始
+flow 2017-10-17 11:28:19,419 35085 [crawl_main.py:CheckNeedVerify:232] INFO 检测是否需要图片验证码
+flow 2017-10-17 11:28:19,514 35085 [crawl_main.py:crawl:67] INFO 不需要图片验证码
+flow 2017-10-17 11:28:19,515 35085 [crawl_main.py:get_verifycode:184] INFO 发送登陆短信验证码
+flow 2017-10-17 11:28:19,532 35085 [crawl_main.py:get_verifycode:207] INFO 发送成功
+flow 2017-10-17 11:28:19,538 35085 [crawl_main.py:verifycode_handler:163] INFO 等待用户输入
+flow 2017-10-17 11:28:42,127 35085 [crawl_main.py:verifycode_handler:168] INFO 用户输入短信验证码为946762
+flow 2017-10-17 11:28:42,302 35085 [crawl_main.py:crawl:97] INFO 用户名或密码不正确，已达到最大尝试次数，请明日再试
+flow 2017-10-17 11:28:42,306 35085 [spider_main.py:taskWork:122] INFO 任务结束：63d1044b-418d-43c7-887c-7457037efe91
+flow 2017-10-17 11:28:42,316 35085 [spider_main.py:_func:43] INFO 共耗时：0:00:22.982261s
+
+
+
+
+
+flow 2017-10-17 11:28:57,440 35315 [spider_main.py:threadWork:87] INFO 开始等待获取任务
+flow 2017-10-17 11:29:01,527 35315 [spider_main.py:threadWork:96] INFO 获取到任务,0126c5a4-2424-4732-a5e1-05d74abd248a
+flow 2017-10-17 11:29:01,614 35315 [crawl_main.py:crawl:61] INFO 登陆开始
+flow 2017-10-17 11:29:01,614 35315 [crawl_main.py:CheckNeedVerify:232] INFO 检测是否需要图片验证码
+flow 2017-10-17 11:29:01,707 35315 [crawl_main.py:crawl:63] INFO 需要图片验证码
+flow 2017-10-17 11:29:01,707 35315 [crawl_main.py:crawl:97] INFO 已达到最大尝试次数，请明日再试
+flow 2017-10-17 11:29:01,715 35315 [spider_main.py:taskWork:122] INFO 任务结束：0126c5a4-2424-4732-a5e1-05d74abd248a
+flow 2017-10-17 11:29:01,727 35315 [spider_main.py:_func:43] INFO 共耗时：0:00:00.200061s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flow 2017-10-17 11:32:56,469 36558 [spider_main.py:threadWork:87] INFO 开始等待获取任务
+flow 2017-10-17 11:33:00,503 36558 [spider_main.py:threadWork:96] INFO 获取到任务,65344a40-f619-4066-bfec-1bb871991b71
+flow 2017-10-17 11:33:00,555 36558 [crawl_main.py:crawl:61] INFO 登陆开始
+flow 2017-10-17 11:33:00,555 36558 [crawl_main.py:CheckNeedVerify:232] INFO 检测是否需要图片验证码
+flow 2017-10-17 11:33:00,610 36558 [crawl_main.py:crawl:67] INFO 不需要图片验证码
+flow 2017-10-17 11:33:00,610 36558 [crawl_main.py:get_verifycode:184] INFO 发送登陆短信验证码
+flow 2017-10-17 11:33:00,624 36558 [crawl_main.py:get_verifycode:207] INFO 发送成功
+flow 2017-10-17 11:33:00,630 36558 [crawl_main.py:verifycode_handler:163] INFO 等待用户输入
+flow 2017-10-17 11:33:15,083 36558 [crawl_main.py:verifycode_handler:168] INFO 用户输入短信验证码为0000000
+flow 2017-10-17 11:33:15,227 36558 [crawl_main.py:crawl:97] INFO 短信验证码不正确
+flow 2017-10-17 11:33:15,229 36558 [spider_main.py:taskWork:122] INFO 任务结束：65344a40-f619-4066-bfec-1bb871991b71
+flow 2017-10-17 11:33:15,233 36558 [spider_main.py:_func:43] INFO 共耗时：0:00:14.729550s

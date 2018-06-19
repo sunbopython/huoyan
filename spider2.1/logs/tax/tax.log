@@ -1,0 +1,311 @@
+2018/02/07 14:18:42 [*140684458620672 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/07 14:18:42 [*140684365272832 *spider_main.py *91] INFO: 获取到任务,3302164320
+2018/02/07 14:18:42 [*140684365272832 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:d93e0614-3ff7-4ace-b36e-80211af32acf
+2018/02/07 14:18:42 [*140684365272832 *crawl_main.py *51] INFO: 共耗时：0:00:00.089946s
+2018/02/07 14:18:42 [*140683599935232 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/07 14:18:42 [*140683599935232 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/07 14:18:42 [*140683599935232 *crawl_main.py *191] INFO: 下载验证码
+2018/02/07 14:18:42 [*140683599935232 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/07 14:18:42 [*140683599935232 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:18:42 [*140683599935232 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2211
+2018/02/07 14:18:42 [*140683599935232 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:18:42 [*140683599935232 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 492
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *139] INFO: 开始抓取 https://fpcy.nb-n-tax.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517984322420&fpdm=3302164320&fphm=07344957&kprq=20170706&fpje=352710&fplx=04&yzm=u&yzmSj=2018-02-07+14%3A17%3A14&index=929aca4faad44df27b85baef5502b550&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517984335678
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *162] DEBUG: Get url：https://fpcy.nb-n-tax.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517984322420&fpdm=3302164320&fphm=07344957&kprq=20170706&fpje=352710&fplx=04&yzm=u&yzmSj=2018-02-07+14%3A17%3A14&index=929aca4faad44df27b85baef5502b550&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517984335678
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *128] DEBUG: 已保存网页内容到./tax/sample/
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/07 14:18:55 [*140683599935232 *crawl_main.py *51] INFO: 共耗时：0:00:13.334495s
+2018/02/07 14:28:50 [*140116118066944 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/07 14:28:50 [*140116024719104 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/07 14:28:50 [*140116024719104 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:bf514cd7-d5e9-4756-8706-324e97e4783a
+2018/02/07 14:28:50 [*140115254966016 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/07 14:28:50 [*140116024719104 *crawl_main.py *51] INFO: 共耗时：0:00:00.096233s
+2018/02/07 14:28:50 [*140115254966016 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/07 14:28:50 [*140115254966016 *crawl_main.py *191] INFO: 下载验证码
+2018/02/07 14:28:50 [*140115254966016 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517984930226&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=kuwbgv&yzmSj=2018-02-07+14%3A46%3A36&index=95832816d2531790eca32108ed6929a7&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517984945474
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517984930226&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=kuwbgv&yzmSj=2018-02-07+14%3A46%3A36&index=95832816d2531790eca32108ed6929a7&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517984945474
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *128] DEBUG: 已保存网页内容到./tax/sample/
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *324] INFO: 验证码错误
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *191] INFO: 下载验证码
+2018/02/07 14:29:05 [*140115254966016 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/07 14:29:05 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:29:05 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2351
+2018/02/07 14:29:05 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:29:05 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 661
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517984930226&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=j&yzmSj=2018-02-07+14%3A46%3A52&index=786e4589f82677ae406c10c09d5fb135&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517984956732
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517984930226&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=j&yzmSj=2018-02-07+14%3A46%3A52&index=786e4589f82677ae406c10c09d5fb135&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517984956732
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *128] DEBUG: 已保存网页内容到./tax/sample/
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/07 14:29:16 [*140115254966016 *crawl_main.py *51] INFO: 共耗时：0:00:26.557618s
+2018/02/07 14:30:45 [*140115791836928 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/07 14:30:45 [*140115791836928 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:44feeb47-b74c-42fe-b54b-4c90ec0fe74e
+2018/02/07 14:30:45 [*140115254966016 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/07 14:30:45 [*140115791836928 *crawl_main.py *51] INFO: 共耗时：0:00:00.059172s
+2018/02/07 14:30:45 [*140115254966016 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/07 14:30:45 [*140115254966016 *crawl_main.py *191] INFO: 下载验证码
+2018/02/07 14:30:45 [*140115254966016 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/07 14:30:45 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:30:45 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2594
+2018/02/07 14:30:45 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:30:45 [*140115254966016 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 492
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517985045564&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=t&yzmSj=2018-02-07+14%3A48%3A32&index=6dbd921f6d3b177dbb0ef7cf5d9524a6&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517985061014
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Linux i686; U;) Gecko/20070322 Kazehakase/0.4.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517985045564&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=t&yzmSj=2018-02-07+14%3A48%3A32&index=6dbd921f6d3b177dbb0ef7cf5d9524a6&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517985061014
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *128] DEBUG: 已保存网页内容到./tax/sample/
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/07 14:31:01 [*140115254966016 *crawl_main.py *51] INFO: 共耗时：0:00:15.499962s
+2018/02/07 15:06:19 [*139954486998784 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/07 15:06:19 [*139954393650944 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/07 15:06:19 [*139954393650944 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:95817638-c1d0-46de-93d7-995b685b6088
+2018/02/07 15:06:19 [*139953831921408 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/07 15:06:19 [*139954393650944 *crawl_main.py *51] INFO: 共耗时：0:00:00.097219s
+2018/02/07 15:06:20 [*139953831921408 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/07 15:06:20 [*139953831921408 *crawl_main.py *191] INFO: 下载验证码
+2018/02/07 15:06:20 [*139953831921408 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/07 15:06:20 [*139953831921408 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 15:06:20 [*139953831921408 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 3050
+2018/02/07 15:06:20 [*139953831921408 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 15:06:20 [*139953831921408 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 661
+2018/02/07 15:06:24 [*139954368472832 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/07 15:06:24 [*139954368472832 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:ced55983-8a56-4f7a-867d-58dccee624ec
+2018/02/07 15:06:24 [*139953806522112 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/07 15:06:24 [*139954368472832 *crawl_main.py *51] INFO: 共耗时：0:00:00.068590s
+2018/02/07 15:06:24 [*139953806522112 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/07 15:06:24 [*139953806522112 *crawl_main.py *191] INFO: 下载验证码
+2018/02/07 15:06:24 [*139953806522112 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/07 15:06:24 [*139953806522112 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 15:06:24 [*139953806522112 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2590
+2018/02/07 15:06:24 [*139953806522112 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 15:06:24 [*139953806522112 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 661
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517987184543&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=nq&yzmSj=2018-02-07+15%3A24%3A11&index=f05bb7e8123f4eb0778e050cba918713&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517987197789
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 9.5; AOLBuild 4337.35; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517987184543&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=nq&yzmSj=2018-02-07+15%3A24%3A11&index=f05bb7e8123f4eb0778e050cba918713&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517987197789
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/07 15:06:37 [*139953806522112 *crawl_main.py *51] INFO: 共耗时：0:00:13.290811s
+2018/02/07 15:08:00 [*139953831921408 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 297, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/invQuery?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpje+'&fplx=01&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/02/07 15:08:00 [*139953831921408 *crawl_main.py *51] INFO: 共耗时：0:01:41.167613s
+2018/02/09 11:07:05 [*140667842447104 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/09 11:07:05 [*140541831952128 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/09 11:07:05 [*140667749099264 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/09 11:07:05 [*140667749099264 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:f01cffff-e2c6-442d-becd-00bc482ccde4
+2018/02/09 11:07:05 [*140667321562880 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/09 11:07:05 [*140667749099264 *crawl_main.py *51] INFO: 共耗时：0:00:00.108286s
+2018/02/09 11:07:05 [*140667321562880 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/09 11:07:05 [*140667321562880 *crawl_main.py *191] INFO: 下载验证码
+2018/02/09 11:07:05 [*140667321562880 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/09 11:07:05 [*140667321562880 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:07:05 [*140667321562880 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2391
+2018/02/09 11:07:05 [*140667321562880 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:07:05 [*140667321562880 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 492
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145625431&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=z&yzmSj=2018-02-09+11%3A24%3A55&index=dd5585bf4e794a9f05445dce2c560641&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145637781
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145625431&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=z&yzmSj=2018-02-09+11%3A24%3A55&index=dd5585bf4e794a9f05445dce2c560641&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145637781
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/09 11:07:17 [*140667321562880 *crawl_main.py *51] INFO: 共耗时：0:00:12.432204s
+2018/02/09 11:07:54 [*140541730211584 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/09 11:07:54 [*140541730211584 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:70dd182b-e76c-4ac2-a5cc-ae3155c8abde
+2018/02/09 11:07:54 [*140541176829696 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/09 11:07:54 [*140541730211584 *crawl_main.py *51] INFO: 共耗时：0:00:00.091524s
+2018/02/09 11:07:54 [*140541176829696 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/09 11:07:54 [*140541176829696 *crawl_main.py *191] INFO: 下载验证码
+2018/02/09 11:07:54 [*140541176829696 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145674308&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=gruyrr&yzmSj=2018-02-09+11%3A25%3A44&index=feb694c666e06482fef7b027cab81fa7&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145691558
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145674308&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=gruyrr&yzmSj=2018-02-09+11%3A25%3A44&index=feb694c666e06482fef7b027cab81fa7&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145691558
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/09 11:08:11 [*140541176829696 *crawl_main.py *51] INFO: 共耗时：0:00:17.305570s
+2018/02/09 11:09:17 [*140541186533120 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/09 11:09:17 [*140541186533120 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:4bcc2802-b327-47ea-a881-4b61820cd2f8
+2018/02/09 11:09:17 [*140541186533120 *crawl_main.py *51] INFO: 共耗时：0:00:00.108775s
+2018/02/09 11:09:17 [*140541176829696 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/09 11:09:17 [*140541176829696 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/09 11:09:17 [*140541176829696 *crawl_main.py *191] INFO: 下载验证码
+2018/02/09 11:09:17 [*140541176829696 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/09 11:09:17 [*140541176829696 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:09:17 [*140541176829696 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2210
+2018/02/09 11:09:17 [*140541176829696 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:09:17 [*140541176829696 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 452
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145757142&fpdm=1100173130&fphm=06122056&kprq=20171122&fpje=607.55&fplx=01&yzm=l&yzmSj=2018-02-09+11%3A27%3A07&index=e3d0e06ca21dd2da84456b0c93a3b505&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145767424
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.11 TaoBrowser/2.0 Safari/536.11', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145757142&fpdm=1100173130&fphm=06122056&kprq=20171122&fpje=607.55&fplx=01&yzm=l&yzmSj=2018-02-09+11%3A27%3A07&index=e3d0e06ca21dd2da84456b0c93a3b505&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145767424
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/09 11:09:27 [*140541176829696 *crawl_main.py *51] INFO: 共耗时：0:00:10.331778s
+2018/02/09 11:10:05 [*140160430782208 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/09 11:10:05 [*140160337434368 *spider_main.py *91] INFO: 获取到任务,3302164320
+2018/02/09 11:10:05 [*140160337434368 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:430a476e-3382-4009-a80a-7ef54bfc0d9d
+2018/02/09 11:10:05 [*140159909865216 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/09 11:10:05 [*140160337434368 *crawl_main.py *51] INFO: 共耗时：0:00:00.098353s
+2018/02/09 11:10:05 [*140159909865216 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/09 11:10:05 [*140159909865216 *crawl_main.py *191] INFO: 下载验证码
+2018/02/09 11:10:05 [*140159909865216 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/09 11:10:05 [*140159909865216 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:10:05 [*140159909865216 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2770
+2018/02/09 11:10:05 [*140159909865216 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:10:05 [*140159909865216 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 661
+2018/02/09 11:10:09 [*140159924291328 *spider_main.py *91] INFO: 获取到任务,3302164320
+2018/02/09 11:10:09 [*140159924291328 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:c030cbee-8af7-4158-9dee-704028c92d64
+2018/02/09 11:10:09 [*140159479707392 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/09 11:10:09 [*140159924291328 *crawl_main.py *51] INFO: 共耗时：0:00:00.071779s
+2018/02/09 11:10:09 [*140159479707392 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/09 11:10:09 [*140159479707392 *crawl_main.py *191] INFO: 下载验证码
+2018/02/09 11:10:09 [*140159479707392 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/09 11:10:09 [*140159479707392 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:10:09 [*140159479707392 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2358
+2018/02/09 11:10:09 [*140159479707392 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/09 11:10:09 [*140159479707392 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 492
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *139] INFO: 开始抓取 https://fpcy.nb-n-tax.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145809081&fpdm=3302164320&fphm=07344957&kprq=20170706&fpje=352710&fplx=04&yzm=6c&yzmSj=2018-02-09+11%3A08%3A28&index=4306239f69da08b69ed326a4b5f613c4&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145826380
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; zh-cn) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *162] DEBUG: Get url：https://fpcy.nb-n-tax.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518145809081&fpdm=3302164320&fphm=07344957&kprq=20170706&fpje=352710&fplx=04&yzm=6c&yzmSj=2018-02-09+11%3A08%3A28&index=4306239f69da08b69ed326a4b5f613c4&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518145826380
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/09 11:10:26 [*140159479707392 *crawl_main.py *51] INFO: 共耗时：0:00:17.379439s
+2018/02/09 11:12:00 [*140159909865216 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/invQuery?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/02/09 11:12:00 [*140159909865216 *crawl_main.py *51] INFO: 共耗时：0:01:55.523074s
+2018/02/11 10:56:56 [*140540929087232 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/11 10:56:56 [*139980393789184 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/11 10:56:56 [*140540423157504 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/11 10:56:56 [*140540423157504 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:b143a641-4500-4612-968f-2d529f6449dd
+2018/02/11 10:56:56 [*140540408207104 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/11 10:56:56 [*140540423157504 *crawl_main.py *51] INFO: 共耗时：0:00:00.102711s
+2018/02/11 10:56:56 [*140540408207104 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/11 10:56:56 [*140540408207104 *crawl_main.py *191] INFO: 下载验证码
+2018/02/11 10:56:56 [*140540408207104 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/11 10:56:56 [*140540408207104 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/11 10:56:56 [*140540408207104 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2720
+2018/02/11 10:56:56 [*140540408207104 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/11 10:56:56 [*140540408207104 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 661
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518317816231&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=t&yzmSj=2018-02-11+11%3A14%3A49&index=8bb4e49ccb71b4ee109d0cdc8f9dd52d&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518317828591
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518317816231&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=t&yzmSj=2018-02-11+11%3A14%3A49&index=8bb4e49ccb71b4ee109d0cdc8f9dd52d&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518317828591
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/11 10:57:08 [*140540408207104 *crawl_main.py *51] INFO: 共耗时：0:00:12.476715s
+2018/02/11 11:41:12 [*139974842148608 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/11 11:41:12 [*139974748800768 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/11 11:41:12 [*139974748800768 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:f9775226-ae60-49be-b004-2f4bebe91198
+2018/02/11 11:41:12 [*139974049523456 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/11 11:41:12 [*139974748800768 *crawl_main.py *51] INFO: 共耗时：0:00:00.102896s
+2018/02/11 11:41:12 [*139974049523456 *crawl_main.py *188] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/11 11:41:12 [*139974049523456 *crawl_main.py *189] INFO: 下载验证码
+2018/02/11 11:41:12 [*139974049523456 *crawl_main.py *197] INFO: 验证码图片已保存!
+2018/02/11 11:41:12 [*139974049523456 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/11 11:41:12 [*139974049523456 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2340
+2018/02/11 11:41:12 [*139974049523456 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/11 11:41:12 [*139974049523456 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 661
+2018/02/11 11:41:16 [*139974645110528 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/11 11:41:16 [*139974645110528 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:ba16d59f-de4f-4a8d-8674-ced1c61dc39d
+2018/02/11 11:41:16 [*139974027343616 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/11 11:41:16 [*139974645110528 *crawl_main.py *51] INFO: 共耗时：0:00:00.066529s
+2018/02/11 11:41:17 [*139974027343616 *crawl_main.py *188] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/11 11:41:17 [*139974027343616 *crawl_main.py *189] INFO: 下载验证码
+2018/02/11 11:41:17 [*139974027343616 *crawl_main.py *197] INFO: 验证码图片已保存!
+2018/02/11 11:43:00 [*139974049523456 *crawl_main.py *401] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 312, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 292, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/invQuery?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpje+'&fplx=01&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/02/11 11:43:00 [*139974049523456 *crawl_main.py *51] INFO: 共耗时：0:01:47.418964s
+2018/02/11 11:43:00 [*139974027343616 *crawl_main.py *401] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 312, in crawl
+    content = self.login(flag)
+  File "/home/sunbo/Desktop/spider2.1/tax/crawl_main.py", line 292, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/invQuery?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpje+'&fplx=01&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/02/11 11:43:00 [*139974027343616 *crawl_main.py *51] INFO: 共耗时：0:01:43.397093s
+2018/02/11 11:43:11 [*139974645110528 *spider_main.py *103] ERROR: Traceback (most recent call last):
+  File "tax/spider_main.py", line 88, in threadWork
+    dict_json = decryptKwargs(dict_json)
+  File "./__Utils/param_crypto.py", line 103, in decryptKwargs
+    return ParamCrypto().kwargsHandler(dict_json)
+  File "./__Utils/param_crypto.py", line 78, in kwargsHandler
+    new_dict_json[key] = pc.decrypt(value) if crypt == 'de' else pc.encrypt(value) # 解密或加密
+  File "./__Utils/param_crypto.py", line 49, in decrypt
+    plain_text = cryptor.decrypt(a2b_hex(text))
+TypeError: Non-hexadecimal digit found
+
+2018/02/11 11:44:13 [*139740183914240 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/11 11:44:13 [*139740090566400 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/11 11:44:14 [*139740090566400 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:07e81c84-c853-4434-a4d3-e26ebe69e3e0
+2018/02/11 11:44:14 [*139739797362432 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/11 11:44:14 [*139740090566400 *crawl_main.py *51] INFO: 共耗时：0:00:00.094345s
+2018/02/11 11:44:14 [*139739797362432 *crawl_main.py *188] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/11 11:44:14 [*139739797362432 *crawl_main.py *189] INFO: 下载验证码
+2018/02/11 11:44:14 [*139739797362432 *crawl_main.py *197] INFO: 验证码图片已保存!
+2018/02/11 11:44:14 [*139739797362432 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/11 11:44:14 [*139739797362432 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2827
+2018/02/11 11:44:14 [*139739797362432 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/11 11:44:14 [*139739797362432 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 452
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518320654001&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=8x&yzmSj=2018-02-11+12%3A02%3A07&index=5d791bd5bacff85f7fac0fc7393fe830&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518320669250
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.0.3705; .NET CLR 1.1.4322)', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1518320654001&fpdm=1100173130&fphm=06185931&kprq=20171117&fpje=615.53&fplx=01&yzm=8x&yzmSj=2018-02-11+12%3A02%3A07&index=5d791bd5bacff85f7fac0fc7393fe830&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1518320669250
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *335] INFO: 登陆成功：001
+2018/02/11 11:44:29 [*139739797362432 *crawl_main.py *51] INFO: 共耗时：0:00:15.300356s
+2018/02/28 09:52:28 [*140515539298048 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/28 09:52:28 [*140217348978432 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/28 09:52:28 [*140514754033408 *spider_main.py *91] INFO: 获取到任务,1100173130
+2018/02/28 09:52:28 [*140514754033408 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:4a89eb33-06e8-4a60-acbf-4db146768c4e
+2018/02/28 09:52:28 [*140514745640704 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/28 09:52:28 [*140514754033408 *crawl_main.py *51] INFO: 共耗时：0:00:00.101003s
+2018/02/28 09:52:29 [*140514745640704 *crawl_main.py *188] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/28 09:52:29 [*140514745640704 *crawl_main.py *189] INFO: 下载验证码
+2018/02/28 09:52:29 [*140514745640704 *crawl_main.py *197] INFO: 验证码图片已保存!
+2018/02/28 09:52:29 [*140514745640704 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/28 09:52:29 [*140514745640704 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2576
+2018/02/28 09:52:29 [*140514745640704 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/28 09:52:29 [*140514745640704 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 452
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *139] INFO: 开始抓取 https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1519782748988&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=r&yzmSj=2018-02-28+10%3A10%3A54&index=1b16a8954a2d2b32b4d1e3cd2a07b6a2&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1519782763758
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *162] DEBUG: Get url：https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1519782748988&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=r&yzmSj=2018-02-28+10%3A10%3A54&index=1b16a8954a2d2b32b4d1e3cd2a07b6a2&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1519782763758
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *128] DEBUG: 已保存网页内容到/home/sunbo/Desktop/spider2.1/tax/sample/
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *334] INFO: 登陆成功：001
+2018/02/28 09:52:43 [*140514745640704 *crawl_main.py *51] INFO: 共耗时：0:00:14.869437s

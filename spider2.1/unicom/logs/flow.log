@@ -1,0 +1,933 @@
+flow 2017-12-13 22:53:47,492 17004 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-13 22:53:47,495 17004 [spider_main.py:threadWork:97] INFO 获取到任务,2e59b55d-90cd-48d6-92b3-51cc6dc66641
+flow 2017-12-13 22:53:47,545 17004 [crawl_main.py:crawl:59] INFO 登陆开始
+flow 2017-12-13 22:53:47,545 17004 [crawl_main.py:CheckNeedVerify:235] INFO 检测是否需要图片验证码
+flow 2017-12-13 22:53:47,734 17004 [crawl_main.py:crawl:65] INFO 不需要图片验证码
+flow 2017-12-13 22:53:47,735 17004 [crawl_main.py:get_verifycode:187] INFO 发送登陆短信验证码
+flow 2017-12-13 22:53:47,836 17004 [crawl_main.py:get_verifycode:210] INFO 发送成功
+flow 2017-12-13 22:53:47,839 17004 [crawl_main.py:verifycode_handler:166] INFO 等待用户输入
+flow 2017-12-13 22:54:46,009 17004 [crawl_main.py:verifycode_handler:171] INFO 用户输入短信验证码为115010
+flow 2017-12-13 22:54:46,776 17004 [crawl_main.py:crawl:72] INFO 登陆成功
+flow 2017-12-13 22:54:46,777 17004 [crawl_main.py:get_baseInfo:252] INFO 获取个人信息
+flow 2017-12-13 22:54:47,467 17004 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201708
+flow 2017-12-13 22:54:48,356 17004 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:54:48,358 17004 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:54:48,359 17004 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:54:48,359 17004 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:54:48,360 17004 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201709
+flow 2017-12-13 22:54:49,854 17004 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:54:49,855 17004 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:54:49,856 17004 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:54:49,857 17004 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:54:49,858 17004 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201706
+flow 2017-12-13 22:54:50,392 17004 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:54:50,393 17004 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:54:50,394 17004 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:54:50,395 17004 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:54:50,395 17004 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201707
+flow 2017-12-13 22:54:50,988 17004 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:54:50,989 17004 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:54:50,990 17004 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:54:50,991 17004 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:54:50,992 17004 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201711
+flow 2017-12-13 22:54:52,495 17004 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:54:52,496 17004 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:54:52,497 17004 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:54:52,498 17004 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:54:52,498 17004 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201710
+flow 2017-12-13 22:54:53,192 17004 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:54:53,192 17004 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:54:53,193 17004 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:54:53,194 17004 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:54:54,059 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2017-12-13 22:54:54,070 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:54:54,075 17004 [crawl_main.py:get_detail:411] INFO 爬取从20170801到20170831的2详单第语音页
+flow 2017-12-13 22:54:54,227 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170801到20170831第2页的语音详单
+flow 2017-12-13 22:54:54,229 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:54:54,967 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2017-12-13 22:54:54,975 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:54:56,851 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170616到20170630第1页的语音详单
+flow 2017-12-13 22:54:56,857 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:54:57,553 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170701到20170731第1页的语音详单
+flow 2017-12-13 22:54:57,560 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:54:58,505 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171201到20171212第1页的语音详单
+flow 2017-12-13 22:54:58,511 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:54:59,536 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2017-12-13 22:54:59,545 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:55:00,359 17004 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2017-12-13 22:55:00,368 17004 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:55:00,838 17004 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2017-12-13 22:55:00,841 17004 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:55:01,383 17004 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2017-12-13 22:55:01,385 17004 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:55:01,571 17004 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170616到20170630第1页的短信详单
+flow 2017-12-13 22:55:01,574 17004 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:55:01,574 17004 [crawl_main.py:messageParse:560] INFO 请求未成功，联通服务器异常
+flow 2017-12-13 22:55:02,145 17004 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170701到20170731第1页的短信详单
+flow 2017-12-13 22:55:02,147 17004 [crawl_main.py:crawlMessage_detail:481] INFO 20170701到20170731第1页，无短信详单记录
+flow 2017-12-13 22:55:02,775 17004 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171201到20171212第1页的短信详单
+flow 2017-12-13 22:55:02,777 17004 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:55:03,322 17004 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2017-12-13 22:55:03,324 17004 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:55:03,823 17004 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2017-12-13 22:55:03,826 17004 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:55:05,073 17004 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2017-12-13 22:55:05,075 17004 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2017-12-13 22:55:05,802 17004 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2017-12-13 22:55:05,805 17004 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2017-12-13 22:55:06,705 17004 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-06-16到2017-06-30第1页的网络详单
+flow 2017-12-13 22:55:06,706 17004 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-06-16到2017-06-30第1页，无网络详单记录
+flow 2017-12-13 22:55:09,703 17004 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-07-01到2017-07-31第1页的网络详单
+flow 2017-12-13 22:55:09,704 17004 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-07-01到2017-07-31第1页，无网络详单记录
+flow 2017-12-13 22:55:10,891 17004 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-12-01到2017-12-12第1页的网络详单
+flow 2017-12-13 22:55:10,894 17004 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-12-01到2017-12-12第1页，无网络详单记录
+flow 2017-12-13 22:55:12,060 17004 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2017-12-13 22:55:12,061 17004 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2017-12-13 22:55:13,249 17004 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2017-12-13 22:55:13,250 17004 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2017-12-13 22:55:13,294 17004 [crawl_main.py:crawl:92] INFO 爬取成功
+flow 2017-12-13 22:55:13,294 17004 [spider_main.py:taskWork:123] INFO 任务结束：2e59b55d-90cd-48d6-92b3-51cc6dc66641
+flow 2017-12-13 22:55:13,302 17004 [spider_main.py:_func:44] INFO 共耗时：0:01:25.805447s
+flow 2017-12-13 22:55:13,942 21616 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-13 22:55:13,945 21616 [spider_main.py:threadWork:97] INFO 获取到任务,dbbdf9d3-ac6e-439e-918b-0c44f392bb91
+flow 2017-12-13 22:55:13,995 21616 [crawl_main.py:crawl:59] INFO 登陆开始
+flow 2017-12-13 22:55:13,995 21616 [crawl_main.py:CheckNeedVerify:235] INFO 检测是否需要图片验证码
+flow 2017-12-13 22:55:14,031 21616 [crawl_main.py:crawl:65] INFO 不需要图片验证码
+flow 2017-12-13 22:55:14,031 21616 [crawl_main.py:get_verifycode:187] INFO 发送登陆短信验证码
+flow 2017-12-13 22:55:14,051 21616 [crawl_main.py:get_verifycode:210] INFO 发送成功
+flow 2017-12-13 22:55:14,054 21616 [crawl_main.py:verifycode_handler:166] INFO 等待用户输入
+flow 2017-12-13 22:56:16,665 21616 [crawl_main.py:verifycode_handler:171] INFO 用户输入短信验证码为464048
+flow 2017-12-13 22:56:17,279 21616 [crawl_main.py:crawl:72] INFO 登陆成功
+flow 2017-12-13 22:56:17,280 21616 [crawl_main.py:get_baseInfo:252] INFO 获取个人信息
+flow 2017-12-13 22:56:17,756 21616 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201708
+flow 2017-12-13 22:56:19,377 21616 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:56:19,378 21616 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:56:19,379 21616 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:56:19,380 21616 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:56:19,380 21616 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201709
+flow 2017-12-13 22:56:19,986 21616 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:56:19,988 21616 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:56:19,988 21616 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:56:19,989 21616 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:56:19,990 21616 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201706
+flow 2017-12-13 22:56:20,936 21616 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:56:20,937 21616 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:56:20,941 21616 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:56:20,942 21616 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:56:20,943 21616 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201707
+flow 2017-12-13 22:56:21,586 21616 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:56:21,587 21616 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:56:21,588 21616 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:56:21,588 21616 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:56:21,589 21616 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201711
+flow 2017-12-13 22:56:22,495 21616 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:56:22,496 21616 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:56:22,497 21616 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:56:22,497 21616 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:56:22,498 21616 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201710
+flow 2017-12-13 22:56:23,031 21616 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-13 22:56:23,032 21616 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "../realtime/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-13 22:56:23,033 21616 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-13 22:56:23,034 21616 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-13 22:56:23,676 21616 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2017-12-13 22:56:23,684 21616 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:56:24,664 21616 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2017-12-13 22:56:24,669 21616 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:56:25,243 21616 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170616到20170630第1页的语音详单
+flow 2017-12-13 22:56:25,250 21616 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:56:26,146 21616 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170701到20170731第1页的语音详单
+flow 2017-12-13 22:56:26,147 21616 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:56:26,918 21616 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171201到20171212第1页的语音详单
+flow 2017-12-13 22:56:26,922 21616 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:56:27,744 21616 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2017-12-13 22:56:27,750 21616 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:56:28,452 21616 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2017-12-13 22:56:28,459 21616 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-13 22:56:29,075 21616 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2017-12-13 22:56:29,076 21616 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:56:30,682 21616 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2017-12-13 22:56:30,685 21616 [crawl_main.py:crawlMessage_detail:481] INFO 20170901到20170930第1页，无短信详单记录
+flow 2017-12-13 22:56:30,823 21616 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170616到20170630第1页的短信详单
+flow 2017-12-13 22:56:30,826 21616 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:56:30,827 21616 [crawl_main.py:messageParse:560] INFO 请求未成功，联通服务器异常
+flow 2017-12-13 22:56:31,365 21616 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170701到20170731第1页的短信详单
+flow 2017-12-13 22:56:31,367 21616 [crawl_main.py:crawlMessage_detail:481] INFO 20170701到20170731第1页，无短信详单记录
+flow 2017-12-13 22:56:31,927 21616 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171201到20171212第1页的短信详单
+flow 2017-12-13 22:56:31,929 21616 [crawl_main.py:crawlMessage_detail:481] INFO 20171201到20171212第1页，无短信详单记录
+flow 2017-12-13 22:56:32,439 21616 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2017-12-13 22:56:32,441 21616 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-13 22:56:33,006 21616 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2017-12-13 22:56:33,008 21616 [crawl_main.py:crawlMessage_detail:481] INFO 20171001到20171031第1页，无短信详单记录
+flow 2017-12-13 22:56:33,823 21616 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2017-12-13 22:56:33,825 21616 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2017-12-13 22:56:34,992 21616 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2017-12-13 22:56:34,996 21616 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2017-12-13 22:56:41,929 21616 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-06-16到2017-06-30第1页的网络详单
+flow 2017-12-13 22:56:41,932 21616 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-06-16到2017-06-30第1页，无网络详单记录
+flow 2017-12-13 22:56:43,014 21616 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-07-01到2017-07-31第1页的网络详单
+flow 2017-12-13 22:56:43,016 21616 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-07-01到2017-07-31第1页，无网络详单记录
+flow 2017-12-13 22:56:48,942 21616 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-12-01到2017-12-12第1页的网络详单
+flow 2017-12-13 22:56:48,946 21616 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-12-01到2017-12-12第1页，无网络详单记录
+flow 2017-12-13 22:56:54,947 21616 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2017-12-13 22:56:54,951 21616 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2017-12-13 22:56:58,002 21616 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2017-12-13 22:56:58,004 21616 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2017-12-13 22:56:58,027 21616 [crawl_main.py:crawl:92] INFO 爬取成功
+flow 2017-12-13 22:56:58,028 21616 [spider_main.py:taskWork:123] INFO 任务结束：dbbdf9d3-ac6e-439e-918b-0c44f392bb91
+flow 2017-12-13 22:56:58,035 21616 [spider_main.py:_func:44] INFO 共耗时：0:01:44.089977s
+flow 2017-12-16 16:01:30,805 58739 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-16 16:01:30,811 58739 [spider_main.py:threadWork:97] INFO 获取到任务,27f69808-d23a-4463-8599-fdb8faeacbd2
+flow 2017-12-16 16:01:30,923 58739 [crawl_main.py:crawl:59] INFO 登陆开始
+flow 2017-12-16 16:01:30,924 58739 [crawl_main.py:CheckNeedVerify:235] INFO 检测是否需要图片验证码
+flow 2017-12-16 16:01:30,982 58739 [crawl_main.py:crawl:65] INFO 不需要图片验证码
+flow 2017-12-16 16:01:30,982 58739 [crawl_main.py:get_verifycode:187] INFO 发送登陆短信验证码
+flow 2017-12-16 16:01:30,993 58739 [crawl_main.py:get_verifycode:210] INFO 发送成功
+flow 2017-12-16 16:01:30,997 58739 [crawl_main.py:verifycode_handler:166] INFO 等待用户输入
+flow 2017-12-16 16:02:29,557 58739 [crawl_main.py:verifycode_handler:171] INFO 用户输入短信验证码为845190
+flow 2017-12-16 16:02:30,192 58739 [crawl_main.py:crawl:72] INFO 登陆成功
+flow 2017-12-16 16:02:30,192 58739 [crawl_main.py:get_baseInfo:252] INFO 获取个人信息
+flow 2017-12-16 16:02:30,875 58739 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201708
+flow 2017-12-16 16:02:31,637 58739 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-16 16:02:31,638 58739 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-16 16:02:31,638 58739 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-16 16:02:31,638 58739 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-16 16:02:31,638 58739 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201709
+flow 2017-12-16 16:02:32,198 58739 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-16 16:02:32,198 58739 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-16 16:02:32,198 58739 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-16 16:02:32,198 58739 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-16 16:02:32,198 58739 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201706
+flow 2017-12-16 16:02:32,787 58739 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-16 16:02:32,787 58739 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-16 16:02:32,788 58739 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-16 16:02:32,788 58739 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-16 16:02:32,788 58739 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201707
+flow 2017-12-16 16:02:33,365 58739 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-16 16:02:33,365 58739 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-16 16:02:33,365 58739 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-16 16:02:33,366 58739 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-16 16:02:33,366 58739 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201711
+flow 2017-12-16 16:02:34,049 58739 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-16 16:02:34,049 58739 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-16 16:02:34,049 58739 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-16 16:02:34,049 58739 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-16 16:02:34,049 58739 [crawl_main.py:get_hisBill:304] INFO 爬取历史账单，月份：201710
+flow 2017-12-16 16:02:34,533 58739 [crawl_main.py:hisBill_parse:327] INFO 解析历史账单返回数据
+flow 2017-12-16 16:02:34,533 58739 [crawl_main.py:hisBill_parse:359] ERROR Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/unicom/crawl_main.py", line 344, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-16 16:02:34,533 58739 [crawl_main.py:hisBill_parse:360] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-16 16:02:34,533 58739 [crawl_main.py:hisBill_parse2:387] INFO 第二种格式匹配成功
+flow 2017-12-16 16:02:36,930 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2017-12-16 16:02:36,933 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:36,934 58739 [crawl_main.py:get_detail:411] INFO 爬取从20170801到20170831的2详单第语音页
+flow 2017-12-16 16:02:37,050 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170801到20170831第2页的语音详单
+flow 2017-12-16 16:02:37,051 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:37,983 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2017-12-16 16:02:37,986 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:38,591 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170619到20170630第1页的语音详单
+flow 2017-12-16 16:02:38,595 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:39,458 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20170701到20170731第1页的语音详单
+flow 2017-12-16 16:02:39,460 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:43,565 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171201到20171215第1页的语音详单
+flow 2017-12-16 16:02:43,566 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:44,581 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2017-12-16 16:02:44,583 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:45,707 58739 [crawl_main.py:crawlVoice_detail:434] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2017-12-16 16:02:45,709 58739 [crawl_main.py:voiceParse:526] INFO 解析语音详单返回数据
+flow 2017-12-16 16:02:46,352 58739 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2017-12-16 16:02:46,353 58739 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-16 16:02:46,843 58739 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2017-12-16 16:02:46,844 58739 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-16 16:02:46,992 58739 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170619到20170630第1页的短信详单
+flow 2017-12-16 16:02:46,993 58739 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-16 16:02:46,993 58739 [crawl_main.py:messageParse:560] INFO 请求未成功，联通服务器异常
+flow 2017-12-16 16:02:47,500 58739 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20170701到20170731第1页的短信详单
+flow 2017-12-16 16:02:47,501 58739 [crawl_main.py:crawlMessage_detail:481] INFO 20170701到20170731第1页，无短信详单记录
+flow 2017-12-16 16:02:48,066 58739 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171201到20171215第1页的短信详单
+flow 2017-12-16 16:02:48,067 58739 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-16 16:02:48,574 58739 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2017-12-16 16:02:48,576 58739 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-16 16:02:50,177 58739 [crawl_main.py:crawlMessage_detail:469] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2017-12-16 16:02:50,178 58739 [crawl_main.py:messageParse:556] INFO 解析短信详单返回数据
+flow 2017-12-16 16:02:51,007 58739 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2017-12-16 16:02:51,008 58739 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2017-12-16 16:02:51,739 58739 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2017-12-16 16:02:51,740 58739 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2017-12-16 16:02:52,346 58739 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-06-19到2017-06-30第1页的网络详单
+flow 2017-12-16 16:02:52,347 58739 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-06-19到2017-06-30第1页，无网络详单记录
+flow 2017-12-16 16:02:52,785 58739 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-07-01到2017-07-31第1页的网络详单
+flow 2017-12-16 16:02:52,786 58739 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-07-01到2017-07-31第1页，无网络详单记录
+flow 2017-12-16 16:02:53,547 58739 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-12-01到2017-12-15第1页的网络详单
+flow 2017-12-16 16:02:53,547 58739 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-12-01到2017-12-15第1页，无网络详单记录
+flow 2017-12-16 16:02:54,270 58739 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2017-12-16 16:02:54,272 58739 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2017-12-16 16:02:54,910 58739 [crawl_main.py:crawlNetFlow_detail:506] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2017-12-16 16:02:54,910 58739 [crawl_main.py:crawlNetFlow_detail:518] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2017-12-16 16:02:54,955 58739 [crawl_main.py:crawl:92] INFO 爬取成功
+flow 2017-12-16 16:02:54,955 58739 [spider_main.py:taskWork:123] INFO 任务结束：27f69808-d23a-4463-8599-fdb8faeacbd2
+flow 2017-12-16 16:02:54,960 58739 [spider_main.py:_func:44] INFO 共耗时：0:01:24.149281s
+flow 2017-12-27 14:33:08,262 14434 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-27 14:33:19,135 14434 [spider_main.py:threadWork:97] INFO 获取到任务,26c6d3fa-0633-483c-b188-5f03bc2184ae
+flow 2017-12-27 14:33:19,240 14434 [spider_main.py:taskWork:137] ERROR Traceback (most recent call last):
+  File "/home/sunbo/Desktop/llian_unicom/unicom/spider_main.py", line 121, in taskWork
+    client = SpiderMain(dict_json)
+  File "unicom/crawl_main.py", line 48, in __init__
+    super(SpiderMain, self).__init__(dict_json, key=['password'])
+  File "unicom/crawl_base.py", line 43, in __init__
+    logging.config.fileConfig('%s/logging.config'%SOURCE)
+  File "/usr/lib/python2.7/logging/config.py", line 77, in fileConfig
+    formatters = _create_formatters(cp)
+  File "/usr/lib/python2.7/logging/config.py", line 113, in _create_formatters
+    flist = cp.get("formatters", "keys")
+  File "/usr/lib/python2.7/ConfigParser.py", line 607, in get
+    raise NoSectionError(section)
+NoSectionError: No section: 'formatters'
+
+flow 2017-12-27 14:33:19,241 14434 [spider_main.py:taskWork:138] INFO 任务结束：26c6d3fa-0633-483c-b188-5f03bc2184ae
+flow 2017-12-27 14:33:19,243 14434 [spider_main.py:_func:44] INFO 共耗时：0:00:00.106657s
+flow 2017-12-27 14:34:17,181 14539 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-27 14:34:21,309 14539 [spider_main.py:threadWork:97] INFO 获取到任务,18282d91-f2e9-4e13-acf6-aa96867bc97e
+flow 2017-12-27 14:34:21,413 14539 [crawl_main.py:crawl:60] INFO 登陆开始
+flow 2017-12-27 14:34:21,413 14539 [crawl_main.py:CheckNeedVerify:236] INFO 检测是否需要图片验证码
+flow 2017-12-27 14:34:21,558 14539 [crawl_main.py:crawl:66] INFO 不需要图片验证码
+flow 2017-12-27 14:34:21,558 14539 [crawl_main.py:get_verifycode:188] INFO 发送登陆短信验证码
+flow 2017-12-27 14:34:21,572 14539 [crawl_main.py:get_verifycode:211] INFO 发送成功
+flow 2017-12-27 14:34:21,575 14539 [crawl_main.py:verifycode_handler:167] INFO 等待用户输入
+flow 2017-12-27 14:35:12,558 14539 [crawl_main.py:verifycode_handler:172] INFO 用户输入短信验证码为202268
+flow 2017-12-27 14:35:12,766 14539 [crawl_main.py:crawl:73] INFO 登陆成功
+flow 2017-12-27 14:35:12,767 14539 [crawl_main.py:get_baseInfo:253] INFO 获取个人信息
+flow 2017-12-27 14:35:13,305 14539 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201708
+flow 2017-12-27 14:35:14,780 14539 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:35:14,781 14539 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:35:14,781 14539 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:35:14,781 14539 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:35:14,781 14539 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201709
+flow 2017-12-27 14:35:15,462 14539 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:35:15,462 14539 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:35:15,463 14539 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:35:15,463 14539 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:35:15,463 14539 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201706
+flow 2017-12-27 14:35:16,044 14539 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:35:16,045 14539 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:35:16,045 14539 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:35:16,045 14539 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:35:16,045 14539 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201707
+flow 2017-12-27 14:35:16,741 14539 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:35:16,741 14539 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:35:16,742 14539 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:35:16,742 14539 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:35:16,742 14539 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201711
+flow 2017-12-27 14:35:17,620 14539 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:35:17,621 14539 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:35:17,621 14539 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:35:17,621 14539 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:35:17,621 14539 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201710
+flow 2017-12-27 14:35:18,197 14539 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:35:18,197 14539 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:35:18,197 14539 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:35:18,198 14539 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:35:19,806 14539 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2017-12-27 14:35:19,809 14539 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:35:20,640 14539 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2017-12-27 14:35:20,642 14539 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:35:21,459 14539 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170630到20170630第1页的语音详单
+flow 2017-12-27 14:35:21,459 14539 [crawl_main.py:crawlVoice_detail:447] INFO 20170630到20170630第1页，无语音详单记录
+flow 2017-12-27 14:35:22,096 14539 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170701到20170731第1页的语音详单
+flow 2017-12-27 14:35:22,098 14539 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:35:22,960 14539 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171201到20171226第1页的语音详单
+flow 2017-12-27 14:35:22,962 14539 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:35:23,806 14539 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2017-12-27 14:35:23,809 14539 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:35:25,327 14539 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2017-12-27 14:35:25,330 14539 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:35:25,963 14539 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2017-12-27 14:35:25,963 14539 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 14:35:26,658 14539 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2017-12-27 14:35:26,659 14539 [crawl_main.py:crawlMessage_detail:482] INFO 20170901到20170930第1页，无短信详单记录
+flow 2017-12-27 14:35:26,817 14539 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170630到20170630第1页的短信详单
+flow 2017-12-27 14:35:26,817 14539 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 14:35:26,818 14539 [crawl_main.py:messageParse:561] INFO 请求未成功，联通服务器异常
+flow 2017-12-27 14:35:28,446 14539 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170701到20170731第1页的短信详单
+flow 2017-12-27 14:35:28,446 14539 [crawl_main.py:crawlMessage_detail:482] INFO 20170701到20170731第1页，无短信详单记录
+flow 2017-12-27 14:35:29,078 14539 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171201到20171226第1页的短信详单
+flow 2017-12-27 14:35:29,078 14539 [crawl_main.py:crawlMessage_detail:482] INFO 20171201到20171226第1页，无短信详单记录
+flow 2017-12-27 14:35:29,726 14539 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2017-12-27 14:35:29,727 14539 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 14:35:30,407 14539 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2017-12-27 14:35:30,408 14539 [crawl_main.py:crawlMessage_detail:482] INFO 20171001到20171031第1页，无短信详单记录
+flow 2017-12-27 14:35:31,584 14539 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2017-12-27 14:35:31,585 14539 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2017-12-27 14:35:32,467 14539 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2017-12-27 14:35:32,467 14539 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2017-12-27 14:35:33,082 14539 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-06-30到2017-06-30第1页的网络详单
+flow 2017-12-27 14:35:33,083 14539 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-06-30到2017-06-30第1页，无网络详单记录
+flow 2017-12-27 14:35:33,841 14539 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-07-01到2017-07-31第1页的网络详单
+flow 2017-12-27 14:35:33,841 14539 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-07-01到2017-07-31第1页，无网络详单记录
+flow 2017-12-27 14:35:34,630 14539 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-12-01到2017-12-26第1页的网络详单
+flow 2017-12-27 14:35:34,630 14539 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-12-01到2017-12-26第1页，无网络详单记录
+flow 2017-12-27 14:35:35,414 14539 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2017-12-27 14:35:35,415 14539 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2017-12-27 14:35:36,876 14539 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2017-12-27 14:35:36,877 14539 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2017-12-27 14:35:36,912 14539 [crawl_main.py:crawl:93] INFO 爬取成功
+flow 2017-12-27 14:35:36,912 14539 [spider_main.py:taskWork:123] INFO 任务结束：18282d91-f2e9-4e13-acf6-aa96867bc97e
+flow 2017-12-27 14:35:36,917 14539 [spider_main.py:_func:44] INFO 共耗时：0:01:15.607665s
+flow 2017-12-27 14:50:35,139 21318 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-27 14:50:35,143 21318 [spider_main.py:threadWork:97] INFO 获取到任务,0d3b2a66-479e-4ade-84cd-cab4dddfc2f9
+flow 2017-12-27 14:50:35,230 21318 [crawl_main.py:crawl:60] INFO 登陆开始
+flow 2017-12-27 14:50:35,230 21318 [crawl_main.py:CheckNeedVerify:236] INFO 检测是否需要图片验证码
+flow 2017-12-27 14:50:35,277 21318 [crawl_main.py:crawl:66] INFO 不需要图片验证码
+flow 2017-12-27 14:50:35,277 21318 [crawl_main.py:get_verifycode:188] INFO 发送登陆短信验证码
+flow 2017-12-27 14:50:35,289 21318 [crawl_main.py:get_verifycode:211] INFO 发送成功
+flow 2017-12-27 14:50:35,292 21318 [crawl_main.py:verifycode_handler:167] INFO 等待用户输入
+flow 2017-12-27 14:53:08,122 23673 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-27 14:53:08,126 23673 [spider_main.py:threadWork:97] INFO 获取到任务,bfa795dc-e115-4572-b00c-4881045f0bfc
+flow 2017-12-27 14:53:08,207 23673 [crawl_main.py:crawl:60] INFO 登陆开始
+flow 2017-12-27 14:53:08,207 23673 [crawl_main.py:CheckNeedVerify:236] INFO 检测是否需要图片验证码
+flow 2017-12-27 14:53:08,252 23673 [crawl_main.py:crawl:66] INFO 不需要图片验证码
+flow 2017-12-27 14:53:08,252 23673 [crawl_main.py:get_verifycode:188] INFO 发送登陆短信验证码
+flow 2017-12-27 14:53:08,264 23673 [crawl_main.py:get_verifycode:211] INFO 发送成功
+flow 2017-12-27 14:53:08,267 23673 [crawl_main.py:verifycode_handler:167] INFO 等待用户输入
+flow 2017-12-27 14:53:45,327 23673 [crawl_main.py:verifycode_handler:172] INFO 用户输入短信验证码为352149
+flow 2017-12-27 14:53:45,503 23673 [crawl_main.py:crawl:73] INFO 登陆成功
+flow 2017-12-27 14:53:45,503 23673 [crawl_main.py:get_baseInfo:253] INFO 获取个人信息
+flow 2017-12-27 14:53:45,911 23673 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201708
+flow 2017-12-27 14:53:46,584 23673 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:53:46,585 23673 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:53:46,585 23673 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:53:46,585 23673 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:53:46,585 23673 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201709
+flow 2017-12-27 14:53:47,198 23673 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:53:47,198 23673 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:53:47,198 23673 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:53:47,198 23673 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:53:47,199 23673 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201706
+flow 2017-12-27 14:53:47,796 23673 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:53:47,797 23673 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:53:47,797 23673 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:53:47,797 23673 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:53:47,798 23673 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201707
+flow 2017-12-27 14:53:49,094 23673 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:53:49,094 23673 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:53:49,094 23673 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:53:49,095 23673 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:53:49,095 23673 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201711
+flow 2017-12-27 14:53:51,482 23673 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:53:51,482 23673 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:53:51,482 23673 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:53:51,483 23673 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:53:51,483 23673 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201710
+flow 2017-12-27 14:53:53,385 23673 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 14:53:53,386 23673 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 14:53:53,386 23673 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 14:53:53,386 23673 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 14:53:54,231 23673 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2017-12-27 14:53:54,234 23673 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:53:54,898 23673 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2017-12-27 14:53:54,900 23673 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:53:55,637 23673 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170630到20170630第1页的语音详单
+flow 2017-12-27 14:53:55,637 23673 [crawl_main.py:crawlVoice_detail:447] INFO 20170630到20170630第1页，无语音详单记录
+flow 2017-12-27 14:53:56,420 23673 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170701到20170731第1页的语音详单
+flow 2017-12-27 14:53:56,421 23673 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:53:56,982 23673 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171201到20171226第1页的语音详单
+flow 2017-12-27 14:53:56,984 23673 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:53:57,700 23673 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2017-12-27 14:53:57,703 23673 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:53:58,515 23673 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2017-12-27 14:53:58,518 23673 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 14:54:00,190 23673 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2017-12-27 14:54:00,191 23673 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 14:54:00,744 23673 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2017-12-27 14:54:00,744 23673 [crawl_main.py:crawlMessage_detail:482] INFO 20170901到20170930第1页，无短信详单记录
+flow 2017-12-27 14:54:00,905 23673 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170630到20170630第1页的短信详单
+flow 2017-12-27 14:54:00,905 23673 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 14:54:00,905 23673 [crawl_main.py:messageParse:561] INFO 请求未成功，联通服务器异常
+flow 2017-12-27 14:54:02,588 23673 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170701到20170731第1页的短信详单
+flow 2017-12-27 14:54:02,588 23673 [crawl_main.py:crawlMessage_detail:482] INFO 20170701到20170731第1页，无短信详单记录
+flow 2017-12-27 14:54:03,197 23673 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171201到20171226第1页的短信详单
+flow 2017-12-27 14:54:03,197 23673 [crawl_main.py:crawlMessage_detail:482] INFO 20171201到20171226第1页，无短信详单记录
+flow 2017-12-27 14:54:03,685 23673 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2017-12-27 14:54:03,686 23673 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 14:54:04,288 23673 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2017-12-27 14:54:04,288 23673 [crawl_main.py:crawlMessage_detail:482] INFO 20171001到20171031第1页，无短信详单记录
+flow 2017-12-27 14:54:05,082 23673 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2017-12-27 14:54:05,083 23673 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2017-12-27 14:54:05,760 23673 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2017-12-27 14:54:05,760 23673 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2017-12-27 14:54:06,801 23673 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-06-30到2017-06-30第1页的网络详单
+flow 2017-12-27 14:54:06,802 23673 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-06-30到2017-06-30第1页，无网络详单记录
+flow 2017-12-27 14:54:07,715 23673 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-07-01到2017-07-31第1页的网络详单
+flow 2017-12-27 14:54:07,716 23673 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-07-01到2017-07-31第1页，无网络详单记录
+flow 2017-12-27 14:54:08,402 23673 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-12-01到2017-12-26第1页的网络详单
+flow 2017-12-27 14:54:08,403 23673 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-12-01到2017-12-26第1页，无网络详单记录
+flow 2017-12-27 14:54:09,114 23673 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2017-12-27 14:54:09,115 23673 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2017-12-27 14:54:09,828 23673 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2017-12-27 14:54:09,829 23673 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2017-12-27 14:54:09,869 23673 [crawl_main.py:crawl:93] INFO 爬取成功
+flow 2017-12-27 14:54:09,869 23673 [spider_main.py:taskWork:123] INFO 任务结束：bfa795dc-e115-4572-b00c-4881045f0bfc
+flow 2017-12-27 14:54:09,874 23673 [spider_main.py:_func:44] INFO 共耗时：0:01:01.748220s
+flow 2017-12-27 15:11:12,899 29876 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-27 15:11:12,902 29876 [spider_main.py:threadWork:97] INFO 获取到任务,e35900a9-3ba1-4670-b0f3-5849b8043e24
+flow 2017-12-27 15:11:12,986 29876 [crawl_main.py:crawl:60] INFO 登陆开始
+flow 2017-12-27 15:11:12,986 29876 [crawl_main.py:CheckNeedVerify:236] INFO 检测是否需要图片验证码
+flow 2017-12-27 15:11:13,032 29876 [crawl_main.py:crawl:66] INFO 不需要图片验证码
+flow 2017-12-27 15:11:13,032 29876 [crawl_main.py:get_verifycode:188] INFO 发送登陆短信验证码
+flow 2017-12-27 15:11:13,044 29876 [crawl_main.py:get_verifycode:211] INFO 发送成功
+flow 2017-12-27 15:11:13,046 29876 [crawl_main.py:verifycode_handler:167] INFO 等待用户输入
+flow 2017-12-27 15:11:53,531 29876 [crawl_main.py:verifycode_handler:172] INFO 用户输入短信验证码为587769
+flow 2017-12-27 15:11:54,329 29876 [crawl_main.py:crawl:73] INFO 登陆成功
+flow 2017-12-27 15:11:54,330 29876 [crawl_main.py:get_baseInfo:253] INFO 获取个人信息
+flow 2017-12-27 15:11:55,008 29876 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201708
+flow 2017-12-27 15:11:56,145 29876 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 15:11:56,145 29876 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 15:11:56,146 29876 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 15:11:56,146 29876 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 15:11:56,146 29876 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201709
+flow 2017-12-27 15:11:57,796 29876 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 15:11:57,796 29876 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 15:11:57,796 29876 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 15:11:57,797 29876 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 15:11:57,797 29876 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201706
+flow 2017-12-27 15:11:58,340 29876 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 15:11:58,340 29876 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 15:11:58,340 29876 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 15:11:58,341 29876 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 15:11:58,341 29876 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201707
+flow 2017-12-27 15:11:58,894 29876 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 15:11:58,895 29876 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 15:11:58,895 29876 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 15:11:58,895 29876 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 15:11:58,896 29876 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201711
+flow 2017-12-27 15:11:59,597 29876 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 15:11:59,597 29876 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 15:11:59,597 29876 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 15:11:59,598 29876 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 15:11:59,598 29876 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201710
+flow 2017-12-27 15:12:01,956 29876 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2017-12-27 15:12:01,957 29876 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2017-12-27 15:12:01,957 29876 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2017-12-27 15:12:01,957 29876 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2017-12-27 15:12:02,967 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2017-12-27 15:12:02,972 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:02,976 29876 [crawl_main.py:get_detail:412] INFO 爬取从20170801到20170831的2详单第语音页
+flow 2017-12-27 15:12:03,161 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170801到20170831第2页的语音详单
+flow 2017-12-27 15:12:03,162 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:04,085 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2017-12-27 15:12:04,088 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:04,624 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170630到20170630第1页的语音详单
+flow 2017-12-27 15:12:04,625 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:05,671 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170701到20170731第1页的语音详单
+flow 2017-12-27 15:12:05,675 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:07,334 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171201到20171226第1页的语音详单
+flow 2017-12-27 15:12:07,339 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:07,341 29876 [crawl_main.py:get_detail:412] INFO 爬取从20171201到20171226的2详单第语音页
+flow 2017-12-27 15:12:07,531 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171201到20171226第2页的语音详单
+flow 2017-12-27 15:12:07,533 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:08,466 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2017-12-27 15:12:08,470 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:09,724 29876 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2017-12-27 15:12:09,728 29876 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2017-12-27 15:12:10,624 29876 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2017-12-27 15:12:10,625 29876 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 15:12:12,167 29876 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2017-12-27 15:12:12,167 29876 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 15:12:12,393 29876 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170630到20170630第1页的短信详单
+flow 2017-12-27 15:12:12,394 29876 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 15:12:12,394 29876 [crawl_main.py:messageParse:561] INFO 请求未成功，联通服务器异常
+flow 2017-12-27 15:12:13,067 29876 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170701到20170731第1页的短信详单
+flow 2017-12-27 15:12:13,067 29876 [crawl_main.py:crawlMessage_detail:482] INFO 20170701到20170731第1页，无短信详单记录
+flow 2017-12-27 15:12:13,993 29876 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171201到20171226第1页的短信详单
+flow 2017-12-27 15:12:13,994 29876 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 15:12:14,545 29876 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2017-12-27 15:12:14,546 29876 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 15:12:15,028 29876 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2017-12-27 15:12:15,029 29876 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2017-12-27 15:12:15,700 29876 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2017-12-27 15:12:15,700 29876 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2017-12-27 15:12:16,396 29876 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2017-12-27 15:12:16,397 29876 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2017-12-27 15:12:17,128 29876 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-06-30到2017-06-30第1页的网络详单
+flow 2017-12-27 15:12:17,129 29876 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-06-30到2017-06-30第1页，无网络详单记录
+flow 2017-12-27 15:12:17,859 29876 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-07-01到2017-07-31第1页的网络详单
+flow 2017-12-27 15:12:17,860 29876 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-07-01到2017-07-31第1页，无网络详单记录
+flow 2017-12-27 15:12:18,497 29876 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-12-01到2017-12-26第1页的网络详单
+flow 2017-12-27 15:12:18,497 29876 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-12-01到2017-12-26第1页，无网络详单记录
+flow 2017-12-27 15:12:19,211 29876 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2017-12-27 15:12:19,212 29876 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2017-12-27 15:12:19,819 29876 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2017-12-27 15:12:19,820 29876 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2017-12-27 15:12:19,899 29876 [crawl_main.py:crawl:93] INFO 爬取成功
+flow 2017-12-27 15:12:19,899 29876 [spider_main.py:taskWork:123] INFO 任务结束：e35900a9-3ba1-4670-b0f3-5849b8043e24
+flow 2017-12-27 15:12:19,904 29876 [spider_main.py:_func:44] INFO 共耗时：0:01:07.001641s
+flow 2018-01-23 12:48:57,948 12941 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-23 12:48:57,958 12941 [spider_main.py:threadWork:110] ERROR Traceback (most recent call last):
+  File "unicom/spider_main.py", line 94, in threadWork
+    dict_json = decryptKwargs(dict_json)
+NameError: global name 'decryptKwargs' is not defined
+
+flow 2018-01-23 12:51:04,323 13773 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-23 12:51:04,324 13773 [spider_main.py:threadWork:97] INFO 获取到任务,25a280b9-521e-4cc3-942d-a16854aae5f3
+flow 2018-01-23 12:51:04,409 13773 [crawl_main.py:crawl:60] INFO 登陆开始
+flow 2018-01-23 12:51:04,409 13773 [crawl_main.py:CheckNeedVerify:236] INFO 检测是否需要图片验证码
+flow 2018-01-23 12:51:04,543 13773 [crawl_main.py:crawl:66] INFO 不需要图片验证码
+flow 2018-01-23 12:51:04,544 13773 [crawl_main.py:get_verifycode:188] INFO 发送登陆短信验证码
+flow 2018-01-23 12:51:04,564 13773 [crawl_main.py:get_verifycode:211] INFO 发送成功
+flow 2018-01-23 12:51:04,566 13773 [crawl_main.py:verifycode_handler:167] INFO 等待用户输入
+flow 2018-01-23 12:51:34,507 13773 [crawl_main.py:verifycode_handler:172] INFO 用户输入短信验证码为230812
+flow 2018-01-23 12:51:35,065 13773 [crawl_main.py:crawl:73] INFO 登陆成功
+flow 2018-01-23 12:51:35,066 13773 [crawl_main.py:get_baseInfo:253] INFO 获取个人信息
+flow 2018-01-23 12:51:35,560 13773 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201708
+flow 2018-01-23 12:51:37,019 13773 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2018-01-23 12:51:37,022 13773 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 12:51:37,023 13773 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 12:51:37,023 13773 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2018-01-23 12:51:37,024 13773 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201709
+flow 2018-01-23 12:51:37,613 13773 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2018-01-23 12:51:37,614 13773 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 12:51:37,614 13773 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 12:51:37,614 13773 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2018-01-23 12:51:37,615 13773 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201707
+flow 2018-01-23 12:51:38,226 13773 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2018-01-23 12:51:38,226 13773 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 12:51:38,227 13773 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 12:51:38,227 13773 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2018-01-23 12:51:38,227 13773 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201712
+flow 2018-01-23 12:51:39,144 13773 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2018-01-23 12:51:39,145 13773 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 12:51:39,145 13773 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 12:51:39,145 13773 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2018-01-23 12:51:39,145 13773 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201711
+flow 2018-01-23 12:51:39,737 13773 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2018-01-23 12:51:39,738 13773 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 12:51:39,738 13773 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 12:51:39,739 13773 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2018-01-23 12:51:39,739 13773 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201710
+flow 2018-01-23 12:51:40,383 13773 [crawl_main.py:hisBill_parse:328] INFO 解析历史账单返回数据
+flow 2018-01-23 12:51:40,384 13773 [crawl_main.py:hisBill_parse:360] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 345, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 12:51:40,384 13773 [crawl_main.py:hisBill_parse:361] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 12:51:40,384 13773 [crawl_main.py:hisBill_parse2:388] INFO 第二种格式匹配成功
+flow 2018-01-23 12:51:41,258 13773 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2018-01-23 12:51:41,263 13773 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2018-01-23 12:51:41,980 13773 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2018-01-23 12:51:41,982 13773 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2018-01-23 12:51:42,627 13773 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20170727到20170731第1页的语音详单
+flow 2018-01-23 12:51:42,628 13773 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2018-01-23 12:51:43,362 13773 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171201到20171231第1页的语音详单
+flow 2018-01-23 12:51:43,365 13773 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2018-01-23 12:51:45,142 13773 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2018-01-23 12:51:45,144 13773 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2018-01-23 12:51:46,037 13773 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2018-01-23 12:51:46,042 13773 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2018-01-23 12:51:52,185 13773 [crawl_main.py:crawlVoice_detail:435] INFO 爬取从20180101到20180122第1页的语音详单
+flow 2018-01-23 12:51:52,187 13773 [crawl_main.py:voiceParse:527] INFO 解析语音详单返回数据
+flow 2018-01-23 12:51:52,891 13773 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2018-01-23 12:51:52,892 13773 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2018-01-23 12:51:53,472 13773 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2018-01-23 12:51:53,473 13773 [crawl_main.py:crawlMessage_detail:482] INFO 20170901到20170930第1页，无短信详单记录
+flow 2018-01-23 12:51:53,648 13773 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20170727到20170731第1页的短信详单
+flow 2018-01-23 12:51:53,648 13773 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2018-01-23 12:51:53,649 13773 [crawl_main.py:messageParse:561] INFO 请求未成功，联通服务器异常
+flow 2018-01-23 12:51:54,410 13773 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171201到20171231第1页的短信详单
+flow 2018-01-23 12:51:54,411 13773 [crawl_main.py:crawlMessage_detail:482] INFO 20171201到20171231第1页，无短信详单记录
+flow 2018-01-23 12:51:54,994 13773 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2018-01-23 12:51:54,995 13773 [crawl_main.py:messageParse:557] INFO 解析短信详单返回数据
+flow 2018-01-23 12:51:55,773 13773 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2018-01-23 12:51:55,773 13773 [crawl_main.py:crawlMessage_detail:482] INFO 20171001到20171031第1页，无短信详单记录
+flow 2018-01-23 12:51:56,512 13773 [crawl_main.py:crawlMessage_detail:470] INFO 爬取从20180101到20180122第1页的短信详单
+flow 2018-01-23 12:51:56,513 13773 [crawl_main.py:crawlMessage_detail:482] INFO 20180101到20180122第1页，无短信详单记录
+flow 2018-01-23 12:52:03,167 13773 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2018-01-23 12:52:03,168 13773 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2018-01-23 12:52:03,992 13773 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2018-01-23 12:52:03,992 13773 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2018-01-23 12:52:04,826 13773 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-07-27到2017-07-31第1页的网络详单
+flow 2018-01-23 12:52:04,827 13773 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-07-27到2017-07-31第1页，无网络详单记录
+flow 2018-01-23 12:52:05,659 13773 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-12-01到2017-12-31第1页的网络详单
+flow 2018-01-23 12:52:05,659 13773 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-12-01到2017-12-31第1页，无网络详单记录
+flow 2018-01-23 12:52:06,609 13773 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2018-01-23 12:52:06,609 13773 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2018-01-23 12:52:07,942 13773 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2018-01-23 12:52:07,943 13773 [crawl_main.py:crawlNetFlow_detail:519] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2018-01-23 12:52:08,650 13773 [crawl_main.py:crawlNetFlow_detail:507] INFO 爬取从2018-01-01到2018-01-22第1页的网络详单
+flow 2018-01-23 12:52:08,651 13773 [crawl_main.py:crawlNetFlow_detail:519] INFO 2018-01-01到2018-01-22第1页，无网络详单记录
+flow 2018-01-23 12:52:08,679 13773 [crawl_main.py:crawl:93] INFO 爬取成功
+flow 2018-01-23 12:52:08,679 13773 [spider_main.py:taskWork:123] INFO 任务结束：25a280b9-521e-4cc3-942d-a16854aae5f3
+flow 2018-01-23 12:52:08,685 13773 [spider_main.py:_func:44] INFO 共耗时：0:01:04.360289s
+flow 2018-01-23 13:02:41,774 18041 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-23 13:02:41,775 18041 [spider_main.py:threadWork:97] INFO 获取到任务,0b155d50-59f7-4f24-8314-c81ced43aedf
+flow 2018-01-23 13:02:41,853 18041 [crawl_main.py:crawl:60] INFO 登陆开始
+flow 2018-01-23 13:02:41,854 18041 [crawl_main.py:CheckNeedVerify:236] INFO 检测是否需要图片验证码
+flow 2018-01-23 13:02:41,903 18041 [crawl_main.py:crawl:66] INFO 不需要图片验证码
+flow 2018-01-23 13:02:41,903 18041 [crawl_main.py:get_verifycode:188] INFO 发送登陆短信验证码
+flow 2018-01-23 13:02:41,919 18041 [crawl_main.py:get_verifycode:211] INFO 发送成功
+flow 2018-01-23 13:02:41,921 18041 [crawl_main.py:verifycode_handler:167] INFO 等待用户输入
+flow 2018-01-23 13:03:18,914 18041 [crawl_main.py:verifycode_handler:172] INFO 用户输入短信验证码为463530
+flow 2018-01-23 13:03:19,095 18041 [crawl_main.py:crawl:73] INFO 登陆成功
+flow 2018-01-23 13:03:19,095 18041 [crawl_main.py:get_baseInfo:253] INFO 获取个人信息
+flow 2018-01-23 13:03:19,849 18041 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201708
+flow 2018-01-23 13:03:20,499 18041 [crawl_main.py:hisBill_parse:329] INFO 解析历史账单返回数据
+flow 2018-01-23 13:03:20,500 18041 [crawl_main.py:hisBill_parse:361] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 346, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 13:03:20,500 18041 [crawl_main.py:hisBill_parse:362] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 13:03:20,501 18041 [crawl_main.py:hisBill_parse2:389] INFO 第二种格式匹配成功
+flow 2018-01-23 13:03:20,501 18041 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201709
+flow 2018-01-23 13:03:21,192 18041 [crawl_main.py:hisBill_parse:329] INFO 解析历史账单返回数据
+flow 2018-01-23 13:03:21,193 18041 [crawl_main.py:hisBill_parse:361] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 346, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 13:03:21,193 18041 [crawl_main.py:hisBill_parse:362] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 13:03:21,193 18041 [crawl_main.py:hisBill_parse2:389] INFO 第二种格式匹配成功
+flow 2018-01-23 13:03:21,194 18041 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201707
+flow 2018-01-23 13:03:21,751 18041 [crawl_main.py:hisBill_parse:329] INFO 解析历史账单返回数据
+flow 2018-01-23 13:03:21,751 18041 [crawl_main.py:hisBill_parse:361] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 346, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 13:03:21,752 18041 [crawl_main.py:hisBill_parse:362] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 13:03:21,752 18041 [crawl_main.py:hisBill_parse2:389] INFO 第二种格式匹配成功
+flow 2018-01-23 13:03:21,753 18041 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201712
+flow 2018-01-23 13:03:22,319 18041 [crawl_main.py:hisBill_parse:329] INFO 解析历史账单返回数据
+flow 2018-01-23 13:03:22,319 18041 [crawl_main.py:hisBill_parse:361] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 346, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 13:03:22,320 18041 [crawl_main.py:hisBill_parse:362] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 13:03:22,320 18041 [crawl_main.py:hisBill_parse2:389] INFO 第二种格式匹配成功
+flow 2018-01-23 13:03:22,320 18041 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201711
+flow 2018-01-23 13:03:22,858 18041 [crawl_main.py:hisBill_parse:329] INFO 解析历史账单返回数据
+flow 2018-01-23 13:03:22,859 18041 [crawl_main.py:hisBill_parse:361] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 346, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 13:03:22,859 18041 [crawl_main.py:hisBill_parse:362] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 13:03:22,859 18041 [crawl_main.py:hisBill_parse2:389] INFO 第二种格式匹配成功
+flow 2018-01-23 13:03:22,860 18041 [crawl_main.py:get_hisBill:305] INFO 爬取历史账单，月份：201710
+flow 2018-01-23 13:03:23,491 18041 [crawl_main.py:hisBill_parse:329] INFO 解析历史账单返回数据
+flow 2018-01-23 13:03:23,492 18041 [crawl_main.py:hisBill_parse:361] ERROR Traceback (most recent call last):
+  File "./unicom/crawl_main.py", line 346, in hisBill_parse
+    data['charge_all'] = res['result']['allfee']
+KeyError: 'result'
+
+flow 2018-01-23 13:03:23,492 18041 [crawl_main.py:hisBill_parse:362] INFO 历史账单数据解析格式错误，尝试第二种格式匹配
+flow 2018-01-23 13:03:23,492 18041 [crawl_main.py:hisBill_parse2:389] INFO 第二种格式匹配成功
+flow 2018-01-23 13:03:24,111 18041 [crawl_main.py:crawlVoice_detail:436] INFO 爬取从20170801到20170831第1页的语音详单
+flow 2018-01-23 13:03:24,116 18041 [crawl_main.py:voiceParse:528] INFO 解析语音详单返回数据
+flow 2018-01-23 13:03:24,860 18041 [crawl_main.py:crawlVoice_detail:436] INFO 爬取从20170901到20170930第1页的语音详单
+flow 2018-01-23 13:03:24,863 18041 [crawl_main.py:voiceParse:528] INFO 解析语音详单返回数据
+flow 2018-01-23 13:03:25,445 18041 [crawl_main.py:crawlVoice_detail:436] INFO 爬取从20170727到20170731第1页的语音详单
+flow 2018-01-23 13:03:25,446 18041 [crawl_main.py:voiceParse:528] INFO 解析语音详单返回数据
+flow 2018-01-23 13:03:26,087 18041 [crawl_main.py:crawlVoice_detail:436] INFO 爬取从20171201到20171231第1页的语音详单
+flow 2018-01-23 13:03:26,090 18041 [crawl_main.py:voiceParse:528] INFO 解析语音详单返回数据
+flow 2018-01-23 13:03:27,061 18041 [crawl_main.py:crawlVoice_detail:436] INFO 爬取从20171101到20171130第1页的语音详单
+flow 2018-01-23 13:03:27,065 18041 [crawl_main.py:voiceParse:528] INFO 解析语音详单返回数据
+flow 2018-01-23 13:03:28,058 18041 [crawl_main.py:crawlVoice_detail:436] INFO 爬取从20171001到20171031第1页的语音详单
+flow 2018-01-23 13:03:28,063 18041 [crawl_main.py:voiceParse:528] INFO 解析语音详单返回数据
+flow 2018-01-23 13:03:28,947 18041 [crawl_main.py:crawlVoice_detail:436] INFO 爬取从20180101到20180122第1页的语音详单
+flow 2018-01-23 13:03:28,949 18041 [crawl_main.py:voiceParse:528] INFO 解析语音详单返回数据
+flow 2018-01-23 13:03:29,532 18041 [crawl_main.py:crawlMessage_detail:471] INFO 爬取从20170801到20170831第1页的短信详单
+flow 2018-01-23 13:03:29,533 18041 [crawl_main.py:messageParse:558] INFO 解析短信详单返回数据
+flow 2018-01-23 13:03:30,122 18041 [crawl_main.py:crawlMessage_detail:471] INFO 爬取从20170901到20170930第1页的短信详单
+flow 2018-01-23 13:03:30,123 18041 [crawl_main.py:crawlMessage_detail:483] INFO 20170901到20170930第1页，无短信详单记录
+flow 2018-01-23 13:03:30,295 18041 [crawl_main.py:crawlMessage_detail:471] INFO 爬取从20170727到20170731第1页的短信详单
+flow 2018-01-23 13:03:30,295 18041 [crawl_main.py:messageParse:558] INFO 解析短信详单返回数据
+flow 2018-01-23 13:03:30,296 18041 [crawl_main.py:messageParse:562] INFO 请求未成功，联通服务器异常
+flow 2018-01-23 13:03:30,996 18041 [crawl_main.py:crawlMessage_detail:471] INFO 爬取从20171201到20171231第1页的短信详单
+flow 2018-01-23 13:03:30,996 18041 [crawl_main.py:crawlMessage_detail:483] INFO 20171201到20171231第1页，无短信详单记录
+flow 2018-01-23 13:03:32,717 18041 [crawl_main.py:crawlMessage_detail:471] INFO 爬取从20171101到20171130第1页的短信详单
+flow 2018-01-23 13:03:32,718 18041 [crawl_main.py:messageParse:558] INFO 解析短信详单返回数据
+flow 2018-01-23 13:03:33,336 18041 [crawl_main.py:crawlMessage_detail:471] INFO 爬取从20171001到20171031第1页的短信详单
+flow 2018-01-23 13:03:33,337 18041 [crawl_main.py:crawlMessage_detail:483] INFO 20171001到20171031第1页，无短信详单记录
+flow 2018-01-23 13:03:33,981 18041 [crawl_main.py:crawlMessage_detail:471] INFO 爬取从20180101到20180122第1页的短信详单
+flow 2018-01-23 13:03:33,982 18041 [crawl_main.py:crawlMessage_detail:483] INFO 20180101到20180122第1页，无短信详单记录
+flow 2018-01-23 13:03:35,968 18041 [crawl_main.py:crawlNetFlow_detail:508] INFO 爬取从2017-08-01到2017-08-31第1页的网络详单
+flow 2018-01-23 13:03:35,969 18041 [crawl_main.py:crawlNetFlow_detail:520] INFO 2017-08-01到2017-08-31第1页，无网络详单记录
+flow 2018-01-23 13:03:36,576 18041 [crawl_main.py:crawlNetFlow_detail:508] INFO 爬取从2017-09-01到2017-09-30第1页的网络详单
+flow 2018-01-23 13:03:36,577 18041 [crawl_main.py:crawlNetFlow_detail:520] INFO 2017-09-01到2017-09-30第1页，无网络详单记录
+flow 2018-01-23 13:03:37,206 18041 [crawl_main.py:crawlNetFlow_detail:508] INFO 爬取从2017-07-27到2017-07-31第1页的网络详单
+flow 2018-01-23 13:03:37,207 18041 [crawl_main.py:crawlNetFlow_detail:520] INFO 2017-07-27到2017-07-31第1页，无网络详单记录
+flow 2018-01-23 13:03:38,068 18041 [crawl_main.py:crawlNetFlow_detail:508] INFO 爬取从2017-12-01到2017-12-31第1页的网络详单
+flow 2018-01-23 13:03:38,069 18041 [crawl_main.py:crawlNetFlow_detail:520] INFO 2017-12-01到2017-12-31第1页，无网络详单记录
+flow 2018-01-23 13:03:38,722 18041 [crawl_main.py:crawlNetFlow_detail:508] INFO 爬取从2017-11-01到2017-11-30第1页的网络详单
+flow 2018-01-23 13:03:38,723 18041 [crawl_main.py:crawlNetFlow_detail:520] INFO 2017-11-01到2017-11-30第1页，无网络详单记录
+flow 2018-01-23 13:03:39,370 18041 [crawl_main.py:crawlNetFlow_detail:508] INFO 爬取从2017-10-01到2017-10-31第1页的网络详单
+flow 2018-01-23 13:03:39,370 18041 [crawl_main.py:crawlNetFlow_detail:520] INFO 2017-10-01到2017-10-31第1页，无网络详单记录
+flow 2018-01-23 13:03:40,016 18041 [crawl_main.py:crawlNetFlow_detail:508] INFO 爬取从2018-01-01到2018-01-22第1页的网络详单
+flow 2018-01-23 13:03:40,017 18041 [crawl_main.py:crawlNetFlow_detail:520] INFO 2018-01-01到2018-01-22第1页，无网络详单记录
+flow 2018-01-23 13:03:40,044 18041 [crawl_main.py:crawl:93] INFO 爬取成功
+flow 2018-01-23 13:03:40,045 18041 [spider_main.py:taskWork:123] INFO 任务结束：0b155d50-59f7-4f24-8314-c81ced43aedf
+flow 2018-01-23 13:03:40,050 18041 [spider_main.py:_func:44] INFO 共耗时：0:00:58.275027s

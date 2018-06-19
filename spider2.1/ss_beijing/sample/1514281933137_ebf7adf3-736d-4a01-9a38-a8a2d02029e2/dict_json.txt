@@ -1,0 +1,1 @@
+{u'status': u'0', u'nocache': u'1', u'idcard': u'130683199307131317', u'userid': u'yinzhouyinhang', u'token': u'ebf7adf3-736d-4a01-9a38-a8a2d02029e2', 'result': [], u'password': u'******', u'desc': u'\u6b63\u5728\u722c\u53d6...'}

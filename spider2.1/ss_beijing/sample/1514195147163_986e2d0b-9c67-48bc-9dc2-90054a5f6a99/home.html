@@ -1,0 +1,231 @@
+
+
+
+
+
+
+
+
+  
+ 
+  
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京市社会保险网上服务平台-城镇职工用户登录</title>
+
+  
+ 
+<link rel="stylesheet" type="text/css" href="/csibiz/indinfo/css/style_min.css" />
+<script type="text/javascript" src="/csibiz/indinfo/js/prototype_for_validation.js"></script>
+<script type="text/javascript" src="/csibiz/indinfo/js/effects.js"></script>
+<script type="text/javascript" src="/csibiz/indinfo/js/validation_cn.js"></script>
+
+
+<link href="/csibiz/indinfo/css/login/home2_styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/csibiz/indinfo/js/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+<div class="all">
+    <!--头部-->
+<div class="head"><!--头部-->
+			<div class="head_left"><img src="/csibiz/indinfo/images/login/logo.gif" alt="北京市社会保险网上服务平台" /></div>
+			<div class="head_right">
+			</div>
+</div>
+<!-- 首都之窗量化代码 --> 
+<script type='text/javascript' src='http://static.gridsumdissector.com/js/Clients/GWD-800309-20A9BE/gs.js'></script>
+<!-- trs量化代码 --> 
+<noscript><img src="http://ta.trs.cn/c/1.gif?mpId=365&jsoff=1" style="border:0" alt="" ignoreapd="1" /></noscript>
+<script>
+var _taq = _taq || [];
+_taq.home = 'http://ta.trs.cn/c';
+_taq.push(['_mpId', '365']);
+_taq.push(['_cli', '1']);
+(function(d, o, t) {
+if (window.inTRSDesignMode) return;
+var ma = d.createElement(o); ma.async = true; ma.commonresource="1"; ma.src = t;
+var s = d.getElementsByTagName(o)[0]; s.parentNode.insertBefore(ma, s);
+})(document, 'script', 'http://ta.trs.cn/c/js/ta.js');
+</script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+String.prototype.Trim = function() 
+{ 
+return this.replace(/(^\s*)|(\s*$)/g, ""); 
+} 
+
+String.prototype.LTrim = function() 
+{ 
+return this.replace(/(^\s*)/g, ""); 
+} 
+
+String.prototype.RTrim = function() 
+{ 
+return this.replace(/(\s*$)/g, ""); 
+} 
+
+//-->
+</SCRIPT>
+
+<script type="text/javascript">
+var getTelSafeCode=function(){
+	var idCode= $("#i_username").val();
+	var logPass= $("#i_password").val();
+	var safeCode= $("#i_safecode").val();
+	$.ajax({
+	    url: '/csibiz/indinfo/passwordSetAction!getTelSafeCode',
+	     data:{idCode:idCode,logPass:logPass,safeCode:safeCode},
+	    type: 'post',
+	    dataType: 'json',
+	    error: function(data){
+	    },
+	    success: function(data){
+	      var models = data.split("-") ;
+	      alert(models[1]);
+	    }
+	});
+}
+function doKeyDownWithEnter(){
+    if(event.keyCode==13) 
+        { 
+         doSiteSearch('colsior');
+        }
+}
+function doSiteSearch(siteCatalogId)
+{
+    var webrootWithBackslash = '/csibiz/home';
+    var url = webrootWithBackslash + "/dynamic/site/siteArticleSearchAction$searchArticle.action";
+    
+    if(!siteCatalogId){
+        alert("js error：parameter(siteCatalogId) is undefined in this function 'doSiteSearch'");
+        return false;
+    }
+    
+    var siteKeyWords = document.getElementById('siteKeyWords').value;
+    
+    if(siteKeyWords == null || (siteKeyWords != null && siteKeyWords.Trim() == "")){
+        alert("请输入关键字！");
+        return false;
+    }
+    
+    if(siteCatalogId)
+        url = url + "?siteCatalogId=" + siteCatalogId;
+    if(siteKeyWords != null && siteKeyWords != "")
+        url = url + "&siteKeyWords=" + encodeURIComponent(encodeURI(siteKeyWords));
+    
+    window.open(url);
+    return false;
+    
+}
+</script>
+<script type="text/javascript">
+function safeCodeImg() {
+		var obj = document.getElementById("indsafecode"); 
+         safeCode(obj);
+	}
+	function safeCode(obj) {
+		var timenow = new Date().getTime();  
+         //每次请求需要一个不同的参数，否则可能会返回同样的验证码  
+         //这和浏览器的缓存机制有关系，也可以把页面设置为不缓存，这样就不用这个参数了。 
+         obj.src= "/csibiz/indinfo/validationCodeServlet.do?d="+timenow
+	}
+</script>
+	<div class="chengzhengr2"> 
+<div class="chengzhengr">
+	<div class="chengzhengrsize">
+    <div class="chengzhengrsize_left"><a href="/csibiz/indinfo/login.jsp">城镇职工用户登录</a></div>
+    <div class="chengzhengrsize_right"><a href="/csibiz/urbmi/login.jsp"> 城乡居民用户登录</a></div>
+    </div>
+     <form name="indform" id="indform" action="/csibiz/indinfo/login_check" method="post" class='required-validate'>
+<input type="hidden" name="type" id="type" value="1"/>
+<input type="hidden" name="flag" id="flag" value="3"/>   
+	<div class="ziyegryhdldiv1">身份证号码<input name="j_username" type="text" class="required validate-id-number" id="i_username" title="请输入合法的身份证号码"/>
+	<div id="advice-i_username" style="display:none" class="validation-advice"></div>
+	</div>
+    <div class="ziyegryhdldiv2">密码<input name="j_password" type="password" class="required min-length-8" id="i_password" title="请输入不少于8位的合法登录密码" maxlength="20"/>
+     <div id="advice-i_password" style="display:none" class="validation-advice"></div>
+    </div>
+   
+    <div class="ziyegryhdldiv3">附加码<input name="safecode" type="text" class="required" id="i_safecode" maxlength="4" title="请输入附加码"  autocomplete="off" /><img id="indsafecode" src="/csibiz/indinfo/validationCodeServlet.do" width="59" border="0" onclick="safeCode(this);" style="cursor: pointer;"/><a href="javascript:safeCodeImg();">换一张</a>
+    <div id="advice-i_safecode" style="display:none" class="validation-advice"></div></div>
+    <div class="ziyegryhdldiv4">短信验证码<input name="i_phone" type="text" class="required" maxlength="6" title="请输入短信验证码"  autocomplete="off" disabled /><input type='button' value='获取验证码' id='shoujiyanzhengma'  disabled/>
+    <div id="advice-i_phone" style="display:none" class="validation-advice">请输入短信验证码</div></div>
+    <div class="ziyegryhdldiv5">
+   		<a href="/csibiz/indinfo/gerenreg1.jsp"><img src="/csibiz/indinfo/images/login/home/grdlan.gif" /></a>
+    	<input type="image" src="/csibiz/indinfo/images/login/home/grdlan2.gif"  onclick="submitGr();"/>
+    </div>
+    <a class="ziyegryhdla" href="/csibiz/indinfo/reset_password.jsp">找回密码</a>
+    </form>
+    <script>
+    document.getElementById('i_safecode').onkeyup = function(){
+    	var length = this.value.length;
+    	if(length == 4){
+    		var sjyz = document.getElementById('shoujiyanzhengma');
+    		var value = sjyz.value.substring(0, 4);
+    		if(value == '剩余时间'){
+    			return false;
+    		}
+    		sjyz.removeAttribute('disabled');
+    	}
+    }
+    var i = 180;
+	document.getElementById('shoujiyanzhengma').onclick = function(){
+		var _this = this;
+		this.setAttribute('disabled', 'disabled');
+		document.getElementsByName('i_phone')[0].removeAttribute('disabled');
+		var timer = setInterval(function(){
+			_this.value = '剩余时间(' + i +')秒';
+			if(i <= 0){
+				_this.removeAttribute('disabled');
+				_this.value = '获取验证码';
+				i=180;
+				clearInterval(timer);
+			}
+			i--;
+		}, 1000);
+		getTelSafeCode();
+	};
+	</script>
+</div>
+</div>
+<div class='grl'>
+<div class="grlj01">
+              <strong>请注意：              </strong><br>
+              1）若您尚未登录过请点击新用户注册，按新用户帮助其中的步骤完成登录密码的设置。<br>
+              2）若您无法正常登录，可以查看相关帮助，或者拨打96102。<br/>
+              <a href="/csibiz/home/static/catalogs/catalog_108800/108800.html" target="_blank"><img src="/csibiz/indinfo/images/login/dw_01.jpg" /></a><img src="/csibiz/indinfo/images/login/spsp.gif" width="55" />
+            	<a href="/csibiz/home/static/catalogs/catalog_106400/106400.html"target="_blank"><img src="/csibiz/indinfo/images/login/dw_02.jpg" /></a><img src="/csibiz/indinfo/images/login/spsp.gif" width="55" />
+                <a href="/csibiz/home/static/catalogs/catalog_102000/102000.html" target="_blank"><img src="/csibiz/indinfo/images/login/dw_03.jpg" /></a>
+          </div>
+  <div class="grlj02">
+              <strong>请注意：              </strong><br>
+              城镇职工用户包括：1.在职职工是指与本市行政区域内的用人单位形成劳动关系的职工，其中用人单位是指中华人民共和国境内的企业、事业单位、社会团体、民办非企业单位、基金会、律师事务所、会计事务所等组织和有雇佣工的个体商户。
+			  2.无雇工的个体商户，未在用人单位参加社会保险的非全日制从业人员以及其他灵活就业人员。
+          </div>
+</div>
+ 
+           
+</div> 
+    <!--底部-->
+<div class="chengzhengrfooter">
+  <div class="ziyef_text">北京市人力资源和社会保障局 版权所有&copy;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京市社会保险基金管理中心&nbsp;&nbsp;主办<br />北京市西城区永内西街5号（100050）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;备案号：京ICP备05056884号</div>	
+</div>		</div>
+        </div>
+</div>
+</body>
+</html>
+ 
+
+
+
+
+
+
+############################################################
+
+
+城镇职工用户登录页

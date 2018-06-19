@@ -1,0 +1,222 @@
+flow 2017-12-13 22:27:27,277 27602 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-13 22:27:27,280 27602 [spider_main.py:threadWork:97] INFO 获取到任务,b071ec78-abfc-4999-99b2-edd8b1935f08
+flow 2017-12-13 22:27:27,361 27602 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-13 22:27:27,400 27602 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-13 22:27:27,401 27602 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-13 22:27:55,504 27602 [crawl_main.py:login:74] INFO 短信验证码已发送
+flow 2017-12-13 22:27:55,505 27602 [crawl_main.py:message_verfycode_handler:131] INFO 等待用户输入
+flow 2017-12-13 22:28:41,907 27602 [crawl_main.py:personal_information_handler:169] INFO 获取个人信息
+flow 2017-12-13 22:28:42,107 27602 [spider_main.py:taskWork:123] INFO 任务结束：b071ec78-abfc-4999-99b2-edd8b1935f08
+flow 2017-12-13 22:28:42,118 27602 [spider_main.py:_func:44] INFO 共耗时：0:01:14.837096s
+flow 2017-12-13 22:44:29,602 19041 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-13 22:44:29,606 19041 [spider_main.py:threadWork:97] INFO 获取到任务,dfcffc7f-f96e-4c9d-9fad-16d907e7c684
+flow 2017-12-13 22:44:29,682 19041 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-13 22:44:29,716 19041 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-13 22:44:29,716 19041 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-13 22:45:03,672 19041 [crawl_main.py:login:74] INFO 短信验证码已发送
+flow 2017-12-13 22:45:03,673 19041 [crawl_main.py:message_verfycode_handler:131] INFO 等待用户输入
+flow 2017-12-13 22:45:43,245 19041 [crawl_main.py:personal_information_handler:169] INFO 获取个人信息
+flow 2017-12-13 22:45:43,378 19041 [spider_main.py:taskWork:123] INFO 任务结束：dfcffc7f-f96e-4c9d-9fad-16d907e7c684
+flow 2017-12-13 22:45:43,383 19041 [spider_main.py:_func:44] INFO 共耗时：0:01:13.776723s
+flow 2017-12-16 15:52:56,606 32042 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-16 15:52:56,611 32042 [spider_main.py:threadWork:97] INFO 获取到任务,64438cae-e534-4b6e-bbb4-8249cdbecac0
+flow 2017-12-16 15:52:56,725 32042 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-16 15:52:56,768 32042 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-16 15:52:56,768 32042 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-16 15:53:10,927 32042 [crawl_main.py:login:74] INFO 短信验证码已发送
+flow 2017-12-16 15:53:10,927 32042 [crawl_main.py:message_verfycode_handler:131] INFO 等待用户输入
+flow 2017-12-16 15:58:10,928 32042 [crawl_main.py:message_verfycode_handler:140] INFO 接收用输入超时:64438cae-e534-4b6e-bbb4-8249cdbecac0
+flow 2017-12-16 15:58:11,930 32042 [crawl_main.py:crawl:57] INFO 接收用输入超时
+flow 2017-12-16 15:58:11,932 32042 [spider_main.py:taskWork:123] INFO 任务结束：64438cae-e534-4b6e-bbb4-8249cdbecac0
+flow 2017-12-16 15:58:11,935 32042 [spider_main.py:_func:44] INFO 共耗时：0:05:15.323788s
+flow 2017-12-25 17:39:34,258 16479 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-25 17:41:26,223 16994 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-25 17:43:55,774 17159 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-25 17:43:55,776 17159 [spider_main.py:threadWork:97] INFO 获取到任务,06949089-70bc-447f-9837-41d634b02219
+flow 2017-12-25 17:43:55,914 17159 [spider_main.py:taskWork:137] ERROR Traceback (most recent call last):
+  File "/home/sunbo/Desktop/ssbeijing/ss_beijing/spider_main.py", line 121, in taskWork
+    client = SpiderMain(dict_json)
+  File "ss_beijing/crawl_main.py", line 40, in __init__
+    super(SpiderMain, self).__init__(dict_json, key=['password'])
+  File "ss_beijing/crawl_base.py", line 43, in __init__
+    logging.config.fileConfig('%s/logging.config'%SOURCE)
+  File "/usr/lib/python2.7/logging/config.py", line 77, in fileConfig
+    formatters = _create_formatters(cp)
+  File "/usr/lib/python2.7/logging/config.py", line 113, in _create_formatters
+    flist = cp.get("formatters", "keys")
+  File "/usr/lib/python2.7/ConfigParser.py", line 607, in get
+    raise NoSectionError(section)
+NoSectionError: No section: 'formatters'
+
+flow 2017-12-25 17:43:55,915 17159 [spider_main.py:taskWork:138] INFO 任务结束：06949089-70bc-447f-9837-41d634b02219
+flow 2017-12-25 17:43:55,918 17159 [spider_main.py:_func:44] INFO 共耗时：0:00:00.140886s
+flow 2017-12-25 17:44:56,825 17197 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-25 17:44:56,828 17197 [spider_main.py:threadWork:97] INFO 获取到任务,00970296-bc0a-41a1-be81-5a114df0ae4a
+flow 2017-12-25 17:44:56,981 17197 [spider_main.py:taskWork:137] ERROR Traceback (most recent call last):
+  File "/home/sunbo/Desktop/ssbeijing/ss_beijing/spider_main.py", line 121, in taskWork
+    client = SpiderMain(dict_json)
+  File "ss_beijing/crawl_main.py", line 40, in __init__
+    super(SpiderMain, self).__init__(dict_json, key=['password'])
+  File "ss_beijing/crawl_base.py", line 43, in __init__
+    logging.config.fileConfig('ss_spider/logging.config')
+  File "/usr/lib/python2.7/logging/config.py", line 77, in fileConfig
+    formatters = _create_formatters(cp)
+  File "/usr/lib/python2.7/logging/config.py", line 113, in _create_formatters
+    flist = cp.get("formatters", "keys")
+  File "/usr/lib/python2.7/ConfigParser.py", line 607, in get
+    raise NoSectionError(section)
+NoSectionError: No section: 'formatters'
+
+flow 2017-12-25 17:44:56,982 17197 [spider_main.py:taskWork:138] INFO 任务结束：00970296-bc0a-41a1-be81-5a114df0ae4a
+flow 2017-12-25 17:44:56,985 17197 [spider_main.py:_func:44] INFO 共耗时：0:00:00.156425s
+flow 2017-12-25 17:45:40,840 17225 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-25 17:45:47,051 17225 [spider_main.py:threadWork:97] INFO 获取到任务,986e2d0b-9c67-48bc-9dc2-90054a5f6a99
+flow 2017-12-25 17:45:47,274 17225 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-25 17:45:47,316 17225 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-25 17:45:47,316 17225 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-25 17:46:04,312 17225 [crawl_main.py:login:74] INFO 短信验证码已发送
+flow 2017-12-25 17:46:04,312 17225 [crawl_main.py:message_verfycode_handler:131] INFO 等待用户输入
+flow 2017-12-26 09:57:23,377 6915 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 09:58:38,413 6915 [spider_main.py:threadWork:97] INFO 获取到任务,4abfc5e3-a564-49b3-886a-16d5aa0cc7e4
+flow 2017-12-26 09:58:38,517 6915 [spider_main.py:taskWork:137] ERROR Traceback (most recent call last):
+  File "/home/sunbo/Desktop/ssbeijing/ss_beijing/spider_main.py", line 121, in taskWork
+    client = SpiderMain(dict_json)
+  File "ss_beijing/crawl_main.py", line 41, in __init__
+    self.idcard = dict_json['idcard']
+KeyError: 'idcard'
+
+flow 2017-12-26 09:58:38,517 6915 [spider_main.py:taskWork:138] INFO 任务结束：4abfc5e3-a564-49b3-886a-16d5aa0cc7e4
+flow 2017-12-26 09:58:38,519 6915 [spider_main.py:_func:44] INFO 共耗时：0:00:00.105475s
+flow 2017-12-26 10:00:09,987 7394 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 10:00:09,990 7394 [spider_main.py:threadWork:97] INFO 获取到任务,b5356b02-8b67-4306-9468-5ffb014c657a
+flow 2017-12-26 10:00:10,268 7394 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 10:00:10,657 7394 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 10:00:10,658 7394 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 10:00:28,832 7394 [crawl_main.py:login:74] INFO 短信验证码已发送
+flow 2017-12-26 10:00:28,832 7394 [crawl_main.py:message_verfycode_handler:131] INFO 等待用户输入
+flow 2017-12-26 10:02:05,718 7394 [crawl_main.py:personal_information_handler:169] INFO 获取个人信息
+flow 2017-12-26 10:02:06,111 7394 [spider_main.py:taskWork:123] INFO 任务结束：b5356b02-8b67-4306-9468-5ffb014c657a
+flow 2017-12-26 10:02:06,114 7394 [spider_main.py:_func:44] INFO 共耗时：0:01:56.123745s
+flow 2017-12-26 10:35:49,104 10739 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 10:35:53,800 10739 [spider_main.py:threadWork:97] INFO 获取到任务,ee0434cc-0229-42f6-abf2-8d502917a862
+flow 2017-12-26 10:35:53,946 10739 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 10:35:54,044 10739 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 10:35:54,045 10739 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 10:36:11,403 10739 [crawl_main.py:login:88] INFO 短信验证码已发送
+flow 2017-12-26 10:36:11,404 10739 [crawl_main.py:message_verfycode_handler:145] INFO 等待用户输入
+flow 2017-12-26 10:37:02,702 10739 [crawl_main.py:personal_information_handler:183] INFO 获取个人信息
+flow 2017-12-26 10:37:03,277 10739 [spider_main.py:taskWork:123] INFO 任务结束：ee0434cc-0229-42f6-abf2-8d502917a862
+flow 2017-12-26 10:37:03,280 10739 [spider_main.py:_func:44] INFO 共耗时：0:01:09.479533s
+flow 2017-12-26 11:17:44,686 13420 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 11:18:01,270 13420 [spider_main.py:threadWork:97] INFO 获取到任务,6d1b612f-2b32-4077-8b00-3f9cb458bf30
+flow 2017-12-26 11:18:01,431 13420 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 11:18:01,481 13420 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 11:18:01,482 13420 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 11:18:13,938 13420 [crawl_main.py:login:88] INFO 短信验证码已发送
+flow 2017-12-26 11:18:13,939 13420 [crawl_main.py:message_verfycode_handler:145] INFO 等待用户输入
+flow 2017-12-26 11:19:05,566 13420 [crawl_main.py:personal_information_handler:183] INFO 获取个人信息
+flow 2017-12-26 11:19:07,761 13420 [spider_main.py:taskWork:123] INFO 任务结束：6d1b612f-2b32-4077-8b00-3f9cb458bf30
+flow 2017-12-26 11:19:07,764 13420 [spider_main.py:_func:44] INFO 共耗时：0:01:06.493570s
+flow 2017-12-26 17:26:23,813 21308 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 17:26:23,816 21308 [spider_main.py:threadWork:97] INFO 获取到任务,0f3e01ad-bd4b-4066-9c7d-f6e4bbe936f2
+flow 2017-12-26 17:26:23,986 21308 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 17:26:24,030 21308 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 17:26:24,030 21308 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 17:26:39,920 21308 [crawl_main.py:login:88] INFO 短信验证码已发送
+flow 2017-12-26 17:26:39,921 21308 [crawl_main.py:message_verfycode_handler:145] INFO 等待用户输入
+flow 2017-12-26 17:27:36,713 21308 [crawl_main.py:personal_information_handler:183] INFO 获取个人信息
+flow 2017-12-26 17:27:38,882 21308 [spider_main.py:taskWork:123] INFO 任务结束：0f3e01ad-bd4b-4066-9c7d-f6e4bbe936f2
+flow 2017-12-26 17:27:38,885 21308 [spider_main.py:_func:44] INFO 共耗时：0:01:15.068655s
+flow 2017-12-26 17:34:00,705 22056 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 17:34:06,932 22056 [spider_main.py:threadWork:97] INFO 获取到任务,e2f72178-66d1-468c-be4f-4b93079dab32
+flow 2017-12-26 17:34:07,112 22056 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 17:34:07,206 22056 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 17:34:07,206 22056 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 17:34:22,901 22056 [crawl_main.py:login:88] INFO 短信验证码已发送
+flow 2017-12-26 17:34:22,901 22056 [crawl_main.py:message_verfycode_handler:145] INFO 等待用户输入
+flow 2017-12-26 17:35:26,109 22056 [crawl_main.py:personal_information_handler:183] INFO 获取个人信息
+flow 2017-12-26 17:35:27,375 22056 [spider_main.py:taskWork:123] INFO 任务结束：e2f72178-66d1-468c-be4f-4b93079dab32
+flow 2017-12-26 17:35:27,377 22056 [spider_main.py:_func:44] INFO 共耗时：0:01:20.445019s
+flow 2017-12-26 17:42:20,643 22802 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 17:42:20,646 22802 [spider_main.py:threadWork:97] INFO 获取到任务,c8bf568c-61a4-479a-99f9-c86da3340c1b
+flow 2017-12-26 17:42:20,795 22802 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 17:42:20,835 22802 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 17:42:20,836 22802 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 17:42:38,282 22802 [crawl_main.py:login:88] INFO 短信验证码已发送
+flow 2017-12-26 17:42:38,283 22802 [crawl_main.py:message_verfycode_handler:145] INFO 等待用户输入
+flow 2017-12-26 17:47:38,284 22802 [crawl_main.py:message_verfycode_handler:154] INFO 接收用输入超时:c8bf568c-61a4-479a-99f9-c86da3340c1b
+flow 2017-12-26 17:47:39,286 22802 [crawl_main.py:crawl:71] INFO 接收用输入超时
+flow 2017-12-26 17:47:39,287 22802 [spider_main.py:taskWork:123] INFO 任务结束：c8bf568c-61a4-479a-99f9-c86da3340c1b
+flow 2017-12-26 17:47:39,292 22802 [spider_main.py:_func:44] INFO 共耗时：0:05:18.645019s
+flow 2017-12-26 17:52:13,051 11350 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 17:52:13,054 11350 [spider_main.py:threadWork:97] INFO 获取到任务,ebf7adf3-736d-4a01-9a38-a8a2d02029e2
+flow 2017-12-26 17:52:13,187 11350 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 17:52:13,237 11350 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 17:52:13,237 11350 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 17:53:02,066 13829 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 17:53:02,069 13829 [spider_main.py:threadWork:97] INFO 获取到任务,edbfd482-49d2-4e78-aaa0-deb7879e93da
+flow 2017-12-26 17:53:02,194 13829 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 17:53:02,231 13829 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 17:53:02,232 13829 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 17:56:04,374 23354 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-26 17:56:04,377 23354 [spider_main.py:threadWork:97] INFO 获取到任务,d71a3305-6eb6-42e0-9aef-761d000a2c2f
+flow 2017-12-26 17:56:04,531 23354 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-26 17:56:04,573 23354 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-26 17:56:04,574 23354 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-26 17:56:21,117 23354 [crawl_main.py:login:88] INFO 短信验证码已发送
+flow 2017-12-26 17:56:21,118 23354 [crawl_main.py:message_verfycode_handler:145] INFO 等待用户输入
+flow 2017-12-26 17:57:23,055 23354 [crawl_main.py:personal_information_handler:183] INFO 获取个人信息
+flow 2017-12-26 17:57:24,322 23354 [spider_main.py:taskWork:123] INFO 任务结束：d71a3305-6eb6-42e0-9aef-761d000a2c2f
+flow 2017-12-26 17:57:24,326 23354 [spider_main.py:_func:44] INFO 共耗时：0:01:19.948060s
+flow 2017-12-26 17:58:02,232 13829 [crawl_base.py:get_input:112] INFO 接收用输入超时:edbfd482-49d2-4e78-aaa0-deb7879e93da
+flow 2017-12-26 17:58:03,234 13829 [crawl_main.py:crawl:71] INFO 接收用输入超时
+flow 2017-12-26 17:58:03,236 13829 [spider_main.py:taskWork:123] INFO 任务结束：edbfd482-49d2-4e78-aaa0-deb7879e93da
+flow 2017-12-26 17:58:03,239 13829 [spider_main.py:_func:44] INFO 共耗时：0:05:01.169790s
+flow 2017-12-29 15:25:12,054 12965 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2017-12-29 15:25:12,065 12965 [spider_main.py:threadWork:97] INFO 获取到任务,9c1e4293-57b9-43c2-b8a7-8e34575971f9
+flow 2017-12-29 15:25:12,191 12965 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2017-12-29 15:25:12,245 12965 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2017-12-29 15:25:12,246 12965 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2017-12-29 15:25:33,572 12965 [crawl_main.py:login:88] INFO 短信验证码已发送
+flow 2017-12-29 15:25:33,572 12965 [crawl_main.py:message_verfycode_handler:145] INFO 等待用户输入
+flow 2017-12-29 15:30:33,572 12965 [crawl_main.py:message_verfycode_handler:154] INFO 接收用输入超时:9c1e4293-57b9-43c2-b8a7-8e34575971f9
+flow 2017-12-29 15:30:34,574 12965 [crawl_main.py:crawl:71] INFO 接收用输入超时
+flow 2017-12-29 15:30:34,576 12965 [spider_main.py:taskWork:123] INFO 任务结束：9c1e4293-57b9-43c2-b8a7-8e34575971f9
+flow 2017-12-29 15:30:34,580 12965 [spider_main.py:_func:44] INFO 共耗时：0:05:22.514578s
+flow 2018-01-18 15:31:22,840 11557 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-18 15:31:22,858 11557 [spider_main.py:threadWork:97] INFO 获取到任务,77426739-8bb9-41ca-9880-afd5848956bd
+flow 2018-01-18 15:31:26,007 11557 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2018-01-18 15:31:26,054 11557 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2018-01-18 15:31:26,054 11557 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2018-01-18 15:36:26,055 11557 [crawl_base.py:get_input:112] INFO 接收用输入超时:77426739-8bb9-41ca-9880-afd5848956bd
+flow 2018-01-18 15:36:27,056 11557 [crawl_main.py:crawl:71] INFO 接收用输入超时
+flow 2018-01-18 15:36:27,059 11557 [spider_main.py:taskWork:123] INFO 任务结束：77426739-8bb9-41ca-9880-afd5848956bd
+flow 2018-01-18 15:36:27,063 11557 [spider_main.py:_func:44] INFO 共耗时：0:05:04.204786s
+flow 2018-01-18 15:37:18,440 30898 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-18 15:37:18,443 30898 [spider_main.py:threadWork:97] INFO 获取到任务,24f19fa2-40d9-4085-a481-7e9cf038ff81
+flow 2018-01-18 15:37:18,588 30898 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2018-01-18 15:37:18,631 30898 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2018-01-18 15:37:18,632 30898 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2018-01-18 15:42:18,632 30898 [crawl_base.py:get_input:112] INFO 接收用输入超时:24f19fa2-40d9-4085-a481-7e9cf038ff81
+flow 2018-01-18 15:42:19,634 30898 [crawl_main.py:crawl:71] INFO 接收用输入超时
+flow 2018-01-18 15:42:19,635 30898 [spider_main.py:taskWork:123] INFO 任务结束：24f19fa2-40d9-4085-a481-7e9cf038ff81
+flow 2018-01-18 15:42:19,640 30898 [spider_main.py:_func:44] INFO 共耗时：0:05:01.196755s
+flow 2018-01-18 16:01:52,448 15742 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-18 16:01:52,451 15742 [spider_main.py:threadWork:97] INFO 获取到任务,e937cf9a-9c9c-4295-8cdb-1ae3a9eeaa8b
+flow 2018-01-18 16:01:53,552 15742 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2018-01-18 16:01:53,606 15742 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2018-01-18 16:01:53,607 15742 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2018-01-18 16:03:04,612 19497 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-18 16:06:53,608 15742 [crawl_base.py:get_input:112] INFO 接收用输入超时:e937cf9a-9c9c-4295-8cdb-1ae3a9eeaa8b
+flow 2018-01-18 16:06:54,609 15742 [crawl_main.py:crawl:71] INFO 接收用输入超时
+flow 2018-01-18 16:06:54,610 15742 [spider_main.py:taskWork:123] INFO 任务结束：e937cf9a-9c9c-4295-8cdb-1ae3a9eeaa8b
+flow 2018-01-18 16:06:54,613 15742 [spider_main.py:_func:44] INFO 共耗时：0:05:02.162136s
+flow 2018-01-18 16:15:13,036 7893 [spider_main.py:threadWork:88] INFO 开始等待获取任务
+flow 2018-01-18 16:15:13,040 7893 [spider_main.py:threadWork:97] INFO 获取到任务,a00939d4-2ad5-4ca6-9223-f3278ee39bcd
+flow 2018-01-18 16:15:13,228 7893 [crawl_base.py:verifycode_handler:122] INFO 需要验证码
+flow 2018-01-18 16:15:13,283 7893 [crawl_base.py:get_verifycode:94] INFO 验证码已发送
+flow 2018-01-18 16:15:13,284 7893 [crawl_base.py:get_input:104] INFO 等待用户输入
+flow 2018-01-18 16:20:13,284 7893 [crawl_base.py:get_input:112] INFO 接收用输入超时:a00939d4-2ad5-4ca6-9223-f3278ee39bcd
+flow 2018-01-18 16:20:14,285 7893 [crawl_main.py:crawl:71] INFO 接收用输入超时
+flow 2018-01-18 16:20:14,286 7893 [spider_main.py:taskWork:123] INFO 任务结束：a00939d4-2ad5-4ca6-9223-f3278ee39bcd
+flow 2018-01-18 16:20:14,288 7893 [spider_main.py:_func:44] INFO 共耗时：0:05:01.248434s

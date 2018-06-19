@@ -1,0 +1,1 @@
+{'status': '', 'phoneNum': '18101205290', 'userid': 'yinzhouyinhang', 'token': '8c1a2b40-9dc1-46ff-b41b-a9e98ad5e404', 'result': [], 'password': u'******', 'desc': '\xe6\xad\xa3\xe5\x9c\xa8\xe7\x88\xac\xe5\x8f\x96...'}

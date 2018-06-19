@@ -1,0 +1,157 @@
+2017-12-13 15:12:37,759  INFO [com.insightcredit.util.SysParamUtil.<clinit>(SysParamUtil.java:28)] - 加载sysParameter.properties完成!
+2017-12-13 15:13:25,113  INFO [com.insightcredit.util.SysParamUtil.<clinit>(SysParamUtil.java:28)] - 加载sysParameter.properties完成!
+2017-12-13 15:17:20,131  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:43)] - spider_baiduNGWL 获得任务请求
+2017-12-13 15:17:20,134  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:52)] - spider_baiduNGWL 创建任务队列: spider_spider_baiduNGWL:task
+2017-12-13 15:17:20,153  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:76)] - spider_baiduNGWL 生成任务识别码: 67ed47b3-9c9d-4b3b-8627-528fc16af396
+2017-12-13 15:17:20,158  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:77)] - spider_baiduNGWL 获得任务参数: {nocache=1, userid=yinzhouyinhang, key=17757834655}
+2017-12-13 15:17:20,202  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:144)] - spider_baiduNGWL 创建任务字典: {nocache=1, userid=yinzhouyinhang, key=17757834655, status=0, desc=正在爬取..., token=67ed47b3-9c9d-4b3b-8627-528fc16af396}
+2017-12-13 15:17:20,219  INFO [com.insightcredit.dao.InsightcreditRedisDao.pushConToList(InsightcreditRedisDao.java:35)] - {nocache=1, userid=yinzhouyinhang, key=17757834655, status=0, desc=正在爬取..., token=67ed47b3-9c9d-4b3b-8627-528fc16af396}写入redis spider_session:67ed47b3-9c9d-4b3b-8627-528fc16af396任务队列
+2017-12-13 15:17:20,402  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:148)] - {nocache=1, userid=yinzhouyinhang, key=17757834655, status=0, desc=正在爬取..., token=67ed47b3-9c9d-4b3b-8627-528fc16af396} 存入队列
+2017-12-13 15:17:37,331  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:43)] - spider_baiduNGWL 获得任务请求
+2017-12-13 15:17:37,334  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:52)] - spider_baiduNGWL 创建任务队列: spider_spider_baiduNGWL:task
+2017-12-13 15:17:37,336  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:76)] - spider_baiduNGWL 生成任务识别码: 711d00c1-f3ad-4e8b-8cf0-952c9e6e3f7a
+2017-12-13 15:17:37,336  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:77)] - spider_baiduNGWL 获得任务参数: {userid=yinzhouyinhang, nocache=1, key=20c6ae7b251afb0057f75e9f8ec46f04}
+2017-12-13 15:17:37,349  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:144)] - spider_baiduNGWL 创建任务字典: {userid=yinzhouyinhang, nocache=1, key=20c6ae7b251afb0057f75e9f8ec46f04, status=0, desc=正在爬取..., token=711d00c1-f3ad-4e8b-8cf0-952c9e6e3f7a}
+2017-12-13 15:17:37,366  INFO [com.insightcredit.dao.InsightcreditRedisDao.pushConToList(InsightcreditRedisDao.java:35)] - {userid=yinzhouyinhang, nocache=1, key=20c6ae7b251afb0057f75e9f8ec46f04, status=0, desc=正在爬取..., token=711d00c1-f3ad-4e8b-8cf0-952c9e6e3f7a}写入redis spider_session:711d00c1-f3ad-4e8b-8cf0-952c9e6e3f7a任务队列
+2017-12-13 15:17:37,394  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:148)] - {userid=yinzhouyinhang, nocache=1, key=20c6ae7b251afb0057f75e9f8ec46f04, status=0, desc=正在爬取..., token=711d00c1-f3ad-4e8b-8cf0-952c9e6e3f7a} 存入队列
+2017-12-13 15:22:20,760  INFO [com.insightcredit.service.InsightcreditService.crawlData(InsightcreditService.java:138)] - spider_baiduNGWL爬虫爬取超时
+2017-12-13 15:22:20,768  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:162)] - spider_baiduNGWL 调用抓取方法
+2017-12-13 15:22:20,782  INFO [com.insightcredit.controller.BaseController.htmlOrJson(BaseController.java:56)] - 
+java.lang.NullPointerException
+	at com.insightcredit.controller.BaseController.htmlOrJson(BaseController.java:47)
+	at com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:214)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:748)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:931)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:822)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:807)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-13 15:22:20,791  INFO [com.insightcredit.controller.BaseController.mapToJsonFormat(BaseController.java:20)] - 数据已返回前端
+2017-12-13 15:22:37,816  INFO [com.insightcredit.service.InsightcreditService.crawlData(InsightcreditService.java:138)] - spider_baiduNGWL爬虫爬取超时
+2017-12-13 15:22:37,817  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:162)] - spider_baiduNGWL 调用抓取方法
+2017-12-13 15:22:37,819  INFO [com.insightcredit.controller.BaseController.htmlOrJson(BaseController.java:56)] - 
+java.lang.NullPointerException
+	at com.insightcredit.controller.BaseController.htmlOrJson(BaseController.java:47)
+	at com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:214)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:748)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:931)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:822)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:807)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-13 15:22:37,820  INFO [com.insightcredit.controller.BaseController.mapToJsonFormat(BaseController.java:20)] - 数据已返回前端
+2017-12-13 15:44:50,134  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:43)] - ss_anyang 获得任务请求
+2017-12-13 15:44:50,134  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:52)] - ss_anyang 创建任务队列: spider_ss_anyang:task
+2017-12-13 15:44:50,135  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:76)] - ss_anyang 生成任务识别码: 41c6b25f-c934-41c7-b348-920040230ef5
+2017-12-13 15:44:50,135  INFO [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:77)] - ss_anyang 获得任务参数: {token=09ba5a85-d246-42b0-bade-e560d936f47d, bcode=8167, userid=yinzhouyinhang}
+2017-12-13 15:44:50,141  WARN [com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:95)] - ss_anyang 交互失败！
+2017-12-13 15:44:50,145  INFO [com.insightcredit.controller.BaseController.htmlOrJson(BaseController.java:56)] - 
+java.lang.NullPointerException
+	at com.insightcredit.controller.BaseController.htmlOrJson(BaseController.java:47)
+	at com.insightcredit.controller.InsightcreditController.spiderSchedule(InsightcreditController.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:214)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:748)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:931)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:822)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:807)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-13 15:44:50,146  INFO [com.insightcredit.controller.BaseController.mapToJsonFormat(BaseController.java:20)] - 数据已返回前端

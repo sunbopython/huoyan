@@ -1,0 +1,460 @@
+2017/12/14 09:48:16 [*140252953962240 *crawl_main.py *201] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 179, in _save_captcha
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2017/12/14 09:48:16 [*140252953962240 *crawl_main.py *388] ERROR: 抓取错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 301, in crawl
+    content = self.login(flag)
+  File "tax/crawl_main.py", line 273, in login
+    self._ChioceIdent(flag)
+  File "tax/crawl_main.py", line 250, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2017/12/14 09:51:34 [*140237965342464 *crawl_main.py *206] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 185, in _save_captcha
+    dic = eval(info_list)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2017/12/14 09:51:34 [*140237965342464 *crawl_main.py *393] ERROR: 抓取错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 306, in crawl
+    content = self.login(flag)
+  File "tax/crawl_main.py", line 278, in login
+    self._ChioceIdent(flag)
+  File "tax/crawl_main.py", line 255, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2017/12/14 09:52:16 [*140633446532864 *crawl_main.py *207] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 186, in _save_captcha
+    dic = eval(info_list)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2017/12/14 09:52:16 [*140633446532864 *crawl_main.py *394] ERROR: 抓取错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 307, in crawl
+    content = self.login(flag)
+  File "tax/crawl_main.py", line 279, in login
+    self._ChioceIdent(flag)
+  File "tax/crawl_main.py", line 256, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2017/12/14 09:53:52 [*140357026961152 *crawl_main.py *207] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 186, in _save_captcha
+    dic = eval(info_list)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2017/12/14 09:53:52 [*140357026961152 *crawl_main.py *394] ERROR: 抓取错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 307, in crawl
+    content = self.login(flag)
+  File "tax/crawl_main.py", line 279, in login
+    self._ChioceIdent(flag)
+  File "tax/crawl_main.py", line 256, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2017/12/14 09:54:55 [*139814934406912 *crawl_main.py *209] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 188, in _save_captcha
+    dic = eval(info_list)
+  File "<string>", line 0
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+
+2017/12/14 09:54:55 [*139814934406912 *crawl_main.py *396] ERROR: 抓取错误：Traceback (most recent call last):
+  File "tax/crawl_main.py", line 309, in crawl
+    content = self.login(flag)
+  File "tax/crawl_main.py", line 281, in login
+    self._ChioceIdent(flag)
+  File "tax/crawl_main.py", line 258, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2017/12/14 09:55:38 [*140483481302784 *crawl_main.py *204] ERROR: 请输入验证码内容
+2017/12/18 19:12:25 [*140325775472384 *crawl_main.py *222] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/tax/crawl_main.py", line 206, in _save_captcha
+    key_id = Image.open(os.path.join(os.path.dirname(__file__), chose_info))
+  File "/home/python/.local/lib/python2.7/site-packages/PIL/Image.py", line 2530, in open
+    fp = builtins.open(filename, "rb")
+IOError: [Errno 2] No such file or directory: '/home/python/Desktop/spider2.0/tax/\xe8\xaf\xb7\xe8\xbe\x93\xe5\x85\xa5\xe9\xaa\x8c\xe8\xaf\x81\xe7\xa0\x81\xe5\x86\x85\xe5\xae\xb9'
+
+2017/12/18 19:12:25 [*140325775472384 *crawl_main.py *409] ERROR: 抓取错误：Traceback (most recent call last):
+  File "/home/python/Desktop/spider2.0/tax/crawl_main.py", line 322, in crawl
+    content = self.login(flag)
+  File "/home/python/Desktop/spider2.0/tax/crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "/home/python/Desktop/spider2.0/tax/crawl_main.py", line 271, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2017/12/27 19:01:05 [*140668752090880 *crawl_main.py *225] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 205, in _save_captcha
+    box = im.copy()
+AttributeError: 'str' object has no attribute 'copy'
+
+2017/12/27 19:01:05 [*140668752090880 *crawl_main.py *412] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 325, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 297, in login
+    self._ChioceIdent(flag)
+  File "./tax/crawl_main.py", line 274, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2018/01/05 15:00:00 [*140465981744896 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140465997743872 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380388185856 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140465764038400 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380372186880 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380089853696 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380105852672 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380832507648 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140466014004992 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140466032998144 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380122113792 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380402087680 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380133652224 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 15:00:00 [*140380355925760 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 320, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 301, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/query?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpjy+'&fplx=04&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/01/05 17:38:22 [*140278321112832 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/01/05 17:38:22 [*140278321112832 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/01/05 17:38:22 [*140278321112832 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/01/05 17:38:22 [*140278321112832 *crawl_main.py *173] ERROR: request url https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/query?callback=jQuery110204713398352365614_1515145066553&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=fxuzhe?&yzmSj=2018-01-05+18%3A06%3A16&index=98c1a5a57a1478f197f138b318006538&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1515145102180 failed ,check pls
+2018/01/05 17:38:22 [*140278321112832 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 298, in login
+    content = self._fetchUrl(url=LoginUrl, header=IMGHEADERS, fileName="login.html")
+  File "./tax/crawl_main.py", line 175, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/query?callback=jQuery110204713398352365614_1515145066553&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=fxuzhe?&yzmSj=2018-01-05+18%3A06%3A16&index=98c1a5a57a1478f197f138b318006538&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1515145102180)
+
+2018/01/05 17:38:36 [*140278765172480 *crawl_main.py *223] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 184, in _save_captcha
+    content = self.session.get(self.codeUrl, headers=IMGHEADERS, verify=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='fpcy.nb-n-tax.gov.cn', port=443): Max retries exceeded with url: /WebQuery/yzmQuery?callback=jQuery110204713398352365614_1515144986912&fpdm=3302164320&r=0.4012871599634864&nowtime=1515144986912&publickey=B8EE27C2CFEABABBD1DB92F4D84E4EA3&_=1515144986912 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9531f8a310>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+2018/01/05 17:38:36 [*140278765172480 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "./tax/crawl_main.py", line 272, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2018/01/05 17:38:44 [*140278329505536 *crawl_main.py *223] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 184, in _save_captcha
+    content = self.session.get(self.codeUrl, headers=IMGHEADERS, verify=False)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+ConnectionError: HTTPSConnectionPool(host='fpcy.nb-n-tax.gov.cn', port=443): Max retries exceeded with url: /WebQuery/yzmQuery?callback=jQuery110204713398352365614_1515144994648&fpdm=3302164320&r=0.5001147164661328&nowtime=1515144994648&publickey=B8EE27C2CFEABABBD1DB92F4D84E4EA3&_=1515144994648 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f95307ce1d0>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+2018/01/05 17:38:44 [*140278329505536 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "./tax/crawl_main.py", line 272, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2018/02/02 16:29:44 [*140162516358912 *crawl_main.py *223] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 203, in _save_captcha
+    im = Image.open(os.path.join(os.path.dirname(__file__), "captcha.png"))
+  File "/usr/local/lib/python2.7/dist-packages/PIL/Image.py", line 2572, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file './tax/captcha.png'
+
+2018/02/02 16:29:44 [*140162516358912 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "./tax/crawl_main.py", line 272, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2018/02/02 16:32:23 [*140422739388160 *crawl_main.py *223] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 203, in _save_captcha
+    im = Image.open(os.path.join(os.path.dirname(__file__), "captcha.png"))
+  File "/usr/local/lib/python2.7/dist-packages/PIL/Image.py", line 2572, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file './tax/captcha.png'
+
+2018/02/02 16:32:23 [*140422739388160 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "./tax/crawl_main.py", line 272, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2018/02/02 16:39:38 [*139899281856256 *crawl_main.py *223] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 203, in _save_captcha
+    im = Image.open(os.path.join(os.path.dirname(__file__), "captcha.png"))
+  File "/usr/local/lib/python2.7/dist-packages/PIL/Image.py", line 2572, in open
+    % (filename if filename else fp))
+IOError: cannot identify image file './tax/captcha.png'
+
+2018/02/02 16:39:38 [*139899281856256 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 294, in login
+    self._ChioceIdent(flag)
+  File "./tax/crawl_main.py", line 272, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2018/02/02 16:45:29 [*140247352977152 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/02/02 16:45:29 [*140247352977152 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/02/02 16:45:29 [*140247352977152 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/02/02 16:45:29 [*140247352977152 *crawl_main.py *173] ERROR: request url https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/query?callback=jQuery110204713398352365614_1517561068478&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=?lmckl&yzmSj=2018-02-02+17%3A02%3A05&index=9551f58821920eff9319e5ca36e95dc4&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517561129822 failed ,check pls
+2018/02/02 16:45:29 [*140247352977152 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 298, in login
+    content = self._fetchUrl(url=LoginUrl, header=IMGHEADERS, fileName="login.html")
+  File "./tax/crawl_main.py", line 175, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/query?callback=jQuery110204713398352365614_1517561068478&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=?lmckl&yzmSj=2018-02-02+17%3A02%3A05&index=9551f58821920eff9319e5ca36e95dc4&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517561129822)
+
+2018/02/02 16:47:28 [*140656132740864 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/02/02 16:47:28 [*140656132740864 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/02/02 16:47:28 [*140656132740864 *crawl_main.py *172] ERROR: Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 168, in _fetchUrl
+    info_list = info.findall(content.content)[0]
+IndexError: list index out of range
+
+2018/02/02 16:47:28 [*140656132740864 *crawl_main.py *173] ERROR: request url https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/query?callback=jQuery110204713398352365614_1517561235756&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=f&yzmSj=2018-02-02+17%3A04%3A53&index=f122238d97687e47e6b9a356fe78ec1b&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517561248002 failed ,check pls
+2018/02/02 16:47:28 [*140656132740864 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 298, in login
+    content = self._fetchUrl(url=LoginUrl, header=IMGHEADERS, fileName="login.html")
+  File "./tax/crawl_main.py", line 175, in _fetchUrl
+    raise Exception("Failed to load url (%s)" % url)
+Exception: Failed to load url (https://zjfpcyweb.bjsat.gov.cn:443/WebQuery/query?callback=jQuery110204713398352365614_1517561235756&fpdm=1100173130&fphm=05896251&kprq=20171108&fpje=2361.32&fplx=01&yzm=f&yzmSj=2018-02-02+17%3A04%3A53&index=f122238d97687e47e6b9a356fe78ec1b&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517561248002)
+
+2018/02/02 17:15:12 [*139992781289216 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 344, in crawl
+    sales_name = bbb.get('key2', '').split('○')[1]# 销售方名字【1】
+IndexError: list index out of range
+
+2018/02/02 17:16:50 [*139992739776256 *crawl_main.py *405] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 344, in crawl
+IndexError: list index out of range
+
+2018/02/02 17:20:56 [*139639453120256 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 345, in crawl
+    sales_name = bbb.get('key2', '').split('○')[1]# 销售方名字【1】
+IndexError: list index out of range
+
+2018/02/02 17:23:00 [*139639453120256 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 297, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/invQuery?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpje+'&fplx=01&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/02/02 17:23:57 [*140437483669248 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 345, in crawl
+    sales_name = bbb.get('key2', '').split('○')[1]# 销售方名字【1】
+IndexError: list index out of range
+
+2018/02/02 17:25:25 [*140437483669248 *crawl_main.py *406] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 345, in crawl
+IndexError: list index out of range
+
+2018/02/02 17:29:44 [*140697852159744 *crawl_main.py *407] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 344, in crawl
+    f.write(bbb)
+TypeError: expected a string or other character buffer object
+
+2018/02/02 17:31:33 [*140697488062208 *crawl_main.py *407] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 344, in crawl
+    f.write(a_json)
+TypeError: expected a string or other character buffer object
+
+2018/02/02 17:32:46 [*140363471771392 *crawl_main.py *407] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 346, in crawl
+    sales_name = bbb.get('key2', '').split('○')[1]# 销售方名字【1】
+IndexError: list index out of range
+
+2018/02/02 18:13:02 [*140686700025600 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 366, in crawl
+    machine_code = bbb.get('key2', '').split('○')[-4] #机器码
+IndexError: list index out of range
+
+2018/02/02 18:14:55 [*139739274655488 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 390, in crawl
+    check_number = check_number,      # 校验号
+NameError: global name 'check_number' is not defined
+
+2018/02/02 18:31:00 [*139995448858368 *crawl_main.py *408] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./tax/crawl_main.py", line 317, in crawl
+    content = self.login(flag)
+  File "./tax/crawl_main.py", line 297, in login
+    LoginUrl = self.fpdm_url+'/WebQuery/invQuery?callback=jQuery110204713398352365614_'+self.suiji+'&fpdm='+self.fpdm+'&fphm='+self.fphm+'&kprq='+self.kprq+'&fpje='+self.fpje+'&fplx=01&yzm='+self.imageCode+'&yzmSj='+self.data+'&index='+self.index+'&iv=31205b0a9543d0cf808f6a3a19915858'+'&salt=bc1792b6b19a7ceb8f124fc75e658cfe'+'&publickey=89FF3E78F5B40654133317B104D81634&_='+str(int(round(time.time() * 1000)))
+AttributeError: SpiderMain instance has no attribute 'imageCode'
+
+2018/02/07 14:10:32 [*139748637673216 *spider_main.py *136] INFO: waiting tasks ...
+2018/02/07 14:10:32 [*139748535932672 *spider_main.py *91] INFO: 获取到任务,3302164320
+2018/02/07 14:10:32 [*139748535932672 *spider_main.py *115] INFO: 不需要抓取图片验证码,token:85829caf-6e67-4b89-962f-eeaac4083ffe
+2018/02/07 14:10:32 [*139748250982144 *crawl_main.py *180] INFO: 刷新验证码
+2018/02/07 14:10:32 [*139748535932672 *crawl_main.py *51] INFO: 共耗时：0:00:00.096528s
+2018/02/07 14:10:33 [*139748250982144 *crawl_main.py *190] DEBUG: 验证码二进制内容：iVBORw0KGgoAAAANSUhEUgA
+2018/02/07 14:10:33 [*139748250982144 *crawl_main.py *191] INFO: 下载验证码
+2018/02/07 14:10:33 [*139748250982144 *crawl_main.py *199] INFO: 验证码图片已保存!
+2018/02/07 14:10:33 [*139748250982144 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:10:33 [*139748250982144 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 2751
+2018/02/07 14:10:33 [*139748250982144 *PngImagePlugin.py *131] DEBUG: STREAM 'IHDR' 16 13
+2018/02/07 14:10:33 [*139748250982144 *PngImagePlugin.py *131] DEBUG: STREAM 'IDAT' 41 452
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *139] INFO: 开始抓取 https://fpcy.nb-n-tax.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517983832983&fpdm=3302164320&fphm=07344957&kprq=20170706&fpje=352710&fplx=04&yzm=z&yzmSj=2018-02-07+14%3A09%3A05&index=92b3d7893c5d706c8e591e5c50e76d34&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517983843238
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *142] DEBUG: 伪装头：{'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch, br', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3) Arora/0.3 (Change: 287 c9dfb30)', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1'}
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *148] DEBUG: 第0次 抓取
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *162] DEBUG: Get url：https://fpcy.nb-n-tax.gov.cn:443/WebQuery/invQuery?callback=jQuery110204713398352365614_1517983832983&fpdm=3302164320&fphm=07344957&kprq=20170706&fpje=352710&fplx=04&yzm=z&yzmSj=2018-02-07+14%3A09%3A05&index=92b3d7893c5d706c8e591e5c50e76d34&iv=31205b0a9543d0cf808f6a3a19915858&salt=bc1792b6b19a7ceb8f124fc75e658cfe&publickey=89FF3E78F5B40654133317B104D81634&_=1517983843238
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *122] INFO: 保存网页内容
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *128] DEBUG: 已保存网页内容到./tax/sample/
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *340] INFO: 登陆成功：001
+2018/02/07 14:10:43 [*139748250982144 *crawl_main.py *51] INFO: 共耗时：0:00:10.336358s

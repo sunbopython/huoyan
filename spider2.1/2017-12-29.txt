@@ -1,0 +1,63 @@
+日期：2017/12/29
+测试完成以下可用
+
+失信人，dishonesty
+url: http://127.0.0.1:8080/9f_insight/dishonesty/crawlData?userid=yinzhouyinhang&name=b2bacfc079f1e5578c2849ae4e1a29bf&nocache=1&area=e614a962c0a07ad3a8caab5ea4b3a5a3
+
+https://spider.insightcredit.cn/dishonesty/crawlData?userid=yinzhouyinhang&name=2ff9b614b5041fe2096cbae3f9fcc232&nocache=1&area=7fd591241863db13efdffc9cc8cefb46
+
+被执行人，executor
+url: http://127.0.0.1:8080/9f_insight/executor/crawlData?userid=yinzhouyinhang&name=b2bacfc079f1e5578c2849ae4e1a29bf&nocache=1&area=e614a962c0a07ad3a8caab5ea4b3a5a3
+
+https://spider.insightcredit.cn/executor/crawlData?userid=yinzhouyinhang&name=b2bacfc079f1e5578c2849ae4e1a29bf&nocache=1&area=e614a962c0a07ad3a8caab5ea4b3a5a3
+
+宁波二手搜房网， fangningbo
+url: http://127.0.0.1:8080/9f_insight/fangningbo/crawlData?flower=5abea458df78576cbe00927365e47ca4&userid=yinzhouyinhang&keyword=4c33cafa88fe28aa552839b8be383369&nocache=1
+https://spider.insightcredit.cn/fangningbo/crawlData?flower=5abea458df78576cbe00927365e47ca4&userid=yinzhouyinhang&keyword=4c33cafa88fe28aa552839b8be383369&nocache=1
+
+宁波企业信用网， nbredit
+url: http://127.0.0.1:8080/9f_insight/nbcredit/crawlData?idCard=7e6625dbfbb8968c5b637db909f4469e&userid=yinzhouyinhang&nocache=1
+
+https://spider.insightcredit.cn/nbcredit/crawlData?idCard=7e6625dbfbb8968c5b637db909f4469e&userid=yinzhouyinhang&nocache=1
+
+宁波房产交易服务平台，spider_translate
+url: http://127.0.0.1:8080/9f_insight/spider_translate/crawlData?title=61c0878a11da154ee5a76fed4d2c0199a1fae2ef13821f2d409548af8acc39df87462744be9540c640ef83b557811285&date_filter_max=6848073b567fd54e022b0f5a57c485cb&date_filter_min=6848073b567fd54e022b0f5a57c485cb&userid=yinzhouyinhang&project=6848073b567fd54e022b0f5a57c485cb&project_district=0f4d7287bd3a0e18986aa1b399278df8&nocache=1
+
+https://spider.insightcredit.cn/spider_translate/crawlData?nocache=1&title=210c8ddcb197a7335528e4a714463217&date_filter_max=6848073b567fd54e022b0f5a57c485cb&date_filter_min=6848073b567fd54e022b0f5a57c485cb&userid=yinzhouyinhang&project=6848073b567fd54e022b0f5a57c485cb&project_district=0f4d7287bd3a0e18986aa1b399278df8
+
+https://spider.insightcredit.cn/spider_translate/crawlData?title=61c0878a11da154ee5a76fed4d2c0199a1fae2ef13821f2d409548af8acc39df87462744be9540c640ef83b557811285&date_filter_max=6848073b567fd54e022b0f5a57c485cb&date_filter_min=6848073b567fd54e022b0f5a57c485cb&userid=yinzhouyinhang&project=6848073b567fd54e022b0f5a57c485cb&project_district=0f4d7287bd3a0e18986aa1b399278df8&nocache=1
+
+//北京社保， ss_beijing（测试用能收到短信的手机号）
+//url: http://127.0.0.1:8080/9f_insight/ss_beijing/crawlData?userid=yinzhouyinhang&password=c938740e99f6bfb34e4933ee5b211310&idcard=b5e7194c3229f823772a559e337e882d8b148ba9b81b137a676d4c6db874bb5c&nocache=1
+
+国税局发票， tax
+url: http://127.0.0.1:8080/9f_insight/tax/crawlData?fphm=856ea0503f914d751cd02bb18d75dd3d&userid=yinzhouyinhang&fpje=fe9e933505d8ddda33b8486b3a501f37&kprq=9d327fdb3b33ff33adc35e3eee5b0d5c&fpdm=570f4fc60380f7e52e0b0c7a8ea23ad2&nocache=1
+https://spider.insightcredit.cn/tax/crawlData?fphm=856ea0503f914d751cd02bb18d75dd3d&userid=yinzhouyinhang&fpje=fe9e933505d8ddda33b8486b3a501f37&kprq=9d327fdb3b33ff33adc35e3eee5b0d5c&fpdm=570f4fc60380f7e52e0b0c7a8ea23ad2&nocache=1
+
+https://spider.insightcredit.cn/tax/crawlData?fphm=1f0834e5d4fdc4954f46fcaf0a58f343&fpje=aaa2979cf7981e0b913d5c5747809f8b&nocache=1&userid=yinzhouyinhang&fpdm=570f4fc60380f7e52e0b0c7a8ea23ad2&kprq=203703f144f076f94b3a665f22c1a0ef
+https://spider.insightcredit.cn/tax/crawlData?fphm=52b610796dc9b0c44c8b282ce769cbeb&userid=yinzhouyinhang&fpje=c2669ce8f573f7981b7ff8c46e9ec0a8&kprq=04628a92b8a50b210bbe8eaf68452828&fpdm=570f4fc60380f7e52e0b0c7a8ea23ad2
+
+https://spider.insightcredit.cn/tax/crawlData?fphm=b5e3926acb681a8a9996d9f8486240e9&nocache=1&userid=yinzhouyinhang&fpdm=1f92dc77d3e6b70a4aa02d1d87bf48c1&kprq=7be9a1eed9a899f6a629428b4c477a8e&fpjy=840a4affba390c51df9a4b7daa9d0cce
+
+https://spider.insightcredit.cn/tax/crawlData?fphm=856ea0503f914d751cd02bb18d75dd3d&fpje=fe9e933505d8ddda33b8486b3a501f37&nocache=1&userid=yinzhouyinhang&fpdm=570f4fc60380f7e52e0b0c7a8ea23ad2&kprq=9d327fdb3b33ff33adc35e3eee5b0d5c
+
+//中国电信， telecom（亚奇的手机号）
+//url: http://127.0.0.1:8080/9f_insight/telecom/crawlData?phoneNum=18b4e279ec79698ab93bdad1fd50263a&password=4cbdd6e3ae2a4bf3f0bf0dddf4e4ebfa&userid=yinzhouyinhang&nocache=1
+
+https://spider.insightcredit.cn/telecom/crawlData?phoneNum=18b4e279ec79698ab93bdad1fd50263a&password=4cbdd6e3ae2a4bf3f0bf0dddf4e4ebfa&userid=yinzhouyinhang
+
+//中国联通， unicom
+//url: http://127.0.0.1:8080/9f_insight/unicom/crawlData?userid=yinzhouyinhang&password=c3fabf4829c014ba8f9116a1ba42781c&phoneNum=f7ed239d59a22b5c8149b1633e22d2be&nocache=1
+https://spider.insightcredit.cn/unicom/crawlData?userid=yinzhouyinhang&password=c3fabf4829c014ba8f9116a1ba42781c&phoneNum=f7ed239d59a22b5c8149b1633e22d2be&nocache=1
+
+https://spider.insightcredit.cn/gsxt/crawlData?idCard=c2bb359662d0e06a836e66b89cc4f455f7e0a168f2fd685a661c995a5a32a14a&userid=yinzhouyinhang&nocache=1
+
+国家企业网
+http://127.0.0.1:8080/9f_insight/gsxt/crawlData?idCard=585538b20ed68922f934b4f6bc04bfa43029c3e44905b4bacdeb693ed829fbec&userid=yinzhouyinhang&nocache=1
+
+http://localhost:8080/9f_insight/gsxt/crawlData?idCard=c2bb359662d0e06a836e66b89cc4f455f7e0a168f2fd685a661c995a5a32a14a&userid=yinzhouyinhang&nocache=1
+
+https://spider.insightcredit.cn/gsxt/crawlData?idCard=585538b20ed68922f934b4f6bc04bfa43029c3e44905b4bacdeb693ed829fbec&userid=yinzhouyinhang&nocache=1
+
+社保
+https://spider.insightcredit.cn/ss_beijing/crawlData?password=20bcf322e8887c0a45cf578b8f7cc37f&idcard=93f88e7cb7abb9af8a0ac5b881ee1f2130713f9909b96b36e840b51723f7dbb9&userid=yinzhouyinhang&nocache=1

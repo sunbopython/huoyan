@@ -1,0 +1,29 @@
+{
+	"name":"b2bacfc079f1e5578c2849ae4e1a29bf",
+	"area":"b3187de3f2690cbe143a9908b00aeb49",
+	"status":"1",
+	"desc":"爬取成功！",
+	"result":[
+		{
+			"caseCode":"(2016)陕0112执3251号",
+			"sexy":"其他",
+			"publishDate":"2017年08月09日",
+			"gistUnit":"西安市未央区人民法院",
+			"unperformPart":"暂无",
+			"regDate":"20161130",
+			"partyTypeName":"0",
+			"businessEntity":"",
+			"shixinid":"700714118",
+			"disruptTypeName ":"有履行能力而拒不履行生效法律文书确定义务",
+			"performedPart":"暂无",
+			"iname":"孙博博",
+			"cardNum":"61052519860****0459",
+			"performance":"全部未履行",
+			"courtName":"西安市未央区人民法院",
+			"areaName":"陕西",
+			"duty":"（2016）陕0112民初9214号",
+			"age":"99",
+			"gistId":"（2016）陕0112民初9214号"
+		}
+	]
+}

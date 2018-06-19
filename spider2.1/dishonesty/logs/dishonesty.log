@@ -1,0 +1,245 @@
+2017/12/21 19:47:42 [*140325741901568 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/dishonesty/dishonesty/spider_main.py", line 76, in threadWork
+    name = dict_json['idCard']
+KeyError: 'idCard'
+
+2017/12/21 19:47:42 [*140326158149376 *spider_main.py *90] ERROR: Traceback (most recent call last):
+  File "/home/sunbo/Desktop/dishonesty/dishonesty/spider_main.py", line 76, in threadWork
+    name = dict_json['idCard']
+KeyError: 'idCard'
+
+2017/12/21 19:49:24 [*140036116567808 *crawl_main.py *188] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 176, in _save_captcha
+    codeContent = self.session.get(self.codeUrl, headers=IMGHEADERS).content
+AttributeError: SpiderMain instance has no attribute 'codeUrl'
+
+2017/12/21 19:49:24 [*140036116567808 *crawl_main.py *285] ERROR: 抓取错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 276, in crawl
+    content = self.login(flag)
+  File "dishonesty/crawl_main.py", line 258, in login
+    self._ChioceIdent(flag)
+  File "dishonesty/crawl_main.py", line 236, in _ChioceIdent
+    self.redisUtils.setNotify(token=self.token, val="10",decs="需要图片验证码",result="data:image/jpg;base64,"+bcode64)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+2017/12/21 19:51:20 [*140687653971712 *crawl_main.py *188] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 176, in _save_captcha
+    codeContent = self.session.get(self.codeUrl, headers=IMGHEADERS).content
+AttributeError: SpiderMain instance has no attribute 'codeUrl'
+
+2017/12/21 19:51:21 [*140687653971712 *crawl_main.py *285] ERROR: 抓取错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 276, in crawl
+    content = self.login(flag)
+  File "dishonesty/crawl_main.py", line 266, in login
+    content = content.json()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 516, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2017/12/21 19:52:41 [*140651297228544 *crawl_main.py *188] ERROR: 刷新验证码错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 176, in _save_captcha
+    codeContent = self.session.get(self.codeUrl, headers=IMGHEADERS).content
+AttributeError: SpiderMain instance has no attribute 'codeUrl'
+
+2017/12/21 20:07:28 [*140527630542592 *crawl_main.py *288] ERROR: 抓取错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 279, in crawl
+    info_re = re.compile(r'\/\*\*\/jQuery[0-9]+_[0-9]+\((.*)\)')
+NameError: global name 're' is not defined
+
+2017/12/21 20:28:07 [*140162258675456 *crawl_main.py *291] ERROR: 抓取错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 283, in crawl
+    date_info = info.get('data','')
+NameError: global name 'info' is not defined
+
+2017/12/21 20:31:30 [*140666780493568 *crawl_main.py *292] ERROR: 抓取错误：Traceback (most recent call last):
+  File "dishonesty/crawl_main.py", line 284, in crawl
+    info_result = data_info.get('result','')
+NameError: global name 'data_info' is not defined
+
+2017/12/26 13:33:02 [*140579676858112 *crawl_main.py *305] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 272, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 13:37:06 [*139936938321664 *crawl_main.py *306] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 273, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 13:40:52 [*139673650841344 *crawl_main.py *308] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 275, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 13:42:12 [*140144688744192 *crawl_main.py *308] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 275, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 13:43:21 [*139665424250624 *crawl_main.py *308] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 275, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 14:04:09 [*140243701331712 *crawl_main.py *308] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 275, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 14:06:36 [*139931425953536 *crawl_main.py *308] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 275, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 14:11:00 [*139848614663936 *crawl_main.py *308] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 275, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2017/12/26 14:40:30 [*140070324778752 *crawl_main.py *308] ERROR: 抓取错误：Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 275, in crawl
+    info_result = date_info.get('result','')
+AttributeError: 'str' object has no attribute 'get'
+
+2018/01/18 17:52:58 [*140539986966272 *crawl_main.py *347] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 323, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE,token=self.token, val="1", decs="抓取成功！", result=result_json)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
+2018/01/18 17:52:58 [*140539986966272 *crawl_main.py *354] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 351, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
+2018/01/18 17:53:59 [*140539986966272 *crawl_main.py *347] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 323, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE,token=self.token, val="1", decs="抓取成功！", result=result_json)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
+2018/01/18 17:53:59 [*140539986966272 *crawl_main.py *354] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 351, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
+2018/01/18 17:59:08 [*139915991963392 *crawl_main.py *347] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 323, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE,token=self.token, val="1", decs="抓取成功！", result=result_json)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
+2018/01/18 17:59:08 [*139915991963392 *crawl_main.py *354] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 351, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
+2018/01/18 17:59:44 [*140543929603840 *crawl_main.py *347] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 323, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE,token=self.token, val="1", decs="抓取成功！", result=result_json)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
+2018/01/18 17:59:44 [*140543929603840 *crawl_main.py *354] ERROR: Traceback (most recent call last):
+  File "./dishonesty/crawl_main.py", line 351, in crawl
+    self.redisUtils.setNotify(type=TYPEVALUE, token=self.token, val=self.status, decs=self.desc)
+  File "./__Utils/redis_utils.py", line 87, in setNotify
+    self.cluster.rpush(notifyKey, {"desc":"爬取通知"})
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 1388, in rpush
+    return self.execute_command('RPUSH', name, *values)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/utils.py", line 101, in inner
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/client.py", line 357, in execute_command
+    return self.parse_response(r, command, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 629, in read_response
+    raise response
+ResponseError: WRONGTYPE Operation against a key holding the wrong kind of value
+
